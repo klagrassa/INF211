@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+<channel>
+	<title>FrAndroid Communauté Android</title>
+	
+	<link>http://www.frandroid.com</link>
+	<description>La communaut� Android francophone autour du mobile</description>
+	<lastBuildDate>Fri, 08 Jul 2011 21:43:57 +0000</lastBuildDate>
+	<language>fr</language>
+
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.1.4</generator>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/Frandroid" /><feedburner:info uri="frandroid" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><media:copyright>Copyright FrAndroid</media:copyright><feedburner:emailServiceId>Frandroid</feedburner:emailServiceId><feedburner:feedburnerHostname>http://feedburner.google.com</feedburner:feedburnerHostname><item>
+		<title>Le Nexus S 4G re�oit la mise � jour d�Android 2.3.5</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/DEbJ2AdP4Aw/</link>
+		<comments>http://www.frandroid.com/actualites-generales/75362_le-nexus-s-4g-recoit-la-mise-a-jour-dandroid-2-3-5/#comments</comments>
+		<pubDate>Fri, 08 Jul 2011 20:36:03 +0000</pubDate>
+		<dc:creator>Griphine</dc:creator>
+				<category><![CDATA[Actualit�s G�n�rales]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75362</guid>
+
+		<description><![CDATA[Bon cela ne nous concerne pas directement, mais le Samsung Nexus S 4G re�oit actuellement une mise � jour vers la version d&#8217;Android 2.3.5 portant le num�ro de build : GRJ90. Cette nouvelle version vise surtout � l&#8217;int�gration des services de Google Wallet via la technologie NFC. Sur un mobile, Google Wallet se d�finit par une application permettant � un smartphone int�grant une puce NFC de <a class="more-link" href="http://www.frandroid.com/actualites-generales/75362_le-nexus-s-4g-recoit-la-mise-a-jour-dandroid-2-3-5/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>Bon cela ne nous concerne pas directement, mais le <strong>Samsung Nexus S 4G</strong> re�oit actuellement une mise � jour vers la version d&#8217;<strong>Android 2.3.5</strong> portant le num�ro de build : <strong>GRJ90</strong>.</p>
+<p style="text-align: center;"><img class="aligncenter size-medium wp-image-75400 colorbox-75362" title="android-google-samsung-nexus-s-4g-2.3.5-build-GRJ90-" src="http://images.frandroid.com/wp-content/uploads/2011/07/android-google-samsung-nexus-s-4g-2.3.5-build-GRJ90--630x387.jpg" alt="" width="567" height="348" /></p>
+<p>Cette nouvelle version vise surtout � l&#8217;int�gration des services de <a href="http://www.frandroid.com/le-monde-de-la-mobilite/71646_google-wallet-la-technologie-nfc-au-service-de-votre-portefeuille/">Google Wallet</a> via la <strong>technologie NFC</strong>. Sur un mobile, Google Wallet se d�finit par une application permettant � un smartphone int�grant une puce NFC de b�n�ficier des avantages que peut apporter une carte de cr�dit. Pour le moment, cela concerne uniquement Mastercard. Les autres ajouts restent tr�s mineures, on notera une correction sur le signal de la 4G, ainsi que l&#8217;int�gration d&#8217;un widget d�di� � la 4G, l&#8217;am�lioration du r�seau Wi-Fi et de la qualit� audio en communication.</p>
+<p>Je reste songeur quant � l&#8217;arriv�e de cette mise � jour sur les autres Google Nexus S am�ricains et europ�ens, du fait que les sp�cifications techniques au niveau des normes r�seaux ne sont pas identiques. <a href="http://www.frandroid.com/actualites-generales/75290_bientot-un-passe-navigo-implante-dans-son-smartphone-via-nfc/">Nous en parlions encore hier</a>, le d�ploiement de la technologie NFC en Europe n&#8217;est pas encore abouti, mais provoque quelques pourparlers qui permettront peut-�tre de d�couvrir les facilit�s de cette technologie sans-fil. Les avanc�es sont bonnes, cependant, il faudra faire beaucoup plus attention � son mobile ; ne pas l&#8217;�garer, renforcer la s�curit� avec un ou des mots de passes, etc. <span id="more-75362"></span></p>
+<p>A pr�sent, ils ne nous restent plus qu&#8217;� d�couvrir si cette m�me version sera adapt�e � nos Nexus S, ou bien portera un num�ro de version diff�rent (2.3.6, 2.3.7&#8230;). Plus d&#8217;informations bient�t.</p>
+<a href='http://www.frandroid.com/actualites-generales/75362_le-nexus-s-4g-recoit-la-mise-a-jour-dandroid-2-3-5/attachment/android-google-samsung-nexus-s-4g-2-3-5-build-grj90-wallet-mastercard/' title='android-google-samsung-nexus-s-4g-2.3.5-build-GRJ90-wallet-mastercard'><img width="60" height="60" src="http://images.frandroid.com/wp-content/uploads/2011/07/android-google-samsung-nexus-s-4g-2.3.5-build-GRJ90-wallet-mastercard-60x60.jpg" class="attachment-thumbnail colorbox-75362" alt="android-google-samsung-nexus-s-4g-2.3.5-build-GRJ90-wallet-mastercard" title="android-google-samsung-nexus-s-4g-2.3.5-build-GRJ90-wallet-mastercard" /></a>
+<a href='http://www.frandroid.com/actualites-generales/75362_le-nexus-s-4g-recoit-la-mise-a-jour-dandroid-2-3-5/attachment/android-google-samsung-nexus-s-4g-2-3-5-build-grj90/' title='android-google-samsung-nexus-s-4g-2.3.5-build-GRJ90-'><img width="60" height="60" src="http://images.frandroid.com/wp-content/uploads/2011/07/android-google-samsung-nexus-s-4g-2.3.5-build-GRJ90--60x60.jpg" class="attachment-thumbnail colorbox-75362" alt="android-google-samsung-nexus-s-4g-2.3.5-build-GRJ90-" title="android-google-samsung-nexus-s-4g-2.3.5-build-GRJ90-" /></a>
+<p><strong>Sources</strong> <a href="http://www.androidpolice.com/2011/07/06/confirmed-samsung-nexus-s-4g-receiving-grj90-software-update-on-july-11th-bringing-fix-for-radio-problems/">Android Police</a> <strong>/</strong> <a href="http://www.droid-life.com/2011/07/07/android-2-3-5-is-up-next-for-phones-will-enable-nfc-secure-element-for-google-wallet/">Droid-Life</a><strong>.</strong></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/R6guRGJapGQd_6nOibDtrbCOjcE/0/da"><img src="http://feedads.g.doubleclick.net/~a/R6guRGJapGQd_6nOibDtrbCOjcE/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/R6guRGJapGQd_6nOibDtrbCOjcE/1/da"><img src="http://feedads.g.doubleclick.net/~a/R6guRGJapGQd_6nOibDtrbCOjcE/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/DEbJ2AdP4Aw" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/actualites-generales/75362_le-nexus-s-4g-recoit-la-mise-a-jour-dandroid-2-3-5/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/actualites-generales/75362_le-nexus-s-4g-recoit-la-mise-a-jour-dandroid-2-3-5/</feedburner:origLink></item>
+		<item>
+		<title>R�partitions des versions Android : En juin, Gingerbread grimpe � 18.6%</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/t5p2UzdU-U4/</link>
+		<comments>http://www.frandroid.com/actualites-generales/75360_repartitions-des-versions-android-en-juin-gingerbread-grimpe-a-18-6/#comments</comments>
+		<pubDate>Fri, 08 Jul 2011 19:48:36 +0000</pubDate>
+		<dc:creator>Griphine</dc:creator>
+				<category><![CDATA[Actualit�s G�n�rales]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75360</guid>
+
+		<description><![CDATA[En juin 2011, la version d&#8217;Android Gingerbread a progress�, tandis que les versions d&#8217;Android Eclair et FroYo ont perdu � elles seules plus de 8%. Les versions d&#8217;Android Cupcake et Donut continuent � persister avec de faibles pertes ne d�passant pas les 0.6%. Note : Les donn�es sont bas�es sur le nombre de terminaux Android qui ont acc�d� � l�Android Market sur une p�riode de <a class="more-link" href="http://www.frandroid.com/actualites-generales/75360_repartitions-des-versions-android-en-juin-gingerbread-grimpe-a-18-6/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>En juin 2011, la version d&#8217;Android Gingerbread a progress�, tandis que les versions d&#8217;Android Eclair et FroYo ont perdu � elles seules plus de 8%. Les versions d&#8217;Android Cupcake et Donut continuent � persister avec de faibles pertes ne d�passant pas les 0.6%.</p>
+<p><a href="http://images.frandroid.com/wp-content/uploads/2011/07/android-chart-repartition-des-versions-june-juin-2011.png"><img class="aligncenter size-full wp-image-75389 colorbox-75360" title="android-chart-repartition-des-versions-june-juin-2011" src="http://images.frandroid.com/wp-content/uploads/2011/07/android-chart-repartition-des-versions-june-juin-2011.png" alt="" width="460" height="250" /></a></p>
+<p style="text-align: center;"><em>Note :</em><em> Les donn�es sont bas�es sur le nombre de terminaux Android qui ont acc�d� � l�Android Market sur une p�riode de 15 jours, se terminant � la date de collecte des donn�es ci-jointe : jusqu�au 05/07/11.</em></p>
+<p>Durant les deux derni�res semaines, les statistiques pr�lev�es sur le nombre d&#8217;utilisateurs se connectant � l&#8217;Android Market ont r�v�l� que les versions d&#8217;Android Gingerbread (2.3, 2.3.2, 2.3.3, et 2.3.4) ont atteint les 18.6%. L&#8217;augmentation est � remarquer mais n&#8217;est encore un exploit. Le probl�me persiste avec les versions d&#8217;Android Cupcake (1.5), Donut (1.6), Eclair (2.0, 2.0.1 et 2.1), et biens�r FroYo (2.2, 2.2.1 et 2.2.2) qui s&#8217;�l�vent dans leur globalit� � 80.5%. Les 0.9% restant appartiennent aux tablettes sous Android Honeycomb (3.0 et 3.1).</p>
+<p>Esp�rons que les choses continuent � �voluer dans le sens o� les constructeurs se copient entre eux, afin de garantir au moins deux mises � jour majeures � leurs appareils mobiles sous Android.</p>
+<p><span id="more-75360"></span></p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/android-chart-repartition-des-versions-june-juin-2011-.png"><img class="aligncenter size-medium wp-image-75390 colorbox-75360" title="android-chart-repartition-des-versions-june-juin-2011-" src="http://images.frandroid.com/wp-content/uploads/2011/07/android-chart-repartition-des-versions-june-juin-2011--630x238.png" alt="" width="630" height="238" /></a><em>Note :</em><em> Un graphique repr�sentatif sur l��volution de la r�partition sur les 5 derniers mois.</em></p>
+<p><strong>[</strong> <a href="http://developer.android.com/resources/dashboard/platform-versions.html">Android Developers</a><strong> ]</strong></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/udmwa5jekMuuiu0KUa8tPAsTsFM/0/da"><img src="http://feedads.g.doubleclick.net/~a/udmwa5jekMuuiu0KUa8tPAsTsFM/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/udmwa5jekMuuiu0KUa8tPAsTsFM/1/da"><img src="http://feedads.g.doubleclick.net/~a/udmwa5jekMuuiu0KUa8tPAsTsFM/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/t5p2UzdU-U4" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/actualites-generales/75360_repartitions-des-versions-android-en-juin-gingerbread-grimpe-a-18-6/feed/</wfw:commentRss>
+		<slash:comments>16</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/actualites-generales/75360_repartitions-des-versions-android-en-juin-gingerbread-grimpe-a-18-6/</feedburner:origLink></item>
+		<item>
+		<title>Android 3.2 arriverait-elle dans les prochains jours sur la Motorola Xoom ?</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/bJfuBeTlGEc/</link>
+		<comments>http://www.frandroid.com/actualites-generales/75380_android-3-2-arriverait-elle-dans-les-prochains-jours-sur-la-motorola-xoom/#comments</comments>
+		<pubDate>Fri, 08 Jul 2011 14:26:36 +0000</pubDate>
+		<dc:creator>g123k</dc:creator>
+				<category><![CDATA[Actualit�s G�n�rales]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75380</guid>
+
+		<description><![CDATA[La mise � jour vers Android 3.2 (Honeycomb) pourrait arriver rapidement. Comme � l&#8217;accoutum�e, la Motorola Xoom Verizon serait la premi�re � en b�n�ficier. La premi�re fois que nous avons entendu parler d&#8217;Android 3.2, c&#8217;�tait lors de l&#8217;annonce d&#8217;une tablette de Huawei. Celle-ci avait une diagonale de 7 pouces, nous poussant alors � nous interroger sur les nouveaut�s de cette version. Il en ressort que <a class="more-link" href="http://www.frandroid.com/actualites-generales/75380_android-3-2-arriverait-elle-dans-les-prochains-jours-sur-la-motorola-xoom/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>La mise � jour vers Android 3.2 (Honeycomb) pourrait arriver rapidement. Comme � l&#8217;accoutum�e, la Motorola Xoom Verizon serait la premi�re � en b�n�ficier.</p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/android_32_xoom1.jpg"><img class="aligncenter size-medium wp-image-75381 colorbox-75380" title="android_32_xoom1" src="http://images.frandroid.com/wp-content/uploads/2011/07/android_32_xoom1-630x76.jpg" alt="" width="630" height="76" /></a></p>
+<p>La premi�re fois que nous avons entendu parler d&#8217;Android 3.2, c&#8217;�tait lors de l&#8217;annonce d&#8217;une tablette de Huawei. Celle-ci avait une diagonale de 7 pouces, nous poussant alors � nous interroger sur les nouveaut�s de cette version. Il en ressort que jusqu&#8217;� pr�sent l&#8217;ensemble des tablettes sous Honeycomb ont un �cran de 8,9 ou 10 pouces. Les diff�rentes annonces de tablettes sous un autre format sont pr�vues pour la rentr�e. Il s&#8217;agirait donc du support officiel.</p>
+<p>Mais ce n&#8217;est pas tout ! Toutes les tablettes ont un processeur de type nVidia Tegra 2. Or, la HTC Flyer a un Qualcomm Snapdragon et les tablettes d&#8217;Archos un Texas Instruments. Cette version devrait donc �galement apporter cette fonctionnalit� que l&#8217;on pourrait qualifier d&#8217;existentielle, pour une plateforme dite ouverte.</p>
+<p>On parlait d&#8217;une sortie pour la mi-ao�t, avec une priorit� pour la Motorola Xoom de Verizon. Il se pourrait qu&#8217;elle soit finalement avanc�e pour une disponibilit� dans les prochains jours. En effet, on peut lire ce message sur l&#8217;Android open Source Project :</p>
+<blockquote><p>&laquo;&nbsp;Il pourrait y avoir une mise � jour � venir <strong>dans les prochains jours</strong> et cela devrait aider ceux d&#8217;entre vous qui ont une Xoom&nbsp;&raquo;<span id="more-75380"></span></p></blockquote>
+<p>Cette version est tout de m�me tr�s attendue, car en restant tout � fait honn�te, Honeycomb n&#8217;est pas encore une version 100% fonctionnelle. Il n&#8217;est pas rare de voir des applications comme le Launcher planter, ou occuper une tr�s grande partie de RAM (&gt; 150 Mo). Des optimisations et des corrections de bugs sont toujours les bienvenues.</p>
+<p>En outre, il pourrait y avoir des modifications des applications syst�mes comme Movie Studio par exemple. Il se murmure �galement que les widgets pourraient recevoir un coup de polish. Bien entendu, Google pourrait nous surprendre avec des nouveaut�s inattendues !</p>
+<p>Source : <a href="http://www.androidcentral.com/android-32-coming-motorola-xoom-matter-days?utm_source=ac&amp;utm_medium=twitter" target="_blank">Android Central</a></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/T34hoifZtYAqs6cY-LSu9nZw1Qw/0/da"><img src="http://feedads.g.doubleclick.net/~a/T34hoifZtYAqs6cY-LSu9nZw1Qw/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/T34hoifZtYAqs6cY-LSu9nZw1Qw/1/da"><img src="http://feedads.g.doubleclick.net/~a/T34hoifZtYAqs6cY-LSu9nZw1Qw/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/bJfuBeTlGEc" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/actualites-generales/75380_android-3-2-arriverait-elle-dans-les-prochains-jours-sur-la-motorola-xoom/feed/</wfw:commentRss>
+		<slash:comments>21</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/actualites-generales/75380_android-3-2-arriverait-elle-dans-les-prochains-jours-sur-la-motorola-xoom/</feedburner:origLink></item>
+		<item>
+		<title>Deezer 3.0 fait peau neuve sur l�Android Market</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/ljLWep-ACco/</link>
+		<comments>http://www.frandroid.com/applications/75369_deezer-3-0-fait-peau-neuve-sur-landroid-market/#comments</comments>
+		<pubDate>Fri, 08 Jul 2011 13:33:02 +0000</pubDate>
+		<dc:creator>Ulrich</dc:creator>
+				<category><![CDATA[Applications Android]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75369</guid>
+
+		<description><![CDATA[Je pense que Deezer a su s&#8217;entourer de personnes comp�tentes et expertes d&#8217;Android, en tout cas c&#8217;est ce que la nouvelle version 3.0 laisse penser. Deezer est un service de musique en streaming l�gal (les autres concurrents sont Spotify ou encore un peu diff�remment Beezik), o� vous pouvez acqu�rir un abonnement premium (pas publicit�, pas de limite de temps) qui vous donne acc�s � la totalit� de <a class="more-link" href="http://www.frandroid.com/applications/75369_deezer-3-0-fait-peau-neuve-sur-landroid-market/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>Je pense que <strong>Deezer </strong>a su s&#8217;entourer de personnes comp�tentes et expertes d&#8217;Android, en tout cas c&#8217;est ce que la nouvelle version 3.0 laisse penser. Deezer est un service de musique en streaming l�gal (les autres concurrents sont Spotify ou encore un peu diff�remment Beezik), o� vous pouvez acqu�rir un abonnement premium (pas publicit�, pas de limite de temps) qui vous donne acc�s � la totalit� de vos playlists en mode hors ligne sur votre smartphone.</p>
+<p style="text-align: left;"><img class="aligncenter size-full wp-image-75372 colorbox-75369" title="unknown2" src="http://images.frandroid.com/wp-content/uploads/2011/07/unknown2.jpeg" alt="" width="305" height="508" /><br />
+La version 3.0 est donc<span id="more-75369"></span> graphiquement revue avec une page d&#8217;accueil qui me fait largement penser � l&#8217;application Google+. Les guidelines Android n&#8217;�tant pas mises en avant par l&#8217;�quipe Android, elles sont donc logiquement bas�es sur les applications d�velopp�es par Google. C&#8217;est le cas du client Twitter officiel mais aussi le cas de l&#8217;application Google+.</p>
+<p style="text-align: center;">&nbsp;</p>
+<p><img class="aligncenter colorbox-75369" title="unknown-11" src="http://images.frandroid.com/wp-content/uploads/2011/07/unknown-11.jpeg" alt="" width="305" height="508" /></p>
+<p><strong>Deezer</strong> a �galement int�gr� la recherche de titres directement dans le composant de recherche int�gr� � Android. Un autre point positif.</p>
+<p style="text-align: center;">
+<div class="app_zone">  <a class="app-link" href="http://frandroid.com/m/deezer.android.app"  style="float: right;" >    <img class="colorbox-75369"  src="http://chart.apis.google.com/chart?cht=qr&amp;chl=http://frandroid.com/m/deezer.android.app-qr&amp;chs=120x120" alt="Deezer" />  </a><br />
+<caption align="top">  <a class="app-link" href="http://frandroid.com/m/deezer.android.app" style="margin: 10px;" >    <img class="colorbox-75369"  src="https://ssl.gstatic.com/android/market/deezer.android.app/hi-124-10" alt="Deezer" width="60px" height="60px" /></a>  <a href="http://frandroid.com/m/deezer.android.app" ><b>Deezer</b></a><br/>
+<p class="app-desc">T�l�chargez toute la musique avec l�abonnement Deezer Premium+(France seulement)Toute la musique en illimit�!L�application Deezer pour Android vous perme&#8230;<br/><i>Deezer Mobile</i>&nbsp;<span class="app-price">Gratuit<span></p>
+</caption>
+<div class="clear"></div>
+</div>
+<p style="text-align: center;">Source :<a href="http://www.deezer.com/blog/fr/news/lapplication-deezer-sur-android-fait-peau-neuve.html"> Deezer</a></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/D-1z_absXBKHLFNR2115y3XAmt4/0/da"><img src="http://feedads.g.doubleclick.net/~a/D-1z_absXBKHLFNR2115y3XAmt4/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/D-1z_absXBKHLFNR2115y3XAmt4/1/da"><img src="http://feedads.g.doubleclick.net/~a/D-1z_absXBKHLFNR2115y3XAmt4/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/ljLWep-ACco" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/applications/75369_deezer-3-0-fait-peau-neuve-sur-landroid-market/feed/</wfw:commentRss>
+		<slash:comments>33</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/applications/75369_deezer-3-0-fait-peau-neuve-sur-landroid-market/</feedburner:origLink></item>
+		<item>
+		<title>Free Mobile : moins de 10 euros pour de l�illimit� ?</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/m-zUWjKIF6w/</link>
+		<comments>http://www.frandroid.com/le-monde-de-la-mobilite/75365_free-mobile-moins-de-10-euros-pour-de-lillimite/#comments</comments>
+		<pubDate>Fri, 08 Jul 2011 13:05:54 +0000</pubDate>
+		<dc:creator>Ulrich</dc:creator>
+				<category><![CDATA[Le monde de la mobilit�]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75365</guid>
+
+		<description><![CDATA[L&#8217;arriv�e de Free Mobile nourrit de nombreuses rumeurs depuis plusieurs mois, il est donc important de faire le point sur les diff�rentes rumeurs. Ce que l&#8217;on sait aujourd&#8217;hui, c&#8217;est que l&#8217;arriv�e des forfaits Free Mobile pourrait �tre en septembre 2011 ou bien en d�but d&#8217;ann�e 2012. Xavier Neil a d�clar� que au &#171;&#160;Pakistan, vous avez un op�rateur qui a un forfait � 3 dollars et <a class="more-link" href="http://www.frandroid.com/le-monde-de-la-mobilite/75365_free-mobile-moins-de-10-euros-pour-de-lillimite/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>L&#8217;arriv�e de Free Mobile nourrit de nombreuses rumeurs depuis plusieurs mois, il est donc important de faire le point sur les diff�rentes rumeurs. Ce que l&#8217;on sait aujourd&#8217;hui, c&#8217;est que l&#8217;arriv�e des forfaits Free Mobile pourrait �tre en septembre 2011 ou bien en d�but d&#8217;ann�e 2012.</p>
+<p style="text-align: center;"><img class="aligncenter size-full wp-image-75366 colorbox-75365" title="free-mobile" src="http://images.frandroid.com/wp-content/uploads/2011/07/free-mobile.jpg" alt="" width="484" height="242" /></p>
+<p>Xavier Neil a d�clar� que au &laquo;&nbsp;Pakistan, vous avez un op�rateur qui a un forfait � 3 dollars et qui gagne beaucoup d�argent, donc on a un espace �conomique colossal pour bouleverser le secteur. [�] Alors le co�t salarial, humain, du travail est un peu plus cher en France, donc on pourrait �tre l�g�rement plus cher que 3 dollars&nbsp;&raquo;. Et c&#8217;est loin d&#8217;�tre le seul commentaires � propos du prix&#8230;</p>
+<ul>
+<li>&laquo;&nbsp;Nous pourrions r�duire de mille euros par an la facture d&#8217;un foyer ayant trois forfaits. Cela revient � diviser par deux la facture de t�l�phonie mobile.&nbsp;&raquo; &#8211; septembre 2008</li>
+<li>&laquo;&nbsp;On a une malchance en France, c&#8217;est d&#8217;avoir les prix les plus �lev�s au monde. Aujourd&#8217;hui quand vous achetez un forfait mobile, plus de 30 % du prix que vous versez � l&#8217;op�rateur, c&#8217;est du profit pour lui, directement. Quelles sont les entreprises en France qui font 30 % de marge ? Ca n&#8217;existe pas.&nbsp;&raquo; &#8211; avril 2011</li>
+</ul>
+<p>Les derni�res rumeurs sont un peu plus solides et annoncent trois forfaits :<span id="more-75365"></span></p>
+<ul>
+<li>5,99 � par mois, deux heures de communications, SMS illimit�s, appels illimit�s vers les num�ros Freebox ainsi que Free Wi-Fi</li>
+<li>9,99 � par mois, 5 heures d&#8217;appel, SMS illimit�s, appels illimit�s vers les fixes tous op�rateurs en France, 2 Go de data et Free Wi-Fi</li>
+<li>29,99 � par mois (non abonn� Free) et 19,99 � par mois (abonn� Free) : TOUT illimit�</li>
+</ul>
+<p>Cela reste une rumeur, mais ce n&#8217;est pas si loin que ce que nous vu jusqu&#8217;� aujourd&#8217;hui. Les op�rateurs se pr�parent lentement � l&#8217;arriv�e de Free Mobile, l&#8217;offre B&amp;YOU de Bouygues Telecom est une des derni�res tentatives. N�anmoins, on imagine bien qu&#8217;ils vont tous attendre le dernier moment pour baisser les prix.</p>
+<p>Via : <a href="http://www.igeneration.fr/0-apple/free-des-forfaits-illimites-moins-de-10-52702">iGeneration</a> (si vous souhaitez la source, c&#8217;est sur l&#8217;article de iGeneration) <img src='http://www.frandroid.com/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley colorbox-75365' /> </p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/N2kcv6k2D3Z1-YziPrvSu-4pxjw/0/da"><img src="http://feedads.g.doubleclick.net/~a/N2kcv6k2D3Z1-YziPrvSu-4pxjw/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/N2kcv6k2D3Z1-YziPrvSu-4pxjw/1/da"><img src="http://feedads.g.doubleclick.net/~a/N2kcv6k2D3Z1-YziPrvSu-4pxjw/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/m-zUWjKIF6w" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/le-monde-de-la-mobilite/75365_free-mobile-moins-de-10-euros-pour-de-lillimite/feed/</wfw:commentRss>
+		<slash:comments>141</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/le-monde-de-la-mobilite/75365_free-mobile-moins-de-10-euros-pour-de-lillimite/</feedburner:origLink></item>
+		<item>
+		<title>Launchoid, pour des applications de meilleure qualit� !</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/DaKkXw-vcRo/</link>
+		<comments>http://www.frandroid.com/developpement/75350_launchoid-pour-des-applications-de-meilleure-qualite/#comments</comments>
+		<pubDate>Fri, 08 Jul 2011 08:40:16 +0000</pubDate>
+		<dc:creator>Ulrich</dc:creator>
+				<category><![CDATA[Applications Android]]></category>
+		<category><![CDATA[D�veloppement]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75350</guid>
+
+		<description><![CDATA[Les applications sur l&#8217;Android Market sont (en moyenne) de moins bonne qualit� que sur l&#8217;App Store (iPhone), je n&#8217;ai pas de chiffre sous la main mais c&#8217;est un constat quasi unanime, vous le confirmez ? Les raisons sont nombreuses : simple portage d&#8217;une version iPhone, aucune connaissances des sp�cificit�s du syst�me Android, mauvaise utilisation de framework, nombreux appareils sous Android avec des caract�ristiques diff�rentes (tailles d&#8217;�cran, processeurs, <a class="more-link" href="http://www.frandroid.com/developpement/75350_launchoid-pour-des-applications-de-meilleure-qualite/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>Les applications sur l&#8217;Android Market sont (en moyenne) de moins bonne qualit� que sur l&#8217;App Store (iPhone), je n&#8217;ai pas de chiffre sous la main mais c&#8217;est un constat quasi unanime, vous le confirmez ?</p>
+<p style="text-align: center;"><a href="http://launchoid.com/"><img class="aligncenter size-medium wp-image-75351 colorbox-75350" title="Capture d��cran 2011-07-08 � 10.33.36" src="http://images.frandroid.com/wp-content/uploads/2011/07/Capture-d��cran-2011-07-08-�-10.33.36-630x175.png" alt="" width="630" height="175" /></a></p>
+<p>Les raisons sont nombreuses : simple portage d&#8217;une version iPhone, aucune connaissances des sp�cificit�s du syst�me Android, mauvaise utilisation de framework, nombreux appareils sous Android avec des caract�ristiques diff�rentes (tailles d&#8217;�cran, processeurs, etc.)&#8230; Heureusement, ce n&#8217;est pas le cas de toutes les applications, cela prouve qu&#8217;il est possible de lancer des applications de qualit� sur Android.</p>
+<p>Nous vous avons concoct� un nouveau service pour tout ceux qui souhaitent s&#8217;investir dans cette lourde tache. Ce service se nomme <strong><a href="http://launchoid.com/">Launchoid.com</a></strong>, il reste tr�s simple d&#8217;utilisation.</p>
+<ul>
+<li><strong>Amateurs d&#8217;Android</strong> : Vous souhaitez tester en avant premi�re des applications Android, donnez votre envie et am�liorer la qualit� des applications&#8230;<a href="http://launchoid.com/"> remplissez le formulaire sur ce site, vous serez contact�s directement � chaque beta-test.</a></li>
+<li><strong>D�veloppeurs / Editeurs </strong>: Vous souhaitez recueillir les retours d&#8217;experts Android (UI, concept, design, ergonomie, stabilit� etc.) pour une nouvelle application ou une mise � jour majeure, <a href="http://launchoid.com/">contactez-nous directement depuis Launchoid.com</a></li>
+</ul>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/7aqr9i-CwTjMCX7x4thy_RuBXWc/0/da"><img src="http://feedads.g.doubleclick.net/~a/7aqr9i-CwTjMCX7x4thy_RuBXWc/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/7aqr9i-CwTjMCX7x4thy_RuBXWc/1/da"><img src="http://feedads.g.doubleclick.net/~a/7aqr9i-CwTjMCX7x4thy_RuBXWc/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/DaKkXw-vcRo" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/developpement/75350_launchoid-pour-des-applications-de-meilleure-qualite/feed/</wfw:commentRss>
+		<slash:comments>75</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/developpement/75350_launchoid-pour-des-applications-de-meilleure-qualite/</feedburner:origLink></item>
+		<item>
+		<title>Fieldrunners HD enfin disponible sur l�Android Market</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/8lTiWCeqEhM/</link>
+		<comments>http://www.frandroid.com/applications/75342_fieldrunners-hd-enfin-disponible-sur-landroid-market/#comments</comments>
+		<pubDate>Thu, 07 Jul 2011 16:38:08 +0000</pubDate>
+		<dc:creator>Ulrich</dc:creator>
+				<category><![CDATA[Applications Android]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75342</guid>
+
+		<description><![CDATA[Enorme best-seller sur l&#8217;iPhone, Fieldrunners HD est enfin disponible sur l&#8217;Android Market. Il s&#8217;agit d&#8217;un tour d�fense tr�s bien r�alis� avec de tr�s nombreux niveaux : plus de 400 niveaux pour des dizaines d&#8217;heures de jeu. Compatible avec les �crans haute d�finition, Fieldrunners HD est tr�s accessible et le portage est plut�t bon. Disponible � 0,69 euros sur l&#8217;Android Market, nous venons de le mettre en avant <a class="more-link" href="http://www.frandroid.com/applications/75342_fieldrunners-hd-enfin-disponible-sur-landroid-market/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>Enorme best-seller sur l&#8217;iPhone, <strong>Fieldrunners HD </strong>est enfin <a href="http://www.appxoid.com/#!/apps/com.subatomicstudios">disponible sur l&#8217;Android Market</a>. Il s&#8217;agit d&#8217;un tour d�fense tr�s bien r�alis� avec de tr�s nombreux niveaux : plus de 400 niveaux pour des dizaines d&#8217;heures de jeu. Compatible avec les �crans haute d�finition, Fieldrunners HD est tr�s accessible et le portage est plut�t bon.</p>
+<p style="text-align: center;"><img class="aligncenter size-medium wp-image-75346 colorbox-75342" title="ss-854-0-0" src="http://images.frandroid.com/wp-content/uploads/2011/07/ss-854-0-0-630x354.jpg" alt="" width="630" height="354" /></p>
+<p><a href="http://www.appxoid.com/#!/apps/com.subatomicstudios">Disponible � 0,69 euros sur l&#8217;Android Market</a>, nous venons de le mettre en avant sur Appxoid.com.</p>
+<p><a href="http://www.appxoid.com">Pour rappel, Appxoid.com est un site de bons plans d&#8217;applications - n&#8217;h�sitez pas � rejoindre la newsletter quotidienne de bons plans.</a></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/YaRUaUemPuvMuGYaEPC6Z2p8aEs/0/da"><img src="http://feedads.g.doubleclick.net/~a/YaRUaUemPuvMuGYaEPC6Z2p8aEs/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/YaRUaUemPuvMuGYaEPC6Z2p8aEs/1/da"><img src="http://feedads.g.doubleclick.net/~a/YaRUaUemPuvMuGYaEPC6Z2p8aEs/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/8lTiWCeqEhM" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/applications/75342_fieldrunners-hd-enfin-disponible-sur-landroid-market/feed/</wfw:commentRss>
+		<slash:comments>32</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/applications/75342_fieldrunners-hd-enfin-disponible-sur-landroid-market/</feedburner:origLink></item>
+		<item>
+		<title>Amazon Cloud Drive �volue vers des solutions � stockage illimit�</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/NnXT40zCklw/</link>
+		<comments>http://www.frandroid.com/actualites-generales/75288_amazon-cloud-drive-evolue-vers-des-solutions-a-stockage-illimite/#comments</comments>
+		<pubDate>Thu, 07 Jul 2011 14:02:44 +0000</pubDate>
+		<dc:creator>Griphine</dc:creator>
+				<category><![CDATA[Actualit�s G�n�rales]]></category>
+		<category><![CDATA[Applications Android]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75288</guid>
+
+		<description><![CDATA[Bon point, Amazon Cloud Player �volue vers des solutions � stockage illimit� � 20$ par an. Cette nouvelle profite surtout aux utilisateurs qui ont d�j� effectu� un paiement pour obtenir plus d&#8217;espace de stockage. Selon votre budget, vous avez choisi une offre quelconque � laquelle vous avez adh�r�, afin de r�colter plus d&#8217;espace pour stocker votre contenu (.mp3 et / ou .aac). D�sormais, la limite <a class="more-link" href="http://www.frandroid.com/actualites-generales/75288_amazon-cloud-drive-evolue-vers-des-solutions-a-stockage-illimite/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>Bon point, <strong>Amazon Cloud Player �volue vers des solutions � stockage illimit� � 20$ par an.</strong></p>
+<p><a href="http://images.frandroid.com/wp-content/uploads/2011/07/amazon-cloud-music-unlimited-space.gif"><img class="aligncenter size-full wp-image-75324 colorbox-75288" title="amazon-cloud-music-unlimited-space" src="http://images.frandroid.com/wp-content/uploads/2011/07/amazon-cloud-music-unlimited-space.gif" alt="" width="475" height="291" /></a></p>
+<p>Cette nouvelle profite surtout aux utilisateurs qui ont d�j� effectu� un paiement pour obtenir plus d&#8217;espace de stockage. Selon votre budget, vous avez choisi une offre quelconque � laquelle vous avez adh�r�, afin de r�colter plus d&#8217;espace pour stocker votre contenu (.mp3 et / ou .aac). D�sormais, la limite que vous aviez pr�c�demment achet�e ne se voit plus restreinte en espace de stockage, puisqu&#8217;elle devient illimit�e. De plus, si vous avez d�j� effectu� le t�l�chargement d&#8217;une musique (ou plusieurs) sur Amazon MP3, l&#8217;espace de celle-ci se voit gratifi� pour devenir gratuit.</p>
+<p>Craig Page, directeur d&#8217;Amazon Music t�moigne <span id="more-75288"></span>:</p>
+<blockquote><p>Les clients profitent d�j� de nos services de cloud � partir de seulement 20 $ par an, mais maintenant, ils peuvent obtenir un espace illimit� pour leur musique. De plus, nous ajoutons �galement un espace de stockage gratuit pour tous les MP3 achet�s sur Amazon MP3, et le support pour iPad, nous sommes ravis d&#8217;innover en permanence nos services pour nos clients.</p></blockquote>
+<p>Retrouvez toutes les informations compl�mentaires sur le <a href="http://www.amazon.com/b?ie=UTF8&amp;node=2658409011">site officiel</a>.</p>
+<p><strong>Via</strong> <a href="http://android.hdblog.it/2011/07/07/amazon-annuncia-storage-illimitato-per-il-servizio-cloud-drive/">HDBlog</a><strong>.</strong></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/QsYZnZExUUPrsZ3XYtzpVTpqINc/0/da"><img src="http://feedads.g.doubleclick.net/~a/QsYZnZExUUPrsZ3XYtzpVTpqINc/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/QsYZnZExUUPrsZ3XYtzpVTpqINc/1/da"><img src="http://feedads.g.doubleclick.net/~a/QsYZnZExUUPrsZ3XYtzpVTpqINc/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/NnXT40zCklw" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/actualites-generales/75288_amazon-cloud-drive-evolue-vers-des-solutions-a-stockage-illimite/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/actualites-generales/75288_amazon-cloud-drive-evolue-vers-des-solutions-a-stockage-illimite/</feedburner:origLink></item>
+		<item>
+		<title>L�architecture Nvidia Kal-El (Tegra 3) supporte l�Anticr�nelage</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/YjAhczkJ7y4/</link>
+		<comments>http://www.frandroid.com/actualites-generales/75296_larchitecture-nvidia-kal-el-tegra-3-supporte-lanticrenelage/#comments</comments>
+		<pubDate>Thu, 07 Jul 2011 13:00:44 +0000</pubDate>
+		<dc:creator>Griphine</dc:creator>
+				<category><![CDATA[Actualit�s G�n�rales]]></category>
+		<category><![CDATA[Mat�riels / Accessoires]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75296</guid>
+
+		<description><![CDATA[L&#8217;Anticr�nelage de son anglais Anti-Aliasing sera support� sur l&#8217;architecture Nvidia Kal-El. Cette technologie est tr�s int�ressante, du fait, qu&#8217;elle offrira une meilleur qualit� d&#8217;image : plus claire et plus d�taill�e. Cependant, les performances graphiques du mat�riel se sentiront plus gourmandes, ce qui risque de provoquer une baisse du nombre d&#8217;images par seconde. En gros, �a consiste � �chelonner la couleur des pixels au niveau des <a class="more-link" href="http://www.frandroid.com/actualites-generales/75296_larchitecture-nvidia-kal-el-tegra-3-supporte-lanticrenelage/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>L&#8217;<strong>Anticr�nelage</strong> de son anglais <em>Anti-Aliasing</em> sera support� sur l&#8217;architecture <strong><a href="http://www.frandroid.com/tag/nvidia-kal-el/">Nvidia Kal-El</a></strong>.</p>
+<p><a href="http://images.frandroid.com/wp-content/uploads/2011/06/nvidia-kal-el-01_t.jpg"><img class="aligncenter size-full wp-image-72304 colorbox-75296" title="nvidia-kal-el-01_t" src="http://images.frandroid.com/wp-content/uploads/2011/06/nvidia-kal-el-01_t.jpg" alt="" width="400" height="300" /></a></p>
+<p>Cette technologie est tr�s int�ressante, du fait, qu&#8217;elle offrira une meilleur qualit� d&#8217;image : plus claire et plus d�taill�e. Cependant, les performances graphiques du mat�riel se sentiront plus gourmandes, ce qui risque de provoquer une baisse du nombre d&#8217;images par seconde. En gros, �a consiste � �chelonner la couleur des pixels au niveau des limites entre deux zones de couleur ou de contraste diff�rent. Ensuite, l��chantillonnage de la couleur d&#8217;un pixel est r�alis� en fonction de sa proximit� avec les deux zones de couleur. R�sultat, la fronti�re entre les deux zones aura l&#8217;air l�g�rement plus floue mais ne pr�sentera plus cet aspect d&#8217;escalier / pixelis�. Sur un grand �cran raccord� en HDMI � un appareil mobile, la visibilit� globale de l&#8217;image pourrait se voir quelque peu am�lior�e, incluant l&#8217;interface 2d/3d, applications, jeux, etc.</p>
+<p>Notons tout de m�me que cette implantation est encore toute jeune, ce qui profitera � la quatri�me g�n�ration de Tegra, ainsi qu&#8217;aux autres constructeurs de processeurs graphiques. Si nos informations sont exactes, l&#8217;architecture quadruple-coeurs Kal-El devrait commencer � appara�tre dans les premiers terminaux dans le courant de l&#8217;�t�, du moins, les premiers prototypes.</p>
+<p><strong><span id="more-75296"></span>Via</strong> <a href="http://android.hdblog.it/2011/07/07/nvidia-kal-el-tegra-3-supportera-lantialiasing/" target="_blank">HD Blog</a><strong>.</strong></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/o2mSIRez_QOpf-OYWN-PDfMaxgg/0/da"><img src="http://feedads.g.doubleclick.net/~a/o2mSIRez_QOpf-OYWN-PDfMaxgg/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/o2mSIRez_QOpf-OYWN-PDfMaxgg/1/da"><img src="http://feedads.g.doubleclick.net/~a/o2mSIRez_QOpf-OYWN-PDfMaxgg/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/YjAhczkJ7y4" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/actualites-generales/75296_larchitecture-nvidia-kal-el-tegra-3-supporte-lanticrenelage/feed/</wfw:commentRss>
+		<slash:comments>38</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/actualites-generales/75296_larchitecture-nvidia-kal-el-tegra-3-supporte-lanticrenelage/</feedburner:origLink></item>
+		<item>
+		<title>Bient�t, un Passe Navigo implant� dans les smartphones via NFC ?</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/v0NqKpoYq5M/</link>
+		<comments>http://www.frandroid.com/actualites-generales/75290_bientot-un-passe-navigo-implante-dans-son-smartphone-via-nfc/#comments</comments>
+		<pubDate>Thu, 07 Jul 2011 12:13:26 +0000</pubDate>
+		<dc:creator>Griphine</dc:creator>
+				<category><![CDATA[Actualit�s G�n�rales]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75290</guid>
+
+		<description><![CDATA[Edit : D&#8217;apr�s un lecteur, l&#8217;implantation serait d�j� � l&#8217;essai pour certains chanceux. Bonne nouvelle pour les parisiens, mais est-ce une bonne nouvelle pour nos smartphones ? D&#8217;apr�s nos confr�res du Journal du Geek, le Syndicat des transports d��le-de-France (STIF) aurait favorablement r�pondu � l&#8217;implantation des Passes Navigo dans les smartphones int�grant la technologie NFC. L&#8217;id�e est bonne, m�me tr�s bonne, cependant, les mobiles supportant la technologie NFC <a class="more-link" href="http://www.frandroid.com/actualites-generales/75290_bientot-un-passe-navigo-implante-dans-son-smartphone-via-nfc/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p><strong>Edit :</strong> D&#8217;apr�s <a href="http://www.frandroid.com/actualites-generales/75290_bientot-un-passe-navigo-implante-dans-son-smartphone-via-nfc/comment-page-1/#comment-191904">un lecteur</a>, l&#8217;implantation serait d�j� � l&#8217;essai pour certains chanceux.</p>
+<p>Bonne nouvelle pour les parisiens, mais est-ce une bonne nouvelle pour nos smartphones ?</p>
+<p><a href="http://images.frandroid.com/wp-content/uploads/2011/07/nfc-mobile-smartphone-navigo-france-passe-pass.jpg"><img class="aligncenter size-full wp-image-75303 colorbox-75290" title="nfc-mobile-smartphone-navigo-france-passe-pass" src="http://images.frandroid.com/wp-content/uploads/2011/07/nfc-mobile-smartphone-navigo-france-passe-pass.jpg" alt="" width="450" height="292" /></a></p>
+<p>D&#8217;apr�s nos confr�res du Journal du Geek, le <span style="text-decoration: underline;">Syndicat des transports d��le-de-France</span> (<span style="text-decoration: underline;">STIF</span>) <span style="text-decoration: underline;">aurait favorablement r�pondu � l&#8217;implantation des Passes Navigo dans les smartphones int�grant la technologie NFC</span>. L&#8217;id�e est bonne, m�me tr�s bonne, cependant, les mobiles supportant la technologie NFC restent encore tr�s rare. Il y a bien le Google Nexus S, et peut-�tre les futures iPhone, ainsi que certains prochains HTC, Sony Ericsson, et surement quelques autres constructeurs, mais c&#8217;est encore trop vague pour �tre pr�cis.</p>
+<p>La d�cision finale reste encore floue puisqu&#8217;aucune action pr�cise n&#8217;a �t� amorc�e. Comme le fait remarquer Ben, � moyen terme, il se pourrait que l&#8217;on puisse recharger son passe en tirant parti de l&#8217;over-the-air. Cela permettrait d&#8217;en suivre la date de validit� et mettre � jour son Passe Navigo depuis son smartphone. Si le premier pas est fait, l&#8217;envie pourrait certainement s&#8217;inviter chez d&#8217;autres entreprises fran�aises ; peut-�tre des banques, boulangeries et d&#8217;autres commerces sujets � �tre int�ress�s.</p>
+<p>Au Japon et en Cor�e, il est bien �videment d�j� possible de payer les  transports en commun � l&#8217;aide de son t�l�phone portable, en le posant  sur une borne comme on le ferait pour une carte. Cependant  l&#8217;implantation de la technologie est diff�rente.</p>
+<p>Si nous rentrons dans les d�tails, nous voyons un  probl�me � l&#8217;implantation de ce sc�nario sous android avec les APIs  Google NFC tel qu&#8217;elles sont faites aujourd&#8217;hui. Les APIs ne supportent  pas ce mode compl�tement passif (&laquo;&nbsp;mode carte&nbsp;&raquo;) et se concentrent sur un  mode PUSH. La derni�re fois que nous avons pos� la question � Google, la  r�ponse �tait qu&#8217;il ne souhaitait pas voir ce sc�nario dans Android,  car il serait difficile � g�rer par l&#8217;utilisateur : comment d�cider  quelle application aurait acc�s aux donn�es contenues dans la &laquo;&nbsp;carte&nbsp;&raquo;.</p>
+<p>Bien sur, il n&#8217;est pas exclu que les choses �voluent &#8230;</p>
+<p><strong><span id="more-75290"></span>Via </strong><a href="http://www.journaldugeek.com/2011/07/06/passe-navigo-nfc/">JDG</a><strong>.</strong></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/Sk8JApoMuzeHLhKabDk91g6KhpM/0/da"><img src="http://feedads.g.doubleclick.net/~a/Sk8JApoMuzeHLhKabDk91g6KhpM/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/Sk8JApoMuzeHLhKabDk91g6KhpM/1/da"><img src="http://feedads.g.doubleclick.net/~a/Sk8JApoMuzeHLhKabDk91g6KhpM/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/v0NqKpoYq5M" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/actualites-generales/75290_bientot-un-passe-navigo-implante-dans-son-smartphone-via-nfc/feed/</wfw:commentRss>
+		<slash:comments>46</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/actualites-generales/75290_bientot-un-passe-navigo-implante-dans-son-smartphone-via-nfc/</feedburner:origLink></item>
+		<item>
+		<title>Google Maps 5.7 : La mise � jour int�gre un d�but de mode � hors-ligne �</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/QkangAjmLhc/</link>
+		<comments>http://www.frandroid.com/applications/75286_google-maps-5-7-la-mise-a-jour-integre-le-mode-hors-ligne/#comments</comments>
+		<pubDate>Thu, 07 Jul 2011 11:35:27 +0000</pubDate>
+		<dc:creator>Griphine</dc:creator>
+				<category><![CDATA[Applications Android]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75286</guid>
+
+		<description><![CDATA[On a failli la rater, l&#8217;application Google Maps a r�cemment re�u la mise � jour 5.7. Au programme, la fonctionnalit� itin�raire a �t� am�lior�e dans les transports en commun, et s&#8217;affiche maintenant dans un mode GPS d�taill� (arr�t par arr�t). Il est �galement possible d&#8217;obtenir des itin�raires plus simplement � l&#8217;aide de la nouvelle recherche d&#8217;itin�raire. Avec �a, on remarque aussi que les suggestions de recherches bas�es <a class="more-link" href="http://www.frandroid.com/applications/75286_google-maps-5-7-la-mise-a-jour-integre-le-mode-hors-ligne/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>On a failli la rater, l&#8217;application <strong>Google Maps</strong> a r�cemment re�u la mise � jour<strong> 5.7</strong>.</p>
+<p><a href="http://images.frandroid.com/wp-content/uploads/2011/07/android-google-maps-logo.jpg"><img class="aligncenter size-full wp-image-75298 colorbox-75286" title="android-google-maps-logo" src="http://images.frandroid.com/wp-content/uploads/2011/07/android-google-maps-logo.jpg" alt="" width="180" height="130" /></a></p>
+<p>Au programme, la fonctionnalit� itin�raire a �t� am�lior�e dans les transports en commun, et s&#8217;affiche maintenant dans un mode GPS d�taill� (arr�t par arr�t). Il est �galement possible d&#8217;obtenir des itin�raires plus simplement � l&#8217;aide de la nouvelle recherche d&#8217;itin�raire. Avec �a, on remarque aussi que les suggestions de recherches bas�es sur les pr�c�dentes destinations recherch�es et sur les pages <em>Google Adresses</em> pr�c�demment consult�es sont propos�es. On apprend aussi que la gestion de la batterie a �t� am�lior�e dans Navigation, un point important pour nos smartphones. <span id="more-75286"></span></p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/android-google-maps-5.7-update-mise-a-jour-screen-1.jpg"><img class="aligncenter size-medium wp-image-75299 colorbox-75286" title="android-google-maps-5.7-update-mise-a-jour-screen-1" src="http://images.frandroid.com/wp-content/uploads/2011/07/android-google-maps-5.7-update-mise-a-jour-screen-1-630x523.jpg" alt="" width="567" height="471" /></a></p>
+<p>Le dernier ajout important concerne la partie &laquo;&nbsp;Labs&nbsp;&raquo; o� l&#8217;on peut d�sormais t�l�charger des zones de plan � l&#8217;avance (16km x 16km). Pour faire simple, si vous pr�voyez de partir en voyage d&#8217;affaire, en vacances&#8230; mais que vous ne disposez pas de connexion internet l�-bas, il vous sera possible de t�l�charger les zones choisies d&#8217;une carte que vous pourrez ensuite consulter en mode hors-ligne / d�connect�. Normalement, la puce GPS de votre mobile est capable de fonctionner lorsque le mobile n&#8217;est pas connect� � internet, et ainsi vous localiser dans Google Maps.</p>
+<p style="text-align: center;"><object width="567" height="346"><param name="movie" value="http://www.youtube.com/v/1NTXkd0dguQ?version=3&amp;hl=fr_FR" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed type="application/x-shockwave-flash" width="567" height="346" src="http://www.youtube.com/v/1NTXkd0dguQ?version=3&amp;hl=fr_FR" allowscriptaccess="always" allowfullscreen="true"></embed></object></p>
+<p><strong>Informations techniques</strong></p>
+<ul>
+<li>Compatible d�s Android 2.1</li>
+<li>Taille de l&#8217;application : 6.9 Mo</li>
+</ul>
+<p><strong>T�l�chargement</strong></p>
+<p>Google Maps est disponible gratuitement sur la plateforme de l&#8217;Android Market :</p>
+<div class="app_zone">  <a class="app-link" href="http://frandroid.com/m/com.google.android.apps.maps"  style="float: right;" >    <img class="colorbox-75286"  src="http://chart.apis.google.com/chart?cht=qr&amp;chl=http://frandroid.com/m/com.google.android.apps.maps-qr&amp;chs=120x120" alt="Google Maps" />  </a><br />
+<caption align="top">  <a class="app-link" href="http://frandroid.com/m/com.google.android.apps.maps" style="margin: 10px;" >    <img class="colorbox-75286"  src="https://ssl.gstatic.com/android/market/com.google.android.apps.maps/hi-256-5-9cd12dac97e29683a5f6eff2cf0c0555c2d3017d" alt="Google Maps" width="60px" height="60px" /></a>  <a href="http://frandroid.com/m/com.google.android.apps.maps" ><b>Google Maps</b></a><br/>
+<p class="app-desc">Tlchargez la dernire version de Google Maps et n39emportez plus de carte papiepGoogle Maps avec Navigation bta Latitude et AdressespGoogle Maps inclut :br Navig&#8230;<br/><i>Google Inc.</i>&nbsp;<span class="app-price">Gratuit<span></p>
+</caption>
+<div class="clear"></div>
+</div>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/rw6ADbGtt_YMPleuVYawQ2E04gQ/0/da"><img src="http://feedads.g.doubleclick.net/~a/rw6ADbGtt_YMPleuVYawQ2E04gQ/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/rw6ADbGtt_YMPleuVYawQ2E04gQ/1/da"><img src="http://feedads.g.doubleclick.net/~a/rw6ADbGtt_YMPleuVYawQ2E04gQ/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/QkangAjmLhc" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/applications/75286_google-maps-5-7-la-mise-a-jour-integre-le-mode-hors-ligne/feed/</wfw:commentRss>
+		<slash:comments>133</slash:comments>
+		<enclosure url="http://www.youtube.com/v/1NTXkd0dguQ?version=3&amp;amp;hl=fr_FR" length="3149" type="application/x-shockwave-flash" /><media:content url="http://www.youtube.com/v/1NTXkd0dguQ?version=3&amp;amp;hl=fr_FR" fileSize="3149" type="application/x-shockwave-flash" /><feedburner:origLink>http://www.frandroid.com/applications/75286_google-maps-5-7-la-mise-a-jour-integre-le-mode-hors-ligne/</feedburner:origLink></item>
+		<item>
+		<title>Age Of Wind 2, un nouveau jeu de bataille navale 3D sous Android</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/5cuImgaWIiI/</link>
+		<comments>http://www.frandroid.com/applications/75268_age-of-wind-2-un-nouveau-jeu-de-bataille-navale-3d-sous-android/#comments</comments>
+		<pubDate>Wed, 06 Jul 2011 18:30:57 +0000</pubDate>
+		<dc:creator>Griphine</dc:creator>
+				<category><![CDATA[Applications Android]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75268</guid>
+
+		<description><![CDATA[Age Of Win2 est un nouveau de bataille navale en 3D sous Android. A l&#8217;�poque, j&#8217;avais �galement essay� la premi�re version en d�monstration sur iPhone, et je n&#8217;avais pas �t� d��u. Aujourd&#8217;hui, les d�veloppeurs du studio Galapagos remettent le couvert avec le second volet. Personnellement dans un jeu, j&#8217;appr�cie beaucoup ce genre de d�fi, �tre le dernier survivant ou grappiller le plus de points possibles, c&#8217;est captivant. Bien sur, il y a <a class="more-link" href="http://www.frandroid.com/applications/75268_age-of-wind-2-un-nouveau-jeu-de-bataille-navale-3d-sous-android/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p><strong>Age Of Win2</strong> est un nouveau de bataille navale en 3D sous Android.</p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/android-age-of-wind-2-game-jeu.jpg"><img class="aligncenter size-medium wp-image-75279 colorbox-75268" title="android-age-of-wind-2-game-jeu" src="http://images.frandroid.com/wp-content/uploads/2011/07/android-age-of-wind-2-game-jeu-630x307.jpg" alt="" width="567" height="276" /></a></p>
+<p>A l&#8217;�poque, j&#8217;avais �galement essay� la premi�re version en d�monstration sur iPhone, et je n&#8217;avais pas �t� d��u. Aujourd&#8217;hui, les d�veloppeurs du studio <strong>Galapagos</strong> remettent le couvert avec le second volet. Personnellement dans un jeu, j&#8217;appr�cie beaucoup ce genre de d�fi, �tre le dernier survivant ou grappiller le plus de points possibles, c&#8217;est captivant. Bien sur, il y a les combats mais il y a aussi la d�couverte de nouvelles �les, l&#8217;int�gration d&#8217;un commerce de marchandises exotiques, sans oublier la rechercher du tr�sor.</p>
+<p>Un combat n&#8217;est jamais facile � g�rer, surtout quand les ennemis viennent de part et d&#8217;autres et en masse ! Je l&#8217;ai remarqu� lors du premier essai avec un d�but de partie tranquille mais rapidement, les ennemis ont commenc� � remplir l&#8217;�cran. R�sultat, mon alli� a coul�, et moi avec ! Evidemment, il est possible de se soigner en coulant d&#8217;autres navires qui par chance peuvent laisser tomber des kits de r�parations.</p>
+<p>Pour entretenir un bon bateau, �a co�te cher. Pour cela, il existe deux moyens <span id="more-75268"></span>: Voler les caravanes que l&#8217;on pourra ensuite revendre � l��le la plus proche, et ainsi s&#8217;engager dans le commerce pacifique, cependant, le prix des marchandises est tr�s diff�rents d&#8217;une �le � l&#8217;autre. C&#8217;est pourquoi, la plupart les �changes pacifiques sont beaucoup plus rentables que les vols qualifi�s. Gr�ce � �a, il sera possible d&#8217;acheter des navires, ou encore d&#8217;am�liorer le sien au niveau de ses voiles : agilit� et vitesse du navire, l&#8217;armure : diminue les chances � l&#8217;adversaire d�infliger des d�g�ts, et les canons : augmente le champ de tir et r�duit le temps de la vitesse de recharge.</p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/android-age-of-wind-2-game-jeu-screen-1.jpg"><img class="aligncenter size-medium wp-image-75281 colorbox-75268" title="android-age-of-wind-2-game-jeu-screen-1" src="http://images.frandroid.com/wp-content/uploads/2011/07/android-age-of-wind-2-game-jeu-screen-1-630x378.jpg" alt="" width="567" height="340" /></a></p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/android-age-of-wind-2-game-jeu-screen-2.jpg"><img class="aligncenter size-medium wp-image-75282 colorbox-75268" title="android-age-of-wind-2-game-jeu-screen-2" src="http://images.frandroid.com/wp-content/uploads/2011/07/android-age-of-wind-2-game-jeu-screen-2-630x378.jpg" alt="" width="567" height="340" /></a></p>
+<p>Les contr�les sont simples � assimiler : pour tourner ou donner une direction au navire, il suffit d&#8217;incliner le mobile ; pour tirer, il suffit de taper n&#8217;importe o� sur l&#8217;�cran ; et pour consulter la carte, il faut tapoter sur la boussole.</p>
+<p style="text-align: center;"><object width="567" height="346"><param name="movie" value="http://www.youtube.com/v/mbYw_9mmyxw?version=3&amp;hl=fr_FR" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed type="application/x-shockwave-flash" width="567" height="346" src="http://www.youtube.com/v/mbYw_9mmyxw?version=3&amp;hl=fr_FR" allowfullscreen="true" allowscriptaccess="always"></embed></object></p>
+<p><strong>Caract�ristiques</strong></p>
+<ul>
+<li>17 navires uniques</li>
+<li>21 �les uniques</li>
+<li>100 combats uniques</li>
+</ul>
+<p><strong>Informations techniques</strong></p>
+<ul>
+<li>Compatible d�s Android 2.1</li>
+<li>Taille de l&#8217;application : 23 Mo</li>
+</ul>
+<p><strong>T�l�chargements</strong></p>
+<p>Le jeu Age Of Wind 2 est disponible en d�monstration gratuite :</p>
+<div class="app_zone">  <a class="app-link" href="http://frandroid.com/m/com.galapagossoft.wind2demo"  style="float: right;" >    <img class="colorbox-75268"  src="http://chart.apis.google.com/chart?cht=qr&amp;chl=http://frandroid.com/m/com.galapagossoft.wind2demo-qr&amp;chs=120x120" alt="Age Of Wind 2 Demo" />  </a><br />
+<caption align="top">  <a class="app-link" href="http://frandroid.com/m/com.galapagossoft.wind2demo" style="margin: 10px;" >    <img class="colorbox-75268"  src="https://ssl.gstatic.com/android/market/com.galapagossoft.wind2demo/hi-256-2-68439aa7b0dcddd0a9764314036d246b6578f834" alt="Age Of Wind 2 Demo" width="60px" height="60px" /></a>  <a href="http://frandroid.com/m/com.galapagossoft.wind2demo" ><b>Age Of Wind 2 Demo</b></a><br/>
+<p class="app-desc">Get ready for adventures in the sea full of dangers and possibilities.Get ready for captivating adventures in the sea full of dangers and possibilities. Become &#8230;<br/><i>Galapagos</i>&nbsp;<span class="app-price">Gratuit<span></p>
+</caption>
+<div class="clear"></div>
+</div>
+<p>Et en version compl�te payante � ~ 1.37 euros :</p>
+<div class="app_zone">  <a class="app-link" href="http://frandroid.com/m/com.galapagossoft.wind2"  style="float: right;" >    <img class="colorbox-75268"  src="http://chart.apis.google.com/chart?cht=qr&amp;chl=http://frandroid.com/m/com.galapagossoft.wind2-qr&amp;chs=120x120" alt="Age Of Wind 2" />  </a><br />
+<caption align="top">  <a class="app-link" href="http://frandroid.com/m/com.galapagossoft.wind2" style="margin: 10px;" >    <img class="colorbox-75268"  src="https://ssl.gstatic.com/android/market/com.galapagossoft.wind2/hi-124-12" alt="Age Of Wind 2" width="60px" height="60px" /></a>  <a href="http://frandroid.com/m/com.galapagossoft.wind2" ><b>Age Of Wind 2</b></a><br/>
+<p class="app-desc">Get ready for exciting adventures on the sea full of dangers and opportunities!Get ready for captivating adventures in the sea full of dangers and possibilities&#8230;<br/><i>Galapagos</i>&nbsp;<span class="app-price">1,99 $US (environ 1,37 �)<span></p>
+</caption>
+<div class="clear"></div>
+</div>
+<p><strong>Via</strong> <a href="http://www.androidpolice.com/2011/07/06/review-age-of-wind-2-makes-us-yearn-for-the-seafaring-life/">Android Police</a><strong>.</strong></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/c0fRttakleGSYvG7-Kluir8YkeU/0/da"><img src="http://feedads.g.doubleclick.net/~a/c0fRttakleGSYvG7-Kluir8YkeU/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/c0fRttakleGSYvG7-Kluir8YkeU/1/da"><img src="http://feedads.g.doubleclick.net/~a/c0fRttakleGSYvG7-Kluir8YkeU/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/5cuImgaWIiI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/applications/75268_age-of-wind-2-un-nouveau-jeu-de-bataille-navale-3d-sous-android/feed/</wfw:commentRss>
+		<slash:comments>33</slash:comments>
+		<enclosure url="http://www.youtube.com/v/mbYw_9mmyxw?version=3&amp;amp;hl=fr_FR" length="3074" type="application/x-shockwave-flash" /><media:content url="http://www.youtube.com/v/mbYw_9mmyxw?version=3&amp;amp;hl=fr_FR" fileSize="3074" type="application/x-shockwave-flash" /><feedburner:origLink>http://www.frandroid.com/applications/75268_age-of-wind-2-un-nouveau-jeu-de-bataille-navale-3d-sous-android/</feedburner:origLink></item>
+		<item>
+		<title>Le Sony Ericsson Xperia Pro n�arrivera qu�au 4�me trimestre</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/A83Ng83cFdU/</link>
+		<comments>http://www.frandroid.com/actualites-generales/75270_le-sony-ericsson-xperia-pro-narrivera-quau-4eme-trimestre/#comments</comments>
+		<pubDate>Wed, 06 Jul 2011 17:12:04 +0000</pubDate>
+		<dc:creator>g123k</dc:creator>
+				<category><![CDATA[Actualit�s G�n�rales]]></category>
+		<category><![CDATA[Mat�riels / Accessoires]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75270</guid>
+
+		<description><![CDATA[Initialement pr�vu pour le mois de juin, le Sony Ericsson Xperia Pro n&#8217;arrivera qu&#8217;au quatri�me trimestre. Le Sony Ericsson Xperia Pro a �t� annonc� au MWC, � Barcelone. Depuis f�vrier, on n&#8217;entend plus parler de ce smartphone, alors que des nouveaut�s comme les Xperia mini, mini pro, active, ray&#8230; sont pass�es par l�. Initialement la sortie �tait pr�vue pour le mois de juin. Puis le <a class="more-link" href="http://www.frandroid.com/actualites-generales/75270_le-sony-ericsson-xperia-pro-narrivera-quau-4eme-trimestre/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>Initialement pr�vu pour le mois de juin, le Sony Ericsson Xperia Pro n&#8217;arrivera qu&#8217;au quatri�me trimestre.</p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/Xperia-pro-488x500.png"><img class="aligncenter size-full wp-image-75271 colorbox-75270" title="Xperia-pro-488x500" src="http://images.frandroid.com/wp-content/uploads/2011/07/Xperia-pro-488x500.png" alt="" width="390" height="400" /></a></p>
+<p>Le Sony Ericsson Xperia Pro a �t� annonc� au MWC, � Barcelone. Depuis f�vrier, on n&#8217;entend plus parler de ce smartphone, alors que des nouveaut�s comme les Xperia mini, mini pro, active, ray&#8230; sont pass�es par l�. Initialement la sortie �tait pr�vue pour le mois de juin. Puis le t�l�phone a �t� retard� au mois de juillet. Maintenant, tout semble d�montrer qu&#8217;il sortira finalement au quatri�me trimestre (Q4). Des boutiques anglaises qui le r�f�ren�aient viennent de le reporter au mois d&#8217;octobre. C&#8217;est notamment le cas de <a href="http://www.somobile.co.uk/news/2011/07/06/sony-ericsson-xperia-pro-delayed-until-october/" target="_blank">So Mobile</a> et de <a href="http://www.carphonewarehouse.com/news/coming-soon/se-xperia-pro" target="_blank">Carephone Warehouse</a>.</p>
+<p>Ce smartphone s&#8217;inscrit comme un m�lange entre un Xperia Neo et un Xperia Mini Pro. C&#8217;est peut-�tre pour cela que la marque ne lui attribue pas une priorit� si importante. Lorsque nous l&#8217;avions vu � Barcelone, il �tait encore en langue asiatique et fonctionnait mal. Le travail �tait donc long avant sa sortie, mais nul n&#8217;aurait pu penser � un d�calage de 6 mois. Nuan�ons toutefois ces propos, avec les �v�nements du Japon.<span id="more-75270"></span></p>
+<p>Il serait tout de m�me int�ressant d&#8217;avoir la version officielle concernant ce retard&#8230;</p>
+<p>Source : <a href="http://www.xperiablog.net/2011/07/06/xperia-pro-launch-slips-into-q4/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+XperiaBlog+%28Xperia+Blog%29" target="_blank">Xperia Blog</a></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/zOio5O20ulLwnRucYzq65lki-Ck/0/da"><img src="http://feedads.g.doubleclick.net/~a/zOio5O20ulLwnRucYzq65lki-Ck/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/zOio5O20ulLwnRucYzq65lki-Ck/1/da"><img src="http://feedads.g.doubleclick.net/~a/zOio5O20ulLwnRucYzq65lki-Ck/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/A83Ng83cFdU" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/actualites-generales/75270_le-sony-ericsson-xperia-pro-narrivera-quau-4eme-trimestre/feed/</wfw:commentRss>
+		<slash:comments>13</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/actualites-generales/75270_le-sony-ericsson-xperia-pro-narrivera-quau-4eme-trimestre/</feedburner:origLink></item>
+		<item>
+		<title>Fin 2011, Qualcomm d�butera le lancement de ses architectures dual-core � Krait �</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/-nXDs9HO8YE/</link>
+		<comments>http://www.frandroid.com/actualites-generales/75219_bientot-qualcomm-debutera-le-lancement-de-ses-architectures-dual-core-kraith/#comments</comments>
+		<pubDate>Wed, 06 Jul 2011 16:37:21 +0000</pubDate>
+		<dc:creator>Griphine</dc:creator>
+				<category><![CDATA[Actualit�s G�n�rales]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75219</guid>
+
+		<description><![CDATA[Voici la nouvelle roadmap de Qualcomm pour 2011, 2012 et 2013. Mine de rien le temps passe et l&#8217;�volution n&#8217;attend pas, elle. Sur le blog, c&#8217;est devenu une habitude de vous parler des diff�rentes futures architectures mobiles pr�vues sur le march� puisqu&#8217;elles sont souvent sujettes � �tre int�gr�es � nos terminaux mobiles Android. Celle-ci se nomme Krait. Les premi�res architectures 8960, 8270 et 8260A sont attendues � <a class="more-link" href="http://www.frandroid.com/actualites-generales/75219_bientot-qualcomm-debutera-le-lancement-de-ses-architectures-dual-core-kraith/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p><strong>Voici la nouvelle roadmap de Qualcomm pour 2011, 2012 et 2013.</strong></p>
+<p><strong><a href="http://images.frandroid.com/wp-content/uploads/2011/07/qualcomm-roadmap-kraith-2011-2012-2013.jpg"><img class="aligncenter size-full wp-image-75261 colorbox-75219" title="qualcomm-roadmap-kraith-2011-2012-2013" src="http://images.frandroid.com/wp-content/uploads/2011/07/qualcomm-roadmap-kraith-2011-2012-2013.jpg" alt="" width="600" height="349" /></a></strong></p>
+<p>Mine de rien le temps passe et l&#8217;�volution n&#8217;attend pas, elle. Sur le blog, c&#8217;est devenu une habitude de vous parler des diff�rentes futures architectures mobiles pr�vues sur le march� puisqu&#8217;elles sont souvent sujettes � �tre int�gr�es � nos terminaux mobiles Android. Celle-ci se nomme <strong>Krait</strong>. Les premi�res architectures 8960, 8270 et 8260A sont attendues � la fin de l&#8217;ann�e, et rivaliseront avec les performances graphiques d&#8217;une Playstation Vita. Les secondes architectures 8230 et 8930 sont pr�vues pour la mi-2012 avec des performances graphiques �galant la Xbox 360 et la PlayStation 3. La derni�re architecture sera quadruple-coeurs, et cadenc�e entre 2 et 2.5 GHz soutenue par la puce graphique Adreno 320.</p>
+<p>A la suite, les sp�cifications techniques compl�tes de chaque architecture <span id="more-75219"></span>:</p>
+<p><strong>Fin 2011/D�but 2012</strong></p>
+<ul>
+<li>Architectures � deux coeurs grav�es en 28nm</li>
+<li>Mod�les : <strong>8960 (LTE)</strong>, <strong>8270 (HSPA)</strong>, et <strong>8260A (HSPA+)</strong></li>
+<li>Processeur cadenc� entre 1.5 et 1.7 GHz</li>
+<li>125 millions de triangles par seconde</li>
+<li>Puce graphique : Adreno 225 (Evo 3D et Sensation ont l&#8217;Adreno 220)</li>
+<li>Capable de lire de la vid�o en 1.080p � 30 images par seconde</li>
+</ul>
+<p><strong>Mi-2012/D�but 2013</strong></p>
+<ul>
+<li>Architectures � deux coeurs grav�es en 28nm</li>
+<li>Mod�les : <strong>8230 (HSPA+)</strong>, <strong>8930 (LTE/HSPA+)</strong></li>
+<li>Processeur cadenc� entre 1 et 1.2 GHz</li>
+<li>80 millions de triangles par seconde (ou 180 millions, surement une erreur sur le papier)</li>
+<li>Puce graphique : Adreno 305 (une g�n�ration apr�s l&#8217;Adreno 225)</li>
+<li>Capable de lire de la vid�o en 1.080p � 30 images par seconde</li>
+</ul>
+<p><strong>En 2013</strong></p>
+<ul>
+<li>Architecture � quatre-coeurs grav�e en 28nm</li>
+<li>Mod�le :<strong> 8974 (LTE/HSPA+)</strong></li>
+<li>Processeur cadenc� entre 2 et 2.5 GHz</li>
+<li>225 millions de triangles par seconde</li>
+<li>Puce graphique : Adreno 320 (deux g�n�rations apr�s l&#8217;Adreno 225)</li>
+<li>Capable de lire de la vid�o en 1.080p � 60 images par seconde</li>
+</ul>
+<p>Int�ressant, �a va se battre entre les grands constructeurs : Qualcomm, Texas Instruments, Nvidia, Samsung, et quelques autres essayant de grandir sur le march� des technologies mobiles.</p>
+<p><strong>Via</strong> <a href="http://api.viglink.com/api/click?format=go&amp;drKey=1154&amp;loc=http%3A%2F%2Fphandroid.com%2F2011%2F07%2F05%2Fqualcomms-chipset-roadmap-1-7ghz-dual-core-adreno-225-for-2011-quad-core-for-2013%2F&amp;v=1&amp;libid=1309962510031&amp;out=http%3A%2F%2Fwww.engadget.com%2F2011%2F07%2F05%2Fqualcomm-snapdragon-roadmap-leaks-krait-slithering-on-the-scene%2F&amp;title=Qualcomm%E2%80%99s%20Chipset%20Roadmap%3A%201.7GHz%20Dual-Core%20%2B%20Adreno%20225%20for%202011%2C%20Quad%20Core%20for%202013&amp;txt=Engadget">Engadget</a><strong>.</strong></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/7eIKiGMZkL9kfZ0utUQZPy4fyrI/0/da"><img src="http://feedads.g.doubleclick.net/~a/7eIKiGMZkL9kfZ0utUQZPy4fyrI/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/7eIKiGMZkL9kfZ0utUQZPy4fyrI/1/da"><img src="http://feedads.g.doubleclick.net/~a/7eIKiGMZkL9kfZ0utUQZPy4fyrI/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/-nXDs9HO8YE" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/actualites-generales/75219_bientot-qualcomm-debutera-le-lancement-de-ses-architectures-dual-core-kraith/feed/</wfw:commentRss>
+		<slash:comments>53</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/actualites-generales/75219_bientot-qualcomm-debutera-le-lancement-de-ses-architectures-dual-core-kraith/</feedburner:origLink></item>
+		<item>
+		<title>Une vid�o officielle de la Samsung Galaxy Tab 10.1 sous Android et TouchWiz</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/Cks4rZH3BdU/</link>
+		<comments>http://www.frandroid.com/actualites-generales/75215_une-video-officielle-de-la-samsung-galaxy-tab-10-1-sous-android-et-touchwiz/#comments</comments>
+		<pubDate>Wed, 06 Jul 2011 14:30:41 +0000</pubDate>
+		<dc:creator>Griphine</dc:creator>
+				<category><![CDATA[Actualit�s G�n�rales]]></category>
+		<category><![CDATA[Mat�riels / Accessoires]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75215</guid>
+
+		<description><![CDATA[Samsung met en valeur sa Galaxy Tab 10.1 dans une pr�sentation de 12 minutes, o� on y aper�oit les principaux points forts, autant sur la partie mat�riel que logiciel, tout en appuyant les performances globales sur la rapidit� d�ex�cution du syst�me. Evidemment, on y remarque aussi la future interface TouchWiz UX, apportant de nouvelles ic�nes, une nouvelle police d&#8217;�criture, l&#8217;am�lioration de la barre de notifications, l&#8217;int�gration de plusieurs <a class="more-link" href="http://www.frandroid.com/actualites-generales/75215_une-video-officielle-de-la-samsung-galaxy-tab-10-1-sous-android-et-touchwiz/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p><strong>Samsung</strong> met en valeur sa <strong>Galaxy Tab 10.1</strong> dans <strong>une pr�sentation de 12 minutes</strong>, o� on y aper�oit les principaux points forts, autant sur la partie mat�riel que logiciel, tout en appuyant les performances globales sur la rapidit� d�ex�cution du syst�me.</p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/android-honeycomb-3.1-samsung-galaxy-tab-10.1-touchwiz-ux.jpg"><img class="aligncenter size-medium wp-image-75253 colorbox-75215" title="android-honeycomb-3.1-samsung-galaxy-tab-10.1-touchwiz-ux" src="http://images.frandroid.com/wp-content/uploads/2011/07/android-honeycomb-3.1-samsung-galaxy-tab-10.1-touchwiz-ux-630x354.jpg" alt="" width="567" height="319" /></a></p>
+<p>Evidemment, on y remarque aussi la future interface TouchWiz UX, apportant de nouvelles ic�nes, une nouvelle police d&#8217;�criture, l&#8217;am�lioration de la barre de notifications, l&#8217;int�gration de plusieurs widgets (calendrier, galerie, carnet d�adresse, lecteur musical), un raccourci permettant d&#8217;afficher six applications favorites et / ou les plus utilis�es ; dans ce contexte, il s&#8217;agit d&#8217;un carnet de note, d&#8217;une calculatrice, d&#8217;une horloge, d&#8217;un gestionnaire de taches et d&#8217;un lecteur de musiques. Selon moi, le plus int�ressant reste Social Hub qui lie plusieurs r�seaux sociaux (Facebook, Twitter, etc.) en une seule application (� quand l&#8217;ajout de Google+ ?). L&#8217;interface TouchWiz UX semble �tre arriv�e � maturit�, du moins, pour une premi�re version finale. <span id="more-75215"></span></p>
+<p style="text-align: center;"><object width="567" height="346"><param name="movie" value="http://www.youtube.com/v/hlLP3RXkmUQ?version=3&amp;hl=fr_FR" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed type="application/x-shockwave-flash" width="567" height="346" src="http://www.youtube.com/v/hlLP3RXkmUQ?version=3&amp;hl=fr_FR" allowfullscreen="true" allowscriptaccess="always"></embed></object></p>
+<p>Actuellement, la tablette Samsung Galaxy Tab 10.1 est sous la version officielle d&#8217;Android Honeycomb sans modification. Que pensez-vous de <a href="ces changements ">ces changements</a> apport�s par l&#8217;interface constructeur ? Souhaitez-vous faire la mise � jour ou rester sur la version officielle d&#8217;Android ?</p>
+<p><strong>Via</strong> <a href="http://phandroid.com/2011/07/05/need-a-closer-look-at-touchwiz-on-the-galaxy-tab-watch-this-video/">Phandroid</a><strong>.</strong></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/fLW0LhCpZz7w0rYtmpVp6kVeCTk/0/da"><img src="http://feedads.g.doubleclick.net/~a/fLW0LhCpZz7w0rYtmpVp6kVeCTk/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/fLW0LhCpZz7w0rYtmpVp6kVeCTk/1/da"><img src="http://feedads.g.doubleclick.net/~a/fLW0LhCpZz7w0rYtmpVp6kVeCTk/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/Cks4rZH3BdU" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/actualites-generales/75215_une-video-officielle-de-la-samsung-galaxy-tab-10-1-sous-android-et-touchwiz/feed/</wfw:commentRss>
+		<slash:comments>55</slash:comments>
+		<enclosure url="http://www.youtube.com/v/hlLP3RXkmUQ?version=3&amp;amp;hl=fr_FR" length="3138" type="application/x-shockwave-flash" /><media:content url="http://www.youtube.com/v/hlLP3RXkmUQ?version=3&amp;amp;hl=fr_FR" fileSize="3138" type="application/x-shockwave-flash" /><feedburner:origLink>http://www.frandroid.com/actualites-generales/75215_une-video-officielle-de-la-samsung-galaxy-tab-10-1-sous-android-et-touchwiz/</feedburner:origLink></item>
+		<item>
+		<title>De nouvelles informations sur les Sony S1 et S2 sous Android</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/OWx2EfjtmaA/</link>
+		<comments>http://www.frandroid.com/actualites-generales/75221_de-nouvelles-informations-sur-les-sony-s1-et-s2-sous-android/#comments</comments>
+		<pubDate>Wed, 06 Jul 2011 13:43:42 +0000</pubDate>
+		<dc:creator>Griphine</dc:creator>
+				<category><![CDATA[Actualit�s G�n�rales]]></category>
+		<category><![CDATA[Mat�riels / Accessoires]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75221</guid>
+
+		<description><![CDATA[De nouvelles informations au sujet des tablettes de Sony nous sont parvenues directement par nos confr�res de Notebook Italia qui ont eu la chance de prendre en main les mod�les S1 et S2, tous les deux sous Android Honeycomb (3.1). Pour rappel, la version S1 proposera un large �cran tactile de 9.4 pouces, tandis que la version S2 aura un double �cran tactile de 5.5 <a class="more-link" href="http://www.frandroid.com/actualites-generales/75221_de-nouvelles-informations-sur-les-sony-s1-et-s2-sous-android/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>De nouvelles informations au sujet des tablettes de Sony nous sont parvenues directement par nos confr�res de Notebook Italia qui ont eu la chance de prendre en main les mod�les S1 et S2, tous les deux sous Android Honeycomb (3.1).</p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/android-sony-s1-s2-tablettes-honeycomb.jpg"><img class="aligncenter size-full wp-image-75242 colorbox-75221" title="android-sony-s1-s2-tablettes-honeycomb" src="http://images.frandroid.com/wp-content/uploads/2011/07/android-sony-s1-s2-tablettes-honeycomb.jpg" alt="" width="478" height="720" /></a></p>
+<p>Pour rappel, la version S1 proposera un large �cran tactile de 9.4 pouces, tandis que la version S2 aura un double �cran tactile de 5.5 pouces. L&#8217;architecture double-coeur ARM int�gr�e sera le Tegra 2. Les connectivit�s 3G, 4G et Wi-Fi font aussi partie int�grante des deux tablettes. L&#8217;aspect pratique reste la possibilit� de les utiliser comme des t�l�commandes avec l&#8217;Infrarouge et la technologie sans-fil DLNA.</p>
+<p>La marque semble d�termin�e � proposer des tablettes biens fournies techniquement, puisqu&#8217;on y retrouvera aussi une cam�ra frontale, et un appareil photo � l&#8217;arri�re. Comme nous l&#8217;apprend Marco, le point fort de la Sony S2 est d&#8217;�tre divis�e en deux parties, lui offrant ainsi la possibilit� d��tre utilis�e tel une manette de jeu ou un clavier virtuel, tr�s pratique lors de l&#8217;�dition de messages, d&#8217;emails, de documents, etc. <span id="more-75221"></span></p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/android-sony-s1-tablettes-honeycomb.jpg"><img class="aligncenter size-medium wp-image-75243 colorbox-75221" title="android-sony-s1-tablettes-honeycomb" src="http://images.frandroid.com/wp-content/uploads/2011/07/android-sony-s1-tablettes-honeycomb-630x418.jpg" alt="" width="567" height="376" /></a></p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/android-sony-s2-tablettes-honeycomb.jpg"><img class="aligncenter size-medium wp-image-75244 colorbox-75221" title="android-sony-s2-tablettes-honeycomb" src="http://images.frandroid.com/wp-content/uploads/2011/07/android-sony-s2-tablettes-honeycomb-630x418.jpg" alt="" width="567" height="376" /></a></p>
+<p>D&#8217;un autre cot�, on a aussi la confirmation sur l&#8217;int�gration des services Qriocity qui partageront un catalogue de musiques et de vid�os � la demande, ainsi qu&#8217;un ReaderStore (Biblioth�que de livres en ligne) ind�pendant de Qriocity. On apprend aussi la pr�sence des services de Playstation Suite, avec un catalogue des jeux de premi�re g�n�ration les plus populaires. Maintenant, on esp�re que les particularit�s sp�ciales de la Sony S2 ne viendront pas freiner l&#8217;adaptation des applicatifs destin�s � ce type d&#8217;usage.</p>
+<p style="text-align: center;"><object width="567" height="346"><param name="movie" value="http://www.youtube.com/v/husc2meluSs?version=3&amp;hl=fr_FR" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed type="application/x-shockwave-flash" width="567" height="346" src="http://www.youtube.com/v/husc2meluSs?version=3&amp;hl=fr_FR" allowfullscreen="true" allowscriptaccess="always"></embed></object></p>
+<p style="text-align: center;"><object width="567" height="346"><param name="movie" value="http://www.youtube.com/v/ufjt5Qv1870?version=3&amp;hl=fr_FR" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed type="application/x-shockwave-flash" width="567" height="346" src="http://www.youtube.com/v/ufjt5Qv1870?version=3&amp;hl=fr_FR" allowscriptaccess="always" allowfullscreen="true"></embed></object></p>
+<p>Pour l&#8217;Italie, la tablette <strong>Sony S1 se vendra � 599 euros</strong>, tandis que la <strong>Sony S2 sera un peu plus ch�re � 649 euros</strong>. Les deux mod�les arriveront th�oriquement pour la rentr�e en Europe.</p>
+<p><strong>Source</strong> <a href="Notebook Italia">Notebook Italia</a><strong> | </strong><a href="http://www.hdblog.it/">HDBlog</a><strong>.</strong></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/Uvp5XjYL7_6yMtDGyukEEwkNeTk/0/da"><img src="http://feedads.g.doubleclick.net/~a/Uvp5XjYL7_6yMtDGyukEEwkNeTk/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/Uvp5XjYL7_6yMtDGyukEEwkNeTk/1/da"><img src="http://feedads.g.doubleclick.net/~a/Uvp5XjYL7_6yMtDGyukEEwkNeTk/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/OWx2EfjtmaA" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/actualites-generales/75221_de-nouvelles-informations-sur-les-sony-s1-et-s2-sous-android/feed/</wfw:commentRss>
+		<slash:comments>24</slash:comments>
+		<enclosure url="http://www.youtube.com/v/husc2meluSs?version=3&amp;amp;hl=fr_FR" length="3149" type="application/x-shockwave-flash" /><media:content url="http://www.youtube.com/v/husc2meluSs?version=3&amp;amp;hl=fr_FR" fileSize="3149" type="application/x-shockwave-flash" /><feedburner:origLink>http://www.frandroid.com/actualites-generales/75221_de-nouvelles-informations-sur-les-sony-s1-et-s2-sous-android/</feedburner:origLink></item>
+		<item>
+		<title>Le Motorola Atrix est arriv� chez Virgin Mobile</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/RUTb-SxOuis/</link>
+		<comments>http://www.frandroid.com/actualites-generales/75233_le-motorola-atrix-est-arrive-chez-virgin-mobile/#comments</comments>
+		<pubDate>Wed, 06 Jul 2011 12:42:00 +0000</pubDate>
+		<dc:creator>g123k</dc:creator>
+				<category><![CDATA[Actualit�s G�n�rales]]></category>
+		<category><![CDATA[Mat�riels / Accessoires]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75233</guid>
+
+		<description><![CDATA[Apr�s Orange, le Motorola Atrix est propos� chez l&#8217;op�rateur fran�ais Virgin Mobile. Le Motorola Atrix est arriv� depuis de nombreux mois aux Etats-Unis, chez l&#8217;op�rateur AT&#38;T. Son prix de vente plut�t �lev� l&#8217;a malheureusement handicap�. Nous n&#8217;avons pas les chiffres exacts, mais le r�sultat est d�cevant sur ce plan. Pourtant, le smartphone est d&#8217;une excellente qualit� et justifie parfaitement son placement haut de gamme. Les <a class="more-link" href="http://www.frandroid.com/actualites-generales/75233_le-motorola-atrix-est-arrive-chez-virgin-mobile/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>Apr�s Orange, le Motorola Atrix est propos� chez l&#8217;op�rateur fran�ais Virgin Mobile.</p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/Screen-shot-2011-07-06-at-8.27.57-AM.png"><img class="aligncenter size-full wp-image-75235 colorbox-75233" title="Screen shot 2011-07-06 at 8.27.57 AM" src="http://images.frandroid.com/wp-content/uploads/2011/07/Screen-shot-2011-07-06-at-8.27.57-AM.png" alt="" width="183" height="311" /></a></p>
+<p>Le Motorola Atrix est arriv� depuis de nombreux mois aux Etats-Unis, chez l&#8217;op�rateur AT&amp;T. Son prix de vente plut�t �lev� l&#8217;a malheureusement handicap�. Nous n&#8217;avons pas les chiffres exacts, mais le r�sultat est d�cevant sur ce plan. Pourtant, le smartphone est d&#8217;une excellente qualit� et justifie parfaitement son placement haut de gamme. Les accessoires qui permettent de transformer l&#8217;appareil sont certainement un peu trop chers �galement. Pour terminer, les diff�rentes publicit�s sont plut�t vagues concernant les possibilit�s. En faisant cela, Motorola bride logiquement les ventes, ce qui au final est plut�t inqui�tant. Des analystes montrent que l&#8217;entreprise ne profitera pas enti�rement de la croissance du march�, mais cela vient plus de sa politique que des produits.</p>
+<p>En France, son prix est beaucoup plus accessible. Il �tait jusqu&#8217;� pr�sent disponible uniquement chez Orange, car il y avait une exclusivit� temporaire. Maintenant qu&#8217;elle est termin�e, le smartphone peut �tre propos� chez des concurrents. <a href="http://www.virginmobile.fr/les-mobiles/Motorola/Motorola-Atrix-39285.htm" target="_blank">C&#8217;est le cas chez Virgin Mobile</a>. Dans le d�tail, les prix suivants sont propos�s</p>
+<p><span id="more-75233"></span> :</p>
+<ul>
+<li>Forfaits Smartphones : � partir de 149�</li>
+<li>Forfaits Divine Collector : � partir de 299�</li>
+<li>Forfaits Liberty : � partir de 399�</li>
+<li>Forfaits bloqu�s : � partir de 249�</li>
+<li>Cartes pr�pay�es : � partir de 479�</li>
+</ul>
+<p>Avec un forfait Very Smartphones, jusqu&#8217;� 100� sont rembours�s � l&#8217;achat.</p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/BAzpYHRcyzNclutYdWc1SKdQYSM/0/da"><img src="http://feedads.g.doubleclick.net/~a/BAzpYHRcyzNclutYdWc1SKdQYSM/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/BAzpYHRcyzNclutYdWc1SKdQYSM/1/da"><img src="http://feedads.g.doubleclick.net/~a/BAzpYHRcyzNclutYdWc1SKdQYSM/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/RUTb-SxOuis" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/actualites-generales/75233_le-motorola-atrix-est-arrive-chez-virgin-mobile/feed/</wfw:commentRss>
+		<slash:comments>35</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/actualites-generales/75233_le-motorola-atrix-est-arrive-chez-virgin-mobile/</feedburner:origLink></item>
+		<item>
+		<title>Les Sony Ericsson Xperia de 2011 recevront Android 2.3.4 en octobre</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/-aJg_kNr6M4/</link>
+		<comments>http://www.frandroid.com/actualites-generales/75226_les-sony-ericsson-xperia-de-2011-recevront-android-2-3-4-en-octobre/#comments</comments>
+		<pubDate>Wed, 06 Jul 2011 12:15:55 +0000</pubDate>
+		<dc:creator>g123k</dc:creator>
+				<category><![CDATA[Actualit�s G�n�rales]]></category>
+		<category><![CDATA[Mat�riels / Accessoires]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75226</guid>
+
+		<description><![CDATA[Les Sony Ericsson Xperia Arc, Neo, Play et Pro recevront Android 2.3.4 au mois d&#8217;octobre. Actuellement les Sony Ericsson de la gamme Xperia, sortis en 2011, sont sous Android 2.3.3. Les Arc et Play qui �taient � la vente un peu plus t�t, ont re�u la mise � jour il y a quelques semaines. Elle inclue notamment l&#8217;int�gration plus avanc�e de Facebook. Il est maintenant <a class="more-link" href="http://www.frandroid.com/actualites-generales/75226_les-sony-ericsson-xperia-de-2011-recevront-android-2-3-4-en-octobre/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>Les Sony Ericsson Xperia Arc, Neo, Play et Pro recevront Android 2.3.4 au mois d&#8217;octobre.</p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/Xperia_ray_pink.jpg"><img class="aligncenter size-medium wp-image-75229 colorbox-75226" title="Xperia_ray_pink" src="http://images.frandroid.com/wp-content/uploads/2011/07/Xperia_ray_pink-630x464.jpg" alt="" width="630" height="464" /></a></p>
+<p>Actuellement les Sony Ericsson de la gamme Xperia, sortis en 2011, sont sous Android 2.3.3. Les Arc et Play qui �taient � la vente un peu plus t�t, ont re�u la mise � jour il y a quelques semaines. Elle inclue notamment l&#8217;int�gration plus avanc�e de Facebook.</p>
+<p>Il est maintenant question de la 2.3.4, c&#8217;est-�-dire la derni�re version du syst�me Android. Dans la version de base, on retrouve des corrections de bugs, des am�liorations des performances et le support du chat audio et vid�o sur Google Talk. De son c�t�, Sony Ericsson ajoutera �galement des nouvelles fonctionnalit�s comme le filtre audio xLOUD.</p>
+<p>Cette mise � jour sera disponible pour les <strong>Arc, Neo, Play et Pro</strong>, mais pas pour les X10 mini, mini pro et X8. <span id="more-75226"></span>Elle sera propos�e <strong>au mois d&#8217;octobre</strong>. La date semble tout de m�me lointaine, alors que les modifications ne sont pas si importantes sur le changelog. En ce qui concerne le X10, des preuves montrent qu&#8217;ils testent �galement cette version. Mais il n&#8217;y a aucun information sur la possibilit� de l&#8217;envoi. Dans tous les cas, Android 2.3.3 devrait arriver en ao�t sur ce smartphone.</p>
+<p>Source : <a href="http://66.196.80.202/babelfish/translate_url_content?.intl=us&amp;lp=nl_en&amp;trurl=http%3a%2f%2fsemcblog.com%2f2011%2f07%2f06%2fandroid-2-3-4-on-sony-ericsson-phones%2f" target="_blank">SEMC Blog</a> via <a href="http://feedproxy.google.com/~r/HDblogMobile/Android/~3/XFmTjIERwwo/story01.htm" target="_blank">HD Blog</a></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/FB75d_H4z18k3vmPR-ZOy9fNeUU/0/da"><img src="http://feedads.g.doubleclick.net/~a/FB75d_H4z18k3vmPR-ZOy9fNeUU/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/FB75d_H4z18k3vmPR-ZOy9fNeUU/1/da"><img src="http://feedads.g.doubleclick.net/~a/FB75d_H4z18k3vmPR-ZOy9fNeUU/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/-aJg_kNr6M4" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/actualites-generales/75226_les-sony-ericsson-xperia-de-2011-recevront-android-2-3-4-en-octobre/feed/</wfw:commentRss>
+		<slash:comments>27</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/actualites-generales/75226_les-sony-ericsson-xperia-de-2011-recevront-android-2-3-4-en-octobre/</feedburner:origLink></item>
+		<item>
+		<title>La mise � jour vers Gingerbread du Samsung Galaxy S est enfin disponible</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/xGnUZhMnIYc/</link>
+		<comments>http://www.frandroid.com/actualites-generales/75207_la-mise-a-jour-vers-gingerbread-du-samsung-galaxy-s-est-enfin-disponible/#comments</comments>
+		<pubDate>Tue, 05 Jul 2011 21:39:04 +0000</pubDate>
+		<dc:creator>g123k</dc:creator>
+				<category><![CDATA[Actualit�s G�n�rales]]></category>
+		<category><![CDATA[Mat�riels / Accessoires]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75207</guid>
+
+		<description><![CDATA[Les Samsung Galaxy S de chez Orange, Bouygues Telecom et SFR re�oivent actuellement Android 2.3.3. Apr�s plusieurs mois d&#8217;attente, la mise � jour vers Android 2.3.3 (Gingerbread) est enfin officielle en France. Elle avait initialement �t� pr�vue pour le mois d&#8217;avril, puis retard�e au mois de mai&#8230; pour enfin sortir en ce d�but juillet. Ce t�l�phone avait eu quelques difficult�s � recevoir Android 2.2 (FroYo), <a class="more-link" href="http://www.frandroid.com/actualites-generales/75207_la-mise-a-jour-vers-gingerbread-du-samsung-galaxy-s-est-enfin-disponible/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>Les Samsung Galaxy S de chez Orange, Bouygues Telecom et SFR re�oivent actuellement Android 2.3.3.</p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/Capture.jpg"><img class="aligncenter size-full wp-image-75208 colorbox-75207" title="Capture" src="http://images.frandroid.com/wp-content/uploads/2011/07/Capture.jpg" alt="" width="392" height="331" /></a></p>
+<p>Apr�s plusieurs mois d&#8217;attente, la mise � jour vers Android 2.3.3 (Gingerbread) est enfin officielle en France. Elle avait initialement �t� pr�vue pour le mois d&#8217;avril, puis retard�e au mois de mai&#8230; pour enfin sortir en ce d�but juillet. Ce t�l�phone avait eu quelques difficult�s � recevoir Android 2.2 (FroYo), mais avec l&#8217;exp�rience du Nexus S, Samsung a su acqu�rir les savoirs qu&#8217;il lui manquait. En parall�le, les bidouilleurs go�tent depuis un moment � Gingerbread. SamFirmware met r�guli�rement en ligne des ROMs et actuellement le smartphone peut m�me �tre sous Android 2.3.4. Il ne serait donc pas impossible que ce soit la prochaine mise � jour pour les Galaxy S et S II, d&#8217;autant que les 18 mois de support sont toujours viables.</p>
+<p>Une tr�s bonne nouvelle est l&#8217;arriv�e simultan�e chez les trois op�rateurs d: Orange, SFR et Bouygues Telecom. Une telle op�ration est rare et explique certainement le retard. Pour mettre � jour votre smartphone, il suffit de le connecter � votre ordinateur. Ensuite, il il faut lancer Kies et v�rifier si une mise � jour est disponible. Normalement, vous devriez voir appara�tre la fen�tre ci-dessus. Vous n&#8217;avez qu&#8217;� cliquer sur &laquo;&nbsp;Mettre � jour&nbsp;&raquo; et patienter !<span id="more-75207"></span></p>
+<p>Capture par <a href="http://forum.frandroid.com/user/20372-apophis29/">Apophis29</a>.</p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/1cCGD2Qh-kfT3nfTS0sgnNQ8f0k/0/da"><img src="http://feedads.g.doubleclick.net/~a/1cCGD2Qh-kfT3nfTS0sgnNQ8f0k/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/1cCGD2Qh-kfT3nfTS0sgnNQ8f0k/1/da"><img src="http://feedads.g.doubleclick.net/~a/1cCGD2Qh-kfT3nfTS0sgnNQ8f0k/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/xGnUZhMnIYc" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/actualites-generales/75207_la-mise-a-jour-vers-gingerbread-du-samsung-galaxy-s-est-enfin-disponible/feed/</wfw:commentRss>
+		<slash:comments>212</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/actualites-generales/75207_la-mise-a-jour-vers-gingerbread-du-samsung-galaxy-s-est-enfin-disponible/</feedburner:origLink></item>
+		<item>
+		<title>Le HTC Sensation 4G est disponible chez Bell</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/9gCIK4vtMVI/</link>
+		<comments>http://www.frandroid.com/actualites-generales/75188_le-htc-sensation-4g-est-disponible-chez-bell/#comments</comments>
+		<pubDate>Tue, 05 Jul 2011 13:05:29 +0000</pubDate>
+		<dc:creator>g123k</dc:creator>
+				<category><![CDATA[Actualit�s G�n�rales]]></category>
+		<category><![CDATA[Mat�riels / Accessoires]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75188</guid>
+
+		<description><![CDATA[Le HTC Sensation fait ses premiers pas au Canada, chez l&#8217;op�rateur Bell. Le HTC Sensation arrive enfin en Am�rique du Nord. Ce smartphone haut de gamme se caract�rise par la nouvelle couche Sense 3.0 (ou 3D). Dans cette r�gion, il s&#8217;agira d&#8217;une version supportant les r�seaux dits 4G et s&#8217;appelera donc Sensation 4G. Apr�s un mois et demi d&#8217;attente, les canadiens vont pouvoir se le <a class="more-link" href="http://www.frandroid.com/actualites-generales/75188_le-htc-sensation-4g-est-disponible-chez-bell/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>Le HTC Sensation fait ses premiers pas au Canada, chez l&#8217;op�rateur Bell.</p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/Screen-shot-2011-07-05-at-8.47.27-AM.png"><img class="aligncenter size-medium wp-image-75195 colorbox-75188" title="Screen shot 2011-07-05 at 8.47.27 AM" src="http://images.frandroid.com/wp-content/uploads/2011/07/Screen-shot-2011-07-05-at-8.47.27-AM-630x437.png" alt="" width="630" height="437" /></a></p>
+<p>Le HTC Sensation arrive enfin en Am�rique du Nord. Ce smartphone haut de gamme se caract�rise par la nouvelle couche Sense 3.0 (ou 3D). Dans cette r�gion, il s&#8217;agira d&#8217;une version supportant les r�seaux dits 4G et s&#8217;appelera donc Sensation 4G.</p>
+<p>Apr�s un mois et demi d&#8217;attente, les canadiens vont pouvoir se le procurer. <a href="http://www.frandroid.com/actualites-generales/73873_le-htc-sensation-arrivera-le-5-juillet-chez-bell-et-prochainement-chez-virgin-mobile-canada/" target="_blank">Comme indiqu� initialement</a>, il vient tout juste <a href="http://mobilesyrup.com/2011/07/05/htc-sensation-4g-now-available-at-bell/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+Mobilesyrup+%28mobilesyrup.com%29" target="_blank">d&#8217;�tre disponible sur le site de Bell</a> et devrait �galement arriver chez Virgin Mobile Canada. Pour les prix, il co�te :</p>
+<ul>
+<li>Sans engagement : 549,95 dollars canadiens</li>
+<li>Contrat de 3 ans : 149,95 dollars canadiens</li>
+<li>Contrat de 2 ans : 499,95 dollars canadiens</li>
+<li>Contrat de 1 ans : 524,95 dollars canadiens<span id="more-75188"></span></li>
+</ul>
+<p>Rappelons tout de m�me les caract�ristiques techniques :</p>
+<ul>
+<li>Android 2.3 (Gingerbread) avec Sense 3.0 (ou Sense 3D)</li>
+<li>Ecran tactile multitouch capacitif Super Clear LCD de 4,3 pouces</li>
+<li>R�solution de 960 x 540 pixels (qHD)</li>
+<li>Processeur double-coeur Qualcomm Snapdragon MSM8260 cadenc� � 1,2 GHz</li>
+<li>Puce graphique Adreno 220</li>
+<li>768 Mo de m�moire RAM</li>
+<li>1 Go de m�moire interne</li>
+<li>Lecteur de cartes microSD</li>
+<li>8 m�gapixels + double flash LED</li>
+<li>Enregistrement de vid�o en 1080p</li>
+<li>Cam�ra frontale de 0,3 m�gapixels</li>
+<li>Wi-Fi (b/g/n) / Bluetooth 3.0 / GPS</li>
+<li>Dolby Mobile &amp; SRS / DLNA / Tuner FM</li>
+<li>Acc�l�rom�tre / Gyroscope / Bousolle</li>
+<li>Ports : Jack 3.5,mm, MicroUSB &amp; MicroHDMI (2 en 1 = MHL)</li>
+<li>Batterie : 1 520 mAh</li>
+<li>Dimensions : 126,1 x 65,4 x 11,3mm</li>
+<li>Poids : 148 grammes (avec batterie)</li>
+</ul>
+<p>Source : <a href="http://mobilesyrup.com/2011/07/05/htc-sensation-4g-now-available-at-bell/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+Mobilesyrup+%28mobilesyrup.com%29" target="_blank">Mobilesyrup</a></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/hcxd3g3t45M9tzZgPfVgfm3TX0s/0/da"><img src="http://feedads.g.doubleclick.net/~a/hcxd3g3t45M9tzZgPfVgfm3TX0s/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/hcxd3g3t45M9tzZgPfVgfm3TX0s/1/da"><img src="http://feedads.g.doubleclick.net/~a/hcxd3g3t45M9tzZgPfVgfm3TX0s/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/9gCIK4vtMVI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/actualites-generales/75188_le-htc-sensation-4g-est-disponible-chez-bell/feed/</wfw:commentRss>
+		<slash:comments>29</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/actualites-generales/75188_le-htc-sensation-4g-est-disponible-chez-bell/</feedburner:origLink></item>
+		<item>
+		<title>CyanogenMod peut maintenant prendre des captures d��cran de mani�re native</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/Up8P4XA3q1M/</link>
+		<comments>http://www.frandroid.com/actualites-generales/75182_cyanogenmod-peut-maintenant-prendre-des-captures-decran-de-maniere-native/#comments</comments>
+		<pubDate>Tue, 05 Jul 2011 12:31:17 +0000</pubDate>
+		<dc:creator>g123k</dc:creator>
+				<category><![CDATA[Actualit�s G�n�rales]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75182</guid>
+
+		<description><![CDATA[Les derni�res builds de CyanogenMod offrent la prise de captures de mani�re native et le touch-to-focus dans l&#8217;application Appareil photo. CyanogenMod continue de s&#8217;am�liorer, via ses nightlies. Dans ces versions, on retrouve les derni�res fonctionnalit�s. G�n�ralement, elles ne pr�sentent pas de bugs majeurs, mais nous vous conseillons de rester avec une version stable, si vous ne souhaitez pas rencontrer d&#8217;�ventuels probl�mes. Depuis hier, deux fonctionnalit�s <a class="more-link" href="http://www.frandroid.com/actualites-generales/75182_cyanogenmod-peut-maintenant-prendre-des-captures-decran-de-maniere-native/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>Les derni�res builds de CyanogenMod offrent la prise de captures de mani�re native et le touch-to-focus dans l&#8217;application Appareil photo.</p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/CMAndroidCreation640.png"><img class="aligncenter size-full wp-image-75187 colorbox-75182" title="CMAndroidCreation640" src="http://images.frandroid.com/wp-content/uploads/2011/07/CMAndroidCreation640.png" alt="" width="512" height="384" /></a></p>
+<p>CyanogenMod continue de s&#8217;am�liorer, via ses nightlies. Dans ces versions, on retrouve les derni�res fonctionnalit�s. G�n�ralement, elles ne pr�sentent pas de bugs majeurs, mais nous vous conseillons de rester avec une version stable, si vous ne souhaitez pas rencontrer d&#8217;�ventuels probl�mes.</p>
+<p>Depuis hier, deux fonctionnalit�s viennent d&#8217;�tre ajout�es :</p>
+<ul>
+<li><strong>Prendre des captures de mani�re native</strong></li>
+</ul>
+<p>Actuellement pour prendre des captures d&#8217;�cran sur CyanogenMod, il y a deux possibilit�s. La premi�re est d&#8217;utiliser une application disponible sur l&#8217;Android Market, comme ShootMe ou ScreenShot ER par exemple. Mais il faut forc�ment avoir root� son smartphone. Or en installant cette ROM vous devez d�j� �tre root, ce qui ne pose pas r�ellement un probl�me. La deuxi�me est de lancer ddms, que l&#8217;on peut trouver sur le SDK d&#8217;Android.<span id="more-75182"></span></p>
+<p>Certains t�l�phones poss�dent nativement cette fonctionnalit�. Il suffit de faire une combinaison de touches (par exemple : Bouton On/OFF + Accueil) et la capture est imm�diatement ajout�e sur la carte microSD.</p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/image_thumb175.png"><img class="aligncenter size-full wp-image-75190 colorbox-75182" title="image_thumb175" src="http://images.frandroid.com/wp-content/uploads/2011/07/image_thumb175.png" alt="" width="215" height="358" /></a></p>
+<p>Cette possibilit� vient maintenant d&#8217;arriver sur CyanogenMod. Pour y acc�der, il suffit de faire un appui long sur la touche ON/OFF. En plus de pouvoir passer en mode silencieux, �teindre, red�marrer&#8230;, vous pourrez prendre une capture. Une application CMScreenshot a �galement �t� rajout�e, qui semble uniquement �tre l� pour copier l&#8217;image sur la m�moire.</p>
+<p>Cette fonctionnalit� qui est � l&#8217;origine peu accessible, devient de plus en plus utilisable par tous !</p>
+<ul>
+<li><strong>Touch-to-focus</strong></li>
+</ul>
+<p>Dans HTC Sense, TouchWiz&#8230;, dans l&#8217;application Appareil photo, on peut faire le focus, en appuyant simplement sur l&#8217;�cran. Mais cette fonctionnalit� n&#8217;est pas disponible nativement dans Android (AOSP). Depuis hier soir, il est maintenant possible de le faire sur les smartphones HTC, ainsi que ceux avec un processeur nVidia sur CyanogenMOD. Les possesseurs d&#8217;un t�l�phone Samsung n&#8217;y ont pas encore acc�s, car cela reste encore � l&#8217;�tude. Il faut �galement noter que cela ne fonctionne qu&#8217;avec les photos et non les vid�os.</p>
+<p>Ces deux nouveaut�s sont arriv�es dans les builds. En revanche, il est encore difficile de savoir si elles seront int�gr�es dans la version 7.1, car la premi�re Release Candidate (RC) est d�j� sortie.</p>
+<p>Source : <a href="http://www.androidpolice.com/2011/07/04/new-in-cyanogenmod-7-support-for-native-screenshots-touch-to-focus-camera-droid-incredible-2/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+PlanetAndroidCom+%28Planet+Android%29" target="_blank">Android Police</a></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/4YePkel-zrxRgXeU2m8TeFyAd2Q/0/da"><img src="http://feedads.g.doubleclick.net/~a/4YePkel-zrxRgXeU2m8TeFyAd2Q/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/4YePkel-zrxRgXeU2m8TeFyAd2Q/1/da"><img src="http://feedads.g.doubleclick.net/~a/4YePkel-zrxRgXeU2m8TeFyAd2Q/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/Up8P4XA3q1M" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/actualites-generales/75182_cyanogenmod-peut-maintenant-prendre-des-captures-decran-de-maniere-native/feed/</wfw:commentRss>
+		<slash:comments>39</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/actualites-generales/75182_cyanogenmod-peut-maintenant-prendre-des-captures-decran-de-maniere-native/</feedburner:origLink></item>
+		<item>
+		<title>Pho.to Lab, cr�ez des photomontages et photocollages sur votre smartphone Android</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/Z7hHuQEgnvk/</link>
+		<comments>http://www.frandroid.com/applications/75142_pho-to-lab-creez-des-photomontages-et-photocollages-sur-votre-smartphone-android/#comments</comments>
+		<pubDate>Tue, 05 Jul 2011 12:14:40 +0000</pubDate>
+		<dc:creator>Griphine</dc:creator>
+				<category><![CDATA[Applications Android]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75142</guid>
+
+		<description><![CDATA[Jamais abord�e sur le blog, voici Pho.to Lab, une application d�velopp�e chez VicMan LLC. Cette application n&#8217;est pas nouvelle, mais vu qu&#8217;un lecteur nous en a parl�, on a trouv� int�ressant d&#8217;aborder cette application simple et amusante. Pho.to Lab est capable de proposer plus de 400 effets de photos originels pour cr�er des avatars, des cartes virtuelles, des effets anim�s, et d&#8217;autres photos dr�les. Si vous ne trouvez <a class="more-link" href="http://www.frandroid.com/applications/75142_pho-to-lab-creez-des-photomontages-et-photocollages-sur-votre-smartphone-android/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>Jamais abord�e sur le blog, voici <strong>Pho.to Lab</strong>, une application d�velopp�e chez <em>VicMan LLC</em>.</p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/android-pho.to-lab.png"><img class="aligncenter size-medium wp-image-75174 colorbox-75142" title="android-pho.to-lab" src="http://images.frandroid.com/wp-content/uploads/2011/07/android-pho.to-lab-630x307.png" alt="" width="567" height="276" /></a></p>
+<p>Cette application n&#8217;est pas nouvelle, mais vu qu&#8217;un lecteur nous en a parl�, on a trouv� int�ressant d&#8217;aborder cette application simple et amusante. Pho.to Lab est capable de proposer plus de 400 effets de photos originels pour cr�er des avatars, des cartes virtuelles, des effets anim�s, et d&#8217;autres photos dr�les. Si vous ne trouvez pas l&#8217;effet d�sir�, n&#8217;h�sitez pas � proposer votre id�e d&#8217;effet de photo directement dans l&#8217;application. Il est �galement possible de placer la photo modifi�e en fond d&#8217;�cran mais aussi, de la partager par MMS et Facebook. <span id="more-75142"></span></p>
+<p style="text-align: center;"><object width="567" height="346"><param name="movie" value="http://www.youtube.com/v/fSCCwUSfKL4?version=3&amp;hl=fr_FR" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed type="application/x-shockwave-flash" width="567" height="346" src="http://www.youtube.com/v/fSCCwUSfKL4?version=3&amp;hl=fr_FR" allowscriptaccess="always" allowfullscreen="true"></embed></object></p>
+<p><strong>Informations compl�mentaires</strong></p>
+<ul>
+<li>R�alistes : d�poser des photos sur des tableaux de mus�es, des banni�res de football, des journaux, des livres anciens ou � la mani�re d&#8217;un dessin sur le sable.</li>
+<li>Effets d&#8217;animation de bandes dessin�es : cr�er des caricature de toutes les photos en mode portrait.</li>
+<li>Montages de photos avec l&#8217;ajustage pr�cis du visage : transformer soi ou son ami(e) en Dark Vader, Rambo, un h�ro du film Avatar, un cosmonaute ou un pirate, une femme religieuse ou une fille sexy.</li>
+<li>Filtres de photos : applique des filtres n�on, flamme, mosa�que, HDR, dessin au crayon, peinture � l&#8217;huile, charbon et impressionnisme.</li>
+<li>Effets de style moderne : se retrouver sur la couverture de Forbes, Vogue, Playboy, aupr�s d&#8217;Angelina Jolie, Jackie Chan, Lady Gaga ou Docteur House.</li>
+<li>Effets de m�lange de photos : se retrouver soi avec son/sa petit/e ami/e ou tous ces amis dans un m�me collage.</li>
+</ul>
+<p><strong>Informations techniques</strong></p>
+<ul>
+<li>Compatible d�s Android 2.2 (FroYo)</li>
+<li>Taille de l&#8217;application : 840ko</li>
+</ul>
+<p><strong>T�l�chargement</strong></p>
+<p>L&#8217;application Pho.to Lab est disponible en version gratuite (<a href="https://market.android.com/details?id=vsin.t16_funny_photo&amp;feature=search_result">lien alternatif</a>):</p>
+<div class="app_zone">  <a class="app-link" href="http://frandroid.com/m/vsin.t16_funny_photo"  style="float: right;" >    <img class="colorbox-75142"  src="http://chart.apis.google.com/chart?cht=qr&amp;chl=http://frandroid.com/m/vsin.t16_funny_photo-qr&amp;chs=120x120" alt="Pho.to Lab" />  </a><br />
+<caption align="top">  <a class="app-link" href="http://frandroid.com/m/vsin.t16_funny_photo" style="margin: 10px;" >    <img class="colorbox-75142"  src="https://ssl.gstatic.com/android/market/vsin.t16_funny_photo/hi-124-19" alt="Pho.to Lab" width="60px" height="60px" /></a>  <a href="http://frandroid.com/m/vsin.t16_funny_photo" ><b>Pho.to Lab</b></a><br/>
+<p class="app-desc">Cr�ez photomontages et photocollages, utilisez effets et cadres pour photosPho.to Lab � un laboratoire de dr�le de photos dans ta poche.Plus de 400 d�effe&#8230;<br/><i>VicMan LLC</i>&nbsp;<span class="app-price">Gratuit<span></p>
+</caption>
+<div class="clear"></div>
+</div>
+<p>ou en version pro pour ~ 2.99 euros :</p>
+<div class="app_zone">  <a class="app-link" href="http://frandroid.com/m/com.vicman.photolabpro"  style="float: right;" >    <img class="colorbox-75142"  src="http://chart.apis.google.com/chart?cht=qr&amp;chl=http://frandroid.com/m/com.vicman.photolabpro-qr&amp;chs=120x120" alt="Pho.to Lab Pro" />  </a><br />
+<caption align="top">  <a class="app-link" href="http://frandroid.com/m/com.vicman.photolabpro" style="margin: 10px;" >    <img class="colorbox-75142"  src="https://ssl.gstatic.com/android/market/com.vicman.photolabpro/hi-256-0-ed41acda7c81aa6d0fce31c61562d08e833c074e" alt="Pho.to Lab Pro" width="60px" height="60px" /></a>  <a href="http://frandroid.com/m/com.vicman.photolabpro" ><b>Pho.to Lab Pro</b></a><br/>
+<p class="app-desc">Un super-laboratoire de dr�les de photo � des effets et montages de vos photos!Pho.to Lab PRO � un super laboratoire de dr�le de photos dans votre poche.V&#8230;<br/><i>VicMan LLC</i>&nbsp;<span class="app-price">2,99 $US (environ 2,06 �)<span></p>
+</caption>
+<div class="clear"></div>
+</div>
+<p><strong>Merci � Elliot B. pour l&#8217;info !</strong></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/mhBEfUmulkcq_LfLqQNyWCBXDXs/0/da"><img src="http://feedads.g.doubleclick.net/~a/mhBEfUmulkcq_LfLqQNyWCBXDXs/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/mhBEfUmulkcq_LfLqQNyWCBXDXs/1/da"><img src="http://feedads.g.doubleclick.net/~a/mhBEfUmulkcq_LfLqQNyWCBXDXs/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/Z7hHuQEgnvk" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/applications/75142_pho-to-lab-creez-des-photomontages-et-photocollages-sur-votre-smartphone-android/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		<enclosure url="http://www.youtube.com/v/fSCCwUSfKL4?version=3&amp;amp;hl=fr_FR" length="3061" type="application/x-shockwave-flash" /><media:content url="http://www.youtube.com/v/fSCCwUSfKL4?version=3&amp;amp;hl=fr_FR" fileSize="3061" type="application/x-shockwave-flash" /><feedburner:origLink>http://www.frandroid.com/applications/75142_pho-to-lab-creez-des-photomontages-et-photocollages-sur-votre-smartphone-android/</feedburner:origLink></item>
+		<item>
+		<title>Des poussi�res sous l��cran du HTC Sensation ?</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/fo_WRBOef5k/</link>
+		<comments>http://www.frandroid.com/actualites-generales/75020_des-poussieres-sous-lecran-du-htc-sensation/#comments</comments>
+		<pubDate>Tue, 05 Jul 2011 11:44:48 +0000</pubDate>
+		<dc:creator>g123k</dc:creator>
+				<category><![CDATA[Actualit�s G�n�rales]]></category>
+		<category><![CDATA[Mat�riels / Accessoires]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75020</guid>
+
+		<description><![CDATA[Des utilisateurs rapportent qu&#8217;entre la coque et l&#8217;�cran, des poussi�res viennent se glisser sur le HTC Sensation. Un d�faut de fabrication ? HTC ne semble pas avoir rendu un copie aussi parfaite que nous l&#8217;attendions pour le Sensation. Certains utilisateurs rencontrent des probl�mes de r�ception lorsqu&#8217;ils tiennent le t�l�phone d&#8217;une mani�re normale. Toute la connectivit� est touch�e : WiFi, signal GSM et Bluetooth. Mais cela <a class="more-link" href="http://www.frandroid.com/actualites-generales/75020_des-poussieres-sous-lecran-du-htc-sensation/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>Des utilisateurs rapportent qu&#8217;entre la coque et l&#8217;�cran, des poussi�res viennent se glisser sur le HTC Sensation. Un d�faut de fabrication ?</p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/htc-sensation.jpg"><img class="aligncenter size-full wp-image-75173 colorbox-75020" title="htc-sensation" src="http://images.frandroid.com/wp-content/uploads/2011/07/htc-sensation.jpg" alt="" width="542" height="384" /></a></p>
+<p>HTC ne semble pas avoir rendu un copie aussi parfaite que nous l&#8217;attendions pour le Sensation. Certains utilisateurs rencontrent des probl�mes de r�ception lorsqu&#8217;ils tiennent le t�l�phone d&#8217;une mani�re normale. Toute la connectivit� est touch�e : WiFi, signal GSM et Bluetooth. Mais cela change r�ellement d&#8217;un mod�le � l&#8217;autre et surtout de l&#8217;environnement.</p>
+<p>Sur notre forum, <a href="http://forum.frandroid.com/topic/62019-poussieres-sous-lecran/" target="_blank">on parle maintenant d&#8217;un deuxi�me probl�me</a>. Plusieurs possesseurs et <a href="http://forum.xda-developers.com/showthread.php?t=1088754" target="_blank">m�me</a> <a href="http://forum.xda-developers.com/showthread.php?t=1113008" target="_blank">chez</a> <a href="http://forum.xda-developers.com/showthread.php?t=1114612" target="_blank">xda-developers</a> d�couvrent que de la poussi�re s&#8217;est d�pos�e sous l&#8217;�cran. Il n&#8217;y a pas encore de photo pour montrer le ph�nom�ne, mais vu le nombre de retours, il s&#8217;agit d&#8217;un vrai probl�me. Cela ne provient pas de l&#8217;utilisateur, comme avoir fait tomber le t�l�phone par exemple. Par cons�quent, on pencherait plut�t vers un probl�me de conception. Le probl�me est principalement visible en ext�rieur, avec un fort ensoleillement.</p>
+<blockquote><p>&laquo;&nbsp;Sur un fond blanc, il ressemble � une apostrophe ou une virgule noire&nbsp;&raquo;<br />
+&laquo;&nbsp;Avec des couleurs, cela reste moins visible, dans la mesure o� il y a du bleu sur le fond d&#8217;�cran par d�faut&nbsp;&raquo; <a href="http://forum.xda-developers.com/showpost.php?p=14318047&amp;postcount=10" target="_blank">duridian chez xda-developers</a></p>
+<p>&laquo;&nbsp;Je viens de m&#8217;apercevoir qu&#8217;il y avait deux petites poussi�res sous l&#8217;�cran de mon sensation.&nbsp;&raquo; <a href="http://forum.frandroid.com/user/354-t0m/" target="_blank">T0m</a><br />
+&laquo;&nbsp;Je confirme, la poussi�re passe entre la coque et l&#8217;�cran.&nbsp;&raquo; <a href="http://forum.frandroid.com/user/59707-aurel-gunners/">aurel_gunners</a><br />
+&laquo;&nbsp;Jamais remarqu� mais 2 poussi�res cot� droit &#8230;bien visibles en plein soleil cet am &#8230;.A la maison �a ne se voit quasiment pas &#8230;&nbsp;&raquo; <a href="http://forum.frandroid.com/user/59996-gilles84/">gilles84</a><br />
+&laquo;&nbsp;J&#8217;ai aussi quelques poussi�res sous l&#8217;�cran bien visibles !!&nbsp;&raquo; <a href="http://forum.frandroid.com/user/60708-silver19/">Silver19<span id="more-75020"></span></a></p></blockquote>
+<p>A priori, HTC semble �tre au courant dans certains pays. C&#8217;est notamment le cas en Indon�sie, o� le constructeur vient de recevoir les pi�ces pour corriger ce probl�me.</p>
+<p>Sur cette vid�o de PocketNow, on ne voit pas directement la poussi�re sous l&#8217;�cran, mais un d�but d&#8217;explication. La coque arri�re unibody, englobe �galement la grille du haut-parleur, ainsi qu&#8217;un encart pour la cam�ra frontale. Or, il semblerait que ces deux orifices laissent passer la poussi�re. Cela est d&#8217;autant plus vrai que rien ne prot�ge la cam�ra. A regarder vers 5&#8217;39 :</p>
+<p style="text-align: center;"><object width="630" height="388"><param name="movie" value="http://www.youtube-nocookie.com/v/oqWdRMWqlP8?version=3&amp;hl=en_US&amp;hd=1" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed type="application/x-shockwave-flash" width="630" height="388" src="http://www.youtube-nocookie.com/v/oqWdRMWqlP8?version=3&amp;hl=en_US&amp;hd=1" allowfullscreen="true" allowscriptaccess="always"></embed></object></p>
+<p>Ce ph�nom�ne se note sur la plupart des t�l�phones, mais le fait qu&#8217;il apparaisse apr�s une p�riode aussi courte donne un mauvais signe. Une fois celle-ci d�pos�e � l&#8217;int�rieur, il semblerait qu&#8217;il soit plus facile pour que certaines particules glissent sous l&#8217;�cran.</p>
+<p>Si vous rencontrez ce probl�me, il ne devrait pas y avoir de probl�me pour la garantie, car il s&#8217;agit d&#8217;un d�faut de fabrication.</p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/XoQ9KfALGkzlX91jfORiV2hE_e4/0/da"><img src="http://feedads.g.doubleclick.net/~a/XoQ9KfALGkzlX91jfORiV2hE_e4/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/XoQ9KfALGkzlX91jfORiV2hE_e4/1/da"><img src="http://feedads.g.doubleclick.net/~a/XoQ9KfALGkzlX91jfORiV2hE_e4/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/fo_WRBOef5k" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/actualites-generales/75020_des-poussieres-sous-lecran-du-htc-sensation/feed/</wfw:commentRss>
+		<slash:comments>147</slash:comments>
+		<enclosure url="http://www.youtube-nocookie.com/v/oqWdRMWqlP8?version=3&amp;amp;hl=en_US&amp;amp;hd=1" length="3138" type="application/x-shockwave-flash" /><media:content url="http://www.youtube-nocookie.com/v/oqWdRMWqlP8?version=3&amp;amp;hl=en_US&amp;amp;hd=1" fileSize="3138" type="application/x-shockwave-flash" /><feedburner:origLink>http://www.frandroid.com/actualites-generales/75020_des-poussieres-sous-lecran-du-htc-sensation/</feedburner:origLink></item>
+		<item>
+		<title>Acc�s compte, une application de La Banque Postale disponible sous Android</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/NeuhTnYAgoA/</link>
+		<comments>http://www.frandroid.com/applications/75103_la-banque-postale-sort-lapplication-acces-compte-sous-android/#comments</comments>
+		<pubDate>Tue, 05 Jul 2011 10:45:46 +0000</pubDate>
+		<dc:creator>Griphine</dc:creator>
+				<category><![CDATA[Applications Android]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75103</guid>
+
+		<description><![CDATA[R�cemment, La Banque Postale a sorti une nouvelle application sous Android. Destin�e au client de La Banque Postale, l&#8217;application Acc�s compte vous permettra d&#8217;acc�der � vos comptes (postaux et �pargnes), de consulter, et suivre en temps r�el l&#8217;�tat de ses virements. Il est �galement possible d&#8217;acc�der aux informations portant sur les services d&#8217;urgence, ainsi que de trouver et localiser directement un bureau de poste depuis son <a class="more-link" href="http://www.frandroid.com/applications/75103_la-banque-postale-sort-lapplication-acces-compte-sous-android/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>R�cemment, <strong>La Banque Postale</strong> a sorti une nouvelle application sous Android.</p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/android-la-banque-postale-acces-compte-screen.jpg"><img class="aligncenter size-medium wp-image-75163 colorbox-75103" title="android-la-banque-postale-acces-compte-screen" src="http://images.frandroid.com/wp-content/uploads/2011/07/android-la-banque-postale-acces-compte-screen-630x349.jpg" alt="" width="567" height="314" /></a></p>
+<p>Destin�e au client de <em>La Banque Postale</em>, l&#8217;application <strong>Acc�s compte</strong> vous permettra d&#8217;acc�der � vos comptes (postaux et �pargnes), de consulter, et suivre en temps r�el l&#8217;�tat de ses virements. Il est �galement possible d&#8217;acc�der aux informations portant sur les services d&#8217;urgence, ainsi que de trouver et localiser directement un bureau de poste depuis son mobile Android.</p>
+<p>L&#8217;avez-vous test� ? Qu&#8217;en avez-vous pens� dans sa globalit� ?</p>
+<p><strong>Informations compl�mentaires</strong></p>
+<ul>
+<li>Consultez vos comptes :</li>
+<li>Comptes Courants Postaux (historique des 16 derni�res op�rations)</li>
+<li>Comptes d��pargne (historique des 32 derni�res op�rations)</li>
+<li>Comptes Titres <span id="more-75103"></span></li>
+<li>Encours Cartes bancaire � d�bit diff�r�</li>
+<li>Consultez votre pr�t immobilier :</li>
+<li>Encours du pr�t immobilier</li>
+<li>Consultez vos virements</li>
+<li>Localisez un bureau de poste</li>
+</ul>
+<p><strong>Informations techniques</strong></p>
+<ul>
+<li>Compatible d�s Android 2.1 (Eclair)</li>
+<li>Taille de l&#8217;application : 788ko</li>
+</ul>
+<p><strong>T�l�chargement</strong></p>
+<p>L&#8217;application Acc�s compte est disponible gratuitement sur l&#8217;Android Market :</p>
+<div class="app_zone">  <a class="app-link" href="http://frandroid.com/m/com.fullsix.android.labanquepostale.accountaccess"  style="float: right;" >    <img class="colorbox-75103"  src="http://chart.apis.google.com/chart?cht=qr&amp;chl=http://frandroid.com/m/com.fullsix.android.labanquepostale.accountaccess-qr&amp;chs=120x120" alt="Acce`s compte" />  </a><br />
+<caption align="top">  <a class="app-link" href="http://frandroid.com/m/com.fullsix.android.labanquepostale.accountaccess" style="margin: 10px;" >    <img class="colorbox-75103"  src="https://ssl.gstatic.com/android/market/com.fullsix.android.labanquepostale.accountaccess/hi-256-0-2a8b86b34ec6d21ce6e779e7901b19066a3502ae" alt="Acce`s compte" width="60px" height="60px" /></a>  <a href="http://frandroid.com/m/com.fullsix.android.labanquepostale.accountaccess" ><b>Acce`s compte</b></a><br/>
+<p class="app-desc">ACCES COMPTE une application Android de La Banque Postale- Une application pour acc�der directement � vos comptes- Simple, pratique, consultez et suivez vos v&#8230;<br/><i>La Banque Postale</i>&nbsp;<span class="app-price">Gratuit<span></p>
+</caption>
+<div class="clear"></div>
+</div>
+<p><strong>Merci � Camille B. pour l&#8217;info !</strong></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/x68X44ew2pyxBCIOSzt_wxiQjA0/0/da"><img src="http://feedads.g.doubleclick.net/~a/x68X44ew2pyxBCIOSzt_wxiQjA0/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/x68X44ew2pyxBCIOSzt_wxiQjA0/1/da"><img src="http://feedads.g.doubleclick.net/~a/x68X44ew2pyxBCIOSzt_wxiQjA0/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/NeuhTnYAgoA" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/applications/75103_la-banque-postale-sort-lapplication-acces-compte-sous-android/feed/</wfw:commentRss>
+		<slash:comments>44</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/applications/75103_la-banque-postale-sort-lapplication-acces-compte-sous-android/</feedburner:origLink></item>
+		<item>
+		<title>Le jeu BackStab HD vient d�arriver sur l�Android Market</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/yq0frX65oms/</link>
+		<comments>http://www.frandroid.com/applications/75148_le-jeu-backstab-hd-est-disponible-sur-landroid-market/#comments</comments>
+		<pubDate>Tue, 05 Jul 2011 10:25:08 +0000</pubDate>
+		<dc:creator>Griphine</dc:creator>
+				<category><![CDATA[Applications Android]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75148</guid>
+
+		<description><![CDATA[Une bonne chose que de voir Gameloft lib�rer peu � peu son catalogue de jeux. Aujourd&#8217;hui, c&#8217;est au tour de BackStab HD de s&#8217;inviter dans la boutique de l&#8217;Android Market. En clair, BackStab HD nous plonge dans une histoire de vengeance sur une �le des Cara�bes au c�ur du 18�me si�cle. Accus� � tort de trahison, Henry Blake cherche par tous les moyens � assouvir sa <a class="more-link" href="http://www.frandroid.com/applications/75148_le-jeu-backstab-hd-est-disponible-sur-landroid-market/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>Une bonne chose que de voir Gameloft lib�rer peu � peu son catalogue de jeux. Aujourd&#8217;hui, c&#8217;est au tour de <strong>BackStab HD </strong>de s&#8217;inviter dans la boutique de l&#8217;Android Market.</p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/android-backstab-hd-screen-2.jpg"><img class="size-medium wp-image-75150 aligncenter colorbox-75148" title="android-backstab-hd-screen-2" src="http://images.frandroid.com/wp-content/uploads/2011/07/android-backstab-hd-screen-2-630x378.jpg" alt="" width="567" height="340" /></a></p>
+<p>En clair, BackStab HD nous plonge dans une histoire de vengeance sur une �le des Cara�bes au c�ur du 18�me si�cle. Accus� � tort de trahison, Henry Blake cherche par tous les moyens � assouvir sa vengeance sur les ge�liers britanniques. Ce h�ros bris� va mettre l��le � feu et � sang, mais retrouvera t-il sa fianc�e kidnapp�e ?</p>
+<p>M�langeant action et aventure, le joueur profitera d�une totale libert� de mouvement dans diff�rents environnements ouverts mod�lis�s en 3D. Avec un syst�me d�attaques et de contre-attaques dynamiques, l�aventure inclut des qu�tes et des missions secondaires, comme des duels et des courses. Les graphismes sont biens dessin�s et ne pr�sentent aucun ralentissement apparent sur des mobiles type Samsung Galaxy S, HTC Desire HD, etc. <span id="more-75148"></span></p>
+<p style="text-align: center;"><object width="567" height="349"><param name="movie" value="http://www.youtube.com/v/cUIvpBkMNWs?version=3&amp;hl=fr_FR" /><param name="allowFullScreen" value="true" /><param name="allowscriptaccess" value="always" /><embed type="application/x-shockwave-flash" width="567" height="349" src="http://www.youtube.com/v/cUIvpBkMNWs?version=3&amp;hl=fr_FR" allowfullscreen="true" allowscriptaccess="always"></embed></object></p>
+<p><strong>Informations compl�mentaires</strong></p>
+<ul>
+<li>D�couvrez une superproduction aux graphismes �poustouflants, � l&#8217;histoire in�dite et au contenu infini.</li>
+<li>Vivez une aventure pleine d&#8217;action dans des environnements ouverts, avec des s�quences de combat �labor�es, des phases de plateforme et bien plus.</li>
+<li>D�couvrez un r�cit plein d&#8217;action, de trahison et de vengeance.</li>
+<li>Incarnez un tueur solitaire qui n&#8217;a plus rien � perdre et dont le seul but est de se venger.</li>
+<li>Faites preuve d&#8217;agilit�, de force et de ruse pour prendre le dessus sur vos adversaires, les �liminer rapidement et vous �chapper.</li>
+<li>Ma�trisez le syst�me de combos et tuez ceux qui se dressent entre vous et votre cible.</li>
+<li>Pour la 1re fois sur Android, explorez une magnifique �le des Cara�bes du 18e si�cle.</li>
+<li>Immergez-vous dans un monde r�aliste avec des personnages non jouables dot�s de voix uniques.</li>
+<li>Promenez-vous dans une �le vaste aux paysages exotiques en 3D : jungle, plage, volcan, etc.</li>
+<li>Explorez 4 villes uniques pour d�couvrir de nouvelles qu�tes et de nouveaux secrets.</li>
+</ul>
+<p><strong>Terminaux Android support�s</strong></p>
+<ul>
+<li>HTC Desire HD (Ace)</li>
+<li>HTC Desire S</li>
+<li>HTC Desire Z (G2, Vision)</li>
+<li>HTC Evo Shift 4G</li>
+<li>HTC Incredible 2</li>
+<li>HTC Incredible S</li>
+<li>HTC Inspire 4G</li>
+<li>HTC MyTouch 4G</li>
+<li>HTC Thunderbolt 4G</li>
+<li>LG P990 Optimus 2X (Star)</li>
+<li>LG P999 (Star, G2x)</li>
+<li>Motorola Droid X</li>
+<li>Samsung Google Nexus S</li>
+<li>Samsung Google Nexus S 4G</li>
+<li>Samsung GT-i9000 (Galaxy S, i9000M, i9000B, i9000T)</li>
+<li>Samsung GT-P1000 (Galaxy Tab)</li>
+<li>Samsung SC-02B (Galaxy S)</li>
+<li>Samsung SCH-i400 (Continuum)</li>
+<li>Samsung SCH-i500 (Fascinate, Galaxy S)</li>
+<li>Samsung SCH-i500 (Fascinate, Galaxy S)</li>
+<li>Samsung SCH-i800 (Galaxy Tab)</li>
+<li>Samsung SGH-T849 (Galaxy Tab)</li>
+<li>Samsung SGH-T959 (Vibrant)</li>
+<li>Samsung SPH-D700 (Epic 4G)</li>
+<li>Samsung SPH-P100 (Galaxy Tab)</li>
+</ul>
+<p><strong>Informations techniques</strong></p>
+<ul>
+<li>Compatible d�s Android 2.0 (Eclair)</li>
+<li>Taille de l&#8217;application 1.5 Mo + donn�es � installer sur la carte SD</li>
+</ul>
+<p><strong>T�l�chargement</strong></p>
+<p>On peut se procurer BackStab HD en d�boursant ~ 4.82 euros sur l&#8217;Android Market :</p>
+<div class="app_zone">  <a class="app-link" href="http://frandroid.com/m/com.gameloft.android.ANMP.GloftSDHM"  style="float: right;" >    <img class="colorbox-75148"  src="http://chart.apis.google.com/chart?cht=qr&amp;chl=http://frandroid.com/m/com.gameloft.android.ANMP.GloftSDHM-qr&amp;chs=120x120" alt="BackStab HD" />  </a><br />
+<caption align="top">  <a class="app-link" href="http://frandroid.com/m/com.gameloft.android.ANMP.GloftSDHM" style="margin: 10px;" >    <img class="colorbox-75148"  src="https://ssl.gstatic.com/android/market/com.gameloft.android.ANMP.GloftSDHM/hi-124-18" alt="BackStab HD" width="60px" height="60px" /></a>  <a href="http://frandroid.com/m/com.gameloft.android.ANMP.GloftSDHM" ><b>BackStab HD</b></a><br/>
+<p class="app-desc">Surveillez vos arri�res, l&#39;heure de la vengeance a sonn� !&quot;Mon nom est Henry Blake, autrefois officier de la Royal Navy d&#39;Angleterre. Aujourd&#3&#8230;<br/><i>Gameloft</i>&nbsp;<span class="app-price">6,99 $US (environ 4,82 �)<span></p>
+</caption>
+<div class="clear"></div>
+</div>
+<p><strong>Via</strong> <a href="http://android.hdblog.it/2011/07/05/backstab-hd-disponibile-in-android-market-video/">HDBlog</a><strong>.</strong></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/I4ybb4YdZ_fc8efahjCkuNkTBXY/0/da"><img src="http://feedads.g.doubleclick.net/~a/I4ybb4YdZ_fc8efahjCkuNkTBXY/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/I4ybb4YdZ_fc8efahjCkuNkTBXY/1/da"><img src="http://feedads.g.doubleclick.net/~a/I4ybb4YdZ_fc8efahjCkuNkTBXY/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/yq0frX65oms" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/applications/75148_le-jeu-backstab-hd-est-disponible-sur-landroid-market/feed/</wfw:commentRss>
+		<slash:comments>39</slash:comments>
+		<enclosure url="http://www.youtube.com/v/cUIvpBkMNWs?version=3&amp;amp;hl=fr_FR" length="3130" type="application/x-shockwave-flash" /><media:content url="http://www.youtube.com/v/cUIvpBkMNWs?version=3&amp;amp;hl=fr_FR" fileSize="3130" type="application/x-shockwave-flash" /><feedburner:origLink>http://www.frandroid.com/applications/75148_le-jeu-backstab-hd-est-disponible-sur-landroid-market/</feedburner:origLink></item>
+		<item>
+		<title>Google+ inaugure t-il une nouvelle �re ?</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/uAlTnaRBjWw/</link>
+		<comments>http://www.frandroid.com/le-monde-de-la-mobilite/75126_google-inaugure-t-il-une-nouvelle-ere/#comments</comments>
+		<pubDate>Mon, 04 Jul 2011 23:24:43 +0000</pubDate>
+		<dc:creator>Ulrich</dc:creator>
+				<category><![CDATA[Le monde de la mobilit�]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75126</guid>
+
+		<description><![CDATA[Si vous vous �tes interrog� sur Google +, ne vous inqui�tez pas, vous n&#8217;�tes pas seuls. C&#8217;est impressionnant le bruit autour de Google+, en � peine 5 jours, j&#8217;ai lu des milliers d&#8217;avis sur Twitter, Quora, Facebook&#8230; Google + est dans la bouche de tous les technophiles, dont les plus grands influenceurs. Google +, Google Plus ou G + inaugure t-il une nouvelle �re ? Le lancement <a class="more-link" href="http://www.frandroid.com/le-monde-de-la-mobilite/75126_google-inaugure-t-il-une-nouvelle-ere/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>Si vous vous �tes interrog� sur Google +, ne vous inqui�tez pas, vous n&#8217;�tes pas seuls. C&#8217;est impressionnant le bruit autour de Google+, en � peine 5 jours, j&#8217;ai lu des milliers d&#8217;avis sur Twitter, Quora, Facebook&#8230; Google + est dans la bouche de tous les technophiles, dont les plus grands influenceurs. Google +, Google Plus ou G + inaugure t-il une nouvelle �re ?</p>
+<p style="text-align: center;"><img class="aligncenter size-medium wp-image-75137 colorbox-75126" title="Evolution_Social_Network" src="http://images.frandroid.com/wp-content/uploads/2011/07/Evolution_Social_Network-630x393.jpg" alt="" width="630" height="393" /></p>
+<p>Le lancement a tout de m�me �t� assez modeste, un billet sur le blog officiel de Google et des invitations priv�es (<a href="http://www.frandroid.com/applications/74877_google-lance-son-concurrent-a-facebook-google/">je vous invite � lire l&#8217;article d&#8217;introduction de G +</a>). Une semaine plus tard, des millions d&#8217;utilisateurs se sont d�j� ru�s sur ce r�seau social d&#8217;un nouveau genre. J&#8217;ai commenc� � utiliser G +, et ma consommation des r�seaux sociaux (et de l&#8217;information) a d�j� chang�. C&#8217;est avant tout la simplicit� et l&#8217;�l�gance qui m&#8217;ont plu, ainsi que la possibilit� d&#8217;�couter qui je souhaite. Voici quelques r�flexions pour lancer une discussion pragmatique sur le sujet. <span id="more-75126"></span></p>
+<p><strong>+1</strong></p>
+<p>Je me suis dans un premier temps pos� la question du <em><strong>&laquo;&nbsp;Plus&nbsp;&raquo;</strong>.</em> L&#8217;objectif de Google est de maintenir et de d�velopper son portfolio de marques, cela passe par une gestion de marque efficace, pour stabiliser voire augmenter l�apport intangible. Tout ce processus entra�ne ind�niablement la cr�ation de marques fortes et d&#8217;un positionnement clair par rapport aux concurrents. L&#8217;un des concepts cl�s dans ce contexte est la personnalit� des marques, o� l&#8217;on retrouve les associations de valeurs si ch�res � nos grandes marques.</p>
+<p style="text-align: center;"><img class="aligncenter size-full wp-image-75136 colorbox-75126" title="Screen-shot-2011-06-03-at-09.06.42" src="http://images.frandroid.com/wp-content/uploads/2011/07/Screen-shot-2011-06-03-at-09.06.42.png" alt="" width="546" height="330" /></p>
+<p>Je pourrai ainsi vous citer le &laquo;&nbsp;Prestige&nbsp;&raquo; pour Mercedes Benz ou encore la &laquo;&nbsp;s�curit�&nbsp;&raquo; pour Volvo. Avec Google, les gens ont tout de suite le mot &laquo;&nbsp;Recherche&nbsp;&raquo;, ce concept est encore plus fort avec des verbes. Aux Etats-Unis, &laquo;&nbsp;To Google&nbsp;&raquo; signifie &laquo;&nbsp;Recherche sur Internet&nbsp;&raquo;. Le coup marketing du &laquo;&nbsp;Plus&nbsp;&raquo; est donc assez ambitieux &laquo;&nbsp;+ ou +1&#8243;, cela signifie que vous rajoutez quelque chose � &laquo;&nbsp;vous&nbsp;&raquo;. Une valeur tr�s forte et une ambition tr�s importante pour Google, on avait d�j� �voqu� ce sujet avec l&#8217;arriv�e du bouton &laquo;&nbsp;+1&#8243;.</p>
+<p>Le SEO va �tre bouscul�, le SEM aussi.</p>
+<p><strong>S�curit�</strong></p>
+<p><strong></strong>Je viens tout juste de terminer mon aventure chez Orange Vall�e � r�fl�chir et � d�velopper des nouveaux services innovants, des services qui partent toujours de ce que l&#8217;on appelle des &laquo;&nbsp;use cases&nbsp;&raquo;, des cas d&#8217;utilisations : Google + est un produit tellement compliqu�, qu&#8217;il est encore difficile de d�finir la cartographie de l&#8217;ensemble des cons�quences, les cas d&#8217;utilisation �mergeront au fur et � mesure.</p>
+<p>N�anmoins, d&#8217;un point de vue technique on peut d�j� certifier que Google sera certainement l&#8217;outil privil�gi� des journalistes jusqu&#8217;aux journalistes citoyens (vous). Google + est effet crypt� en https, chaque connexion est s�curis�e&#8230; Twitter et Facebook ne le sont pas, tout comme de nombreux webmails comme Yahoo ou encore Zimbra. Notez que Facebook tente avec difficult� d&#8217;imposer la connexion s�curis�e depuis f�vrier, cela est d&#8217;autant plus compliqu� qu&#8217;il n&#8217;existe aujourd&#8217;hui aucune application Facebook s�curis�e.</p>
+<p>Enfin, il faut relativiser : la s�curit� ne vient pas seulement de certaines fonctionnalit�s, mais de l&#8217;histoire et de l&#8217;exp�rience que l&#8217;on tire de l&#8217;utilisation d&#8217;un service.</p>
+<p><strong>Cercles</strong></p>
+<p>Pourquoi ne peut-on pas tout simplement �tre amis sur Facebook ? Car nous n&#8217;avons pas que des amis : des connaissances, des coll�gues, de la famille, des voisins&#8230; Pourquoi ne devrait-on avoir que des amis ?</p>
+<p>Google a mis en place les &laquo;&nbsp;cercles&nbsp;&raquo;. En effet, il existe diff�rents cercles qui d�finissent notre entourage : amis, proches, connaissances, pro&#8230; <a href="http://www.lifeisbetteron.com/fr">Connaissiez-vous le travail de On (Orange Vall�e)</a> ? ils ont lanc� un outil pour g�rer plus facilement ses contacts � travers des groupes (application Android). L&#8217;utilisateur a ensuite le choix de diffuser le contenu qu&#8217;il souhaite dans tel ou tel groupe, il faut avouer qu&#8217;ils touchaient � quelque chose d&#8217;int�ressant. Ce contr�le de la &laquo;&nbsp;vie priv�e&nbsp;&raquo; fait sens, c&#8217;est clair et �vident. Il ne faut pas sous-estimer le probl�me que r�sout Google Cercles. C&#8217;est un vrai probl�me rencontr� sur Facebook. Amis, famille, coll�gues. La solution aujourd&#8217;hui �tait de participer � diff�rents r�seaux sociaux, mais vous oubliez que la plupart des non-technophiles ont juste un r�seau social : Facebook (Twitter est consid�r� comme un produit de niche en France). C&#8217;est un vrai probl�me, parce que les outils tels que Facebook g�re tr�s mal cet aspect. Je connais m�me des �tudiants dipl�m�s qui ont d�sactiv� leur compte Facebook une fois arriv�s sur le march� du travail. C&#8217;est un g�chis.</p>
+<p>Cela peut para�tre tr�s simple mais Google Cercles est une avanc�e consid�rable, si je me base sur mes faibles comp�tences en math�matiques, cette fonctionnalit� est bas�e sur les relations logico-math�matiques que l&#8217;on retrouve dans le diagramme de Venn. C&#8217;est � partir de ce constat que j&#8217;ai compris qu&#8217;il �tait �galement possible de cr�er des sous-cercles. Essayez, vous verrez.</p>
+<p>J&#8217;ai �galement test� l&#8217;application Android, Google + est capable de g�n�rer des cercles � partir de la position g�ographiques de mes contacts, permettant la cr�ation instantan�e de r�seaux g�ocentriques, tr�s int�ressante cette fonctionnalit�. J&#8217;imagine d�j� mon patissier l&#8217;utiliser. Puissant.</p>
+<p><strong>Pro</strong></p>
+<p><a href="http://images.frandroid.com/wp-content/uploads/2011/07/mda-300-google-plus-hangouts-ss.jpg"><img class="alignright size-full wp-image-75138 colorbox-75126" title="mda-300-google-plus-hangouts-ss" src="http://images.frandroid.com/wp-content/uploads/2011/07/mda-300-google-plus-hangouts-ss.jpg" alt="" width="300" height="177" /></a>C�t� pro, plus besoin de Skype ni de Salesforce, avec la gestion des cercles et l&#8217;arriv�e de Hangouts pour cr�er des visio-conf�rences vid�o depuis son navigateur (Hangout fonctionne avec Google Translate, au passage). Hangout est le Skype-killer que l&#8217;on attendait.</p>
+<p>Voici les deux premi�res utilisations &laquo;&nbsp;pro&nbsp;&raquo; qui me viennent � l&#8217;esprit, n�anmoins l&#8217;avantage de Google + pourrait �tre encore plus grand pour les TPE et PME, ainsi que les commer�ants locaux. Huddle et Hangouts sont assez puissants pour simplifier le ciblage.</p>
+<p>L&#8217;int�gration de Google Documents pourrait �galement accroitre le positionnement de Google comme environnement professionnel, avec un outil collaboratif tr�s puissant. On ajoute � cela l&#8217;int�gration de Google Talk puis de Google Voice.</p>
+<p>L&#8217;int�gration forte avec le mobile (surtout Android) est �galement une grande force de G +, la fonctionnalit� Instant Uploads est tr�s pratique.</p>
+<p style="text-align: center;"><img class="size-full wp-image-75139 colorbox-75126" title="a64f0_google-plus-android-1" src="http://images.frandroid.com/wp-content/uploads/2011/07/a64f0_google-plus-android-1.jpg" alt="" width="580" height="348" /></p>
+<p>Je pourrai �galement de vous parler de toutes les fonctionnalit�s li�es � la g�o-localisation, un sujet tr�s important sur lequel j&#8217;ai travaill� chez Orange Vall�e. Pouvoir lier � un lieu des histoires et du contenu, aucun r�seau social n&#8217;a encore r�ussi � recr�er cela. Je pourrai certainement vous en faire part dans un autre billet.</p>
+<p><strong>Une nouvelle �re ?</strong></p>
+<p>Je vois Google + comme la couche sociale pour agr�ger et normaliser tous les services Google. C&#8217;est une nouvelle �re pour Google apr�s des tentatives maladroites comme Wave ou Buzz&#8230; N�anmoins, je ne peux pas pr�dire la r�ussite ou l&#8217;�chec de G +. Ce que je pense, c&#8217;est que G + va percer rapidement aupr�s des technophiles, m�dias&#8230; N�anmoins, les gens normaux ne vont pas perdre du temps � compl�ter leurs graphes sociaux sur Google, ils n&#8217;ont pas que cela � faire. Pendant ce temps, Facebook va pouvoir reprendre un � un les bons morceaux de G +, ce n&#8217;est pas  cequ&#8217;ils font depuis le d�but (dixit Twitter et Foursquare). Non ?</p>
+<p>J&#8217;imagine donc mal les &laquo;&nbsp;gens normaux&nbsp;&raquo; recr�er les liens sociaux de leur vie physique, n�anmoins cette id�e m&#8217;agite et me pla�t. Cela pourrait �tre puissant, maman et papa sur G + ? Encore faudrait-il qu&#8217;ils prennent conscience qu&#8217;il est possible de rester dans l&#8217;intimit� m�me dans un r�seau social.</p>
+<p>Google a peut-�tre raison de d�terminer la �segmentation� comme le plus gros probl�me sur Facebook. Mais le succ�s de Google + ne peut pas seulement �tre attribu�e � une fonction. Google a cr�� quelque chose de grand sans impliquer la communaut� dans sa premi�re �tape. Comment s&#8217;assurer de l&#8217;appropriation du nouveau service par la communaut� ? Je crois que les bases de la construction de la communaut� sont ignor�es. Cr�er quelque chose de grand en une seule fois et attendre que tous les segments de la communaut�  l&#8217;adoptent et donnent une portion importante de leur part le temps est trop optimiste. M&#8217;enfin, je suis loin d&#8217;avoir la science infuse surtout sur les probl�matiques sociales.</p>
+<p>Et vous, avez-vous commenc� � utiliser G + ? Qu&#8217;est ce qui vous plait ?</p>
+<p><a href="https://plus.google.com/115621978245054419699/posts">Mon compte Google Plus est par ici, n&#8217;h�sitez pas � m&#8217;ajouter � vos cercles. <img src='http://www.frandroid.com/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley colorbox-75126' /> </a></p>
+<p>R�f�rences :</p>
+<ul>
+<li>http://scobleizer.com/2011/07/01/why-yo-momma-wont-use-google-and-why-that-thrills-me-to-no-end/</li>
+<li>http://techcrunch.com/2011/07/02/when-google-circles-collide/</li>
+<li>https://cpj.org/internet/2011/07/google-for-journalists-at-risk.php</li>
+<li>http://techcrunch.com/2011/07/02/when-google-circles-collide/</li>
+</ul>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/1xB6sVFUVoqUsluenqzsfXU1PI4/0/da"><img src="http://feedads.g.doubleclick.net/~a/1xB6sVFUVoqUsluenqzsfXU1PI4/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/1xB6sVFUVoqUsluenqzsfXU1PI4/1/da"><img src="http://feedads.g.doubleclick.net/~a/1xB6sVFUVoqUsluenqzsfXU1PI4/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/uAlTnaRBjWw" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/le-monde-de-la-mobilite/75126_google-inaugure-t-il-une-nouvelle-ere/feed/</wfw:commentRss>
+		<slash:comments>205</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/le-monde-de-la-mobilite/75126_google-inaugure-t-il-une-nouvelle-ere/</feedburner:origLink></item>
+		<item>
+		<title>Google+, pr�cision sur le partage automatique de photos sous Android</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/8sWuM30h77M/</link>
+		<comments>http://www.frandroid.com/actualites-generales/75096_google-precision-sur-le-partage-automatique-de-photos-sous-android/#comments</comments>
+		<pubDate>Mon, 04 Jul 2011 17:47:26 +0000</pubDate>
+		<dc:creator>Griphine</dc:creator>
+				<category><![CDATA[Actualit�s G�n�rales]]></category>
+		<category><![CDATA[Applications Android]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75096</guid>
+
+		<description><![CDATA[R�cemment, iNoccolo, l&#8217;un de nos confr�res de HDBlog a soulev� une m�connaissance li� au partage de photos que l&#8217;on peut facilement activer par inadvertance sur Google+. En effet, certains utilisateurs se sont aper�us que leur forfait data avait quelque peu explos�. La m�connaissance en question est le partage de photos automatique se faisant lorsque l&#8217;on prend une photo avec son smartphone Android. Sachant qu&#8217;une seule <a class="more-link" href="http://www.frandroid.com/actualites-generales/75096_google-precision-sur-le-partage-automatique-de-photos-sous-android/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>R�cemment, iNoccolo, l&#8217;un de nos confr�res de HDBlog a soulev� une m�connaissance li� au partage de photos que l&#8217;on peut facilement activer par inadvertance sur Google+.</p>
+<p><a href="http://images.frandroid.com/wp-content/uploads/2011/07/android-google-plus.jpg"><img class="aligncenter size-full wp-image-75105 colorbox-75096" title="android-google-plus" src="http://images.frandroid.com/wp-content/uploads/2011/07/android-google-plus.jpg" alt="" width="550" height="268" /></a></p>
+<p>En effet, certains utilisateurs se sont aper�us que leur forfait data avait quelque peu explos�. La m�connaissance en question est le partage de photos automatique se faisant lorsque l&#8217;on prend une photo avec son smartphone Android. Sachant qu&#8217;une seule photo p�se entre 900ko et 1.5mo, je ne vous laisse pas imaginer la consommation data, et vu la limitation de nos forfaits mobiles, �a peut tr�s rapidement devenir un probl�me. <span id="more-75096"></span></p>
+<p>Pour pallier cela, il suffit d&#8217;ouvrir l&#8217;application mobile de Google+, pour se rendre dans la partie &laquo;&nbsp;Photos&nbsp;&raquo;, &laquo;&nbsp;Param�tres&nbsp;&raquo; (settings), et on d�coche les options &laquo;&nbsp;Instant Upload&nbsp;&raquo; &amp; &laquo;&nbsp;Roaming Upload&nbsp;&raquo; pour seulement activer la &laquo;&nbsp;Synchronisation en Wi-Fi&nbsp;&raquo; ; beaucoup moins co�teuse.</p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/android-google-plus-instant-upload.jpg"><img class="aligncenter size-full wp-image-75106 colorbox-75096" title="android-google-plus-instant-upload" src="http://images.frandroid.com/wp-content/uploads/2011/07/android-google-plus-instant-upload.jpg" alt="" width="288" height="480" /></a></p>
+<p style="text-align: left;">A pr�sent, les photos prises depuis l&#8217;appareil photo ne se synchroniseront plus avec Google+ lorsque le smartphone sera connect� aux r�seaux mobiles, mais continueront � l&#8217;�tre avec Picasa Web.</p>
+<p style="text-align: left;">Pour solutionner totalement la chose, il faut se rendre dans les &laquo;&nbsp;Param�tres&nbsp;&raquo; du mobile, puis &laquo;&nbsp;Param�tres de compte et synchronisation&nbsp;&raquo;, pour cliquer sur son compte Google, et enfin d�sactiver la synchronisation avec Picasa Web.</p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/android-sync-picasa-web-.jpg"><img class="aligncenter size-full wp-image-75109 colorbox-75096" title="android-sync-picasa-web-" src="http://images.frandroid.com/wp-content/uploads/2011/07/android-sync-picasa-web-.jpg" alt="" width="288" height="480" /></a></p>
+<p>Derni�re pr�cision : si vous attendiez une invitation pour Google+, elles semblent temporairement d�sactiv�es chez certains utilisateurs.</p>
+<p><strong>Via</strong> <a href="http://android.hdblog.it/2011/07/04/google-attenzione-allupload-foto-automatico/">HDBlog</a><strong>.</strong></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/pUfoslKnBvKCoU_Jgh3oX_49WBI/0/da"><img src="http://feedads.g.doubleclick.net/~a/pUfoslKnBvKCoU_Jgh3oX_49WBI/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/pUfoslKnBvKCoU_Jgh3oX_49WBI/1/da"><img src="http://feedads.g.doubleclick.net/~a/pUfoslKnBvKCoU_Jgh3oX_49WBI/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/8sWuM30h77M" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/actualites-generales/75096_google-precision-sur-le-partage-automatique-de-photos-sous-android/feed/</wfw:commentRss>
+		<slash:comments>137</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/actualites-generales/75096_google-precision-sur-le-partage-automatique-de-photos-sous-android/</feedburner:origLink></item>
+		<item>
+		<title>B&amp;You une mauvaise com� envers FrAndroid</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/k0As2pwOzPg/</link>
+		<comments>http://www.frandroid.com/actualites-generales/75080_byou-une-mauvaise-com-envers-frandroid/#comments</comments>
+		<pubDate>Mon, 04 Jul 2011 15:05:14 +0000</pubDate>
+		<dc:creator>Jorodan</dc:creator>
+				<category><![CDATA[Actualit�s G�n�rales]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75080</guid>
+
+		<description><![CDATA[Ce matin, nous vous pr�sentions le communiqu� de presse re�u quelques heures plus t�t � propos de B&#38;You de Bouygues Telecom. Cette nouvelle marque, est un peu � Bouygues Telecom, ce que IDTGV est � la SNCF : une organisation repens�e qui permet d&#8217;offrir des services et des tarifs diff�rents. Personnellement (et je pense pouvoir �tendre � l&#8217;ensemble de FrAndroid aussi), j&#8217;entretiens un tr�s bon relationnel avec <a class="more-link" href="http://www.frandroid.com/actualites-generales/75080_byou-une-mauvaise-com-envers-frandroid/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>Ce matin, nous vous pr�sentions le communiqu� de presse re�u quelques heures plus t�t � propos de <a href="http://www.frandroid.com/le-monde-de-la-mobilite/75060_bouygues-telecom-lance-les-forfaits-byou-avec-de-lillimite-limite/">B&amp;You de Bouygues Telecom</a>. Cette nouvelle marque, est un peu � Bouygues Telecom, ce que IDTGV est � la SNCF : une organisation repens�e qui permet d&#8217;offrir des services et des tarifs diff�rents.</p>
+<p><a href="http://images.frandroid.com/wp-content/uploads/2011/07/b-and-you-idee-bouygues-telecom.jpg"><img class="aligncenter size-full wp-image-75061 colorbox-75080" title="b-and-you-idee-bouygues-telecom" src="http://images.frandroid.com/wp-content/uploads/2011/07/b-and-you-idee-bouygues-telecom.jpg" alt="" width="550" height="305" /></a></p>
+<p>Personnellement (et je pense pouvoir �tendre � l&#8217;ensemble de FrAndroid aussi), j&#8217;entretiens un tr�s bon relationnel avec Bouygues Telecom. Je suis client depuis 6 mois et plut�t satisfait. Je reconnais assez fr�quemment des d�bit un peu l�gers mais largement contre-balanc�s par des forfaits moins chers que Orange et SFR.</p>
+<p>De plus, en tant que blogueur, je les trouve tr�s ouverts dans leurs �changes et agr�ables dans la consid�rations qu&#8217;ils ont de nous. Nous n&#8217;avons pas l&#8217;impression d&#8217;�tre des relais de communiqu�s de presse, mais des geeks un peu hors du lot avec lesquels ils veulent discuter. Il faut dire ce qui est, c&#8217;est agr�able. Et jusque l�, qu&#8217;on dise du bien ou du mal de leur enseigne, �a n&#8217;a pas terni notre relationnel, ils respectent bien notre libert� d&#8217;expression.</p>
+<p>Mais aujourd&#8217;hui, ils ont fait un faux pas que nous sauront pardonner, sans pour autant tomber dans le panneau. Voyons ensemble les erreurs commises :<span id="more-75080"></span></p>
+<p>La premi�re a �t� de pr�senter deux forfaits comme &laquo;&nbsp;novateurs&nbsp;&raquo; alors que des �quivalents existent d�j� chez eux ou la concurrence.</p>
+<p>Le premier forfait (voix, sms/illimit�s, Wifi mais pas d&#8217;Internet en 3G [il faut payer 0,05� de plus par Mo] pour 24,90� est plut�t int�ressant, ce forfait ne trouve de comparaison que chez Zero Forfait ou les 19 num�ros en illimit�s sont � 19� (mais contraignant), ou chez PrixTel avec le m�me forfait � 29.90�. Sur ce forfait, Bouygues est dont le mieux positionn�.</p>
+<p>Le probl�me vient sur le deuxi�me forfait qui semble �tre celui fait pour les utilisateurs vis�s par le communiqu� de presse dont &laquo;&nbsp;les smartphones ont transform� leur t�l�phone mobile en un PC au creux de leur main&nbsp;&raquo;. Il offre pour 12� de plus Internet mobile <strong>jusqu&#8217;� 500Mo puis la suite pour 0.05� le Mo</strong>. Oui oui, vous m&#8217;avez bien lu, un forfait non illimit� en Internet pour des gens dont le mobile devient le &laquo;&nbsp;PC au creux de la main&nbsp;&raquo;. Moi je suis d�sol�, mais mon smartphone sans Internet il ressemble plus � Nokia 3310 qu&#8217;� un PC quand on lui a enlev� Internet.</p>
+<p>Ajoutez � �a que mon forfait actuel offre mieux pour le m�me prix. J&#8217;ai un forfait Evasio �co 2h+2h, avec Internet Illimit� (brid� � 500Mo), 3 num�ros en illimit�s et SMS Illimit�s. La seule contrainte, c&#8217;est que je suis li� 24 mois. Mais apr�s 12 mois, je peux partir en payant 3 mois, dont 1 m&#8217;est offert � l&#8217;inscription et 2 autres peuvent facilement �tre offerts en parrainage&#8230; Ha, et chose importante, � ce prix l� mon SAV c&#8217;est Bouygues qui le fait, pas les internautes.</p>
+<p>Donc oui, le forfait sens� attirer les utilisateurs est un <strong>gros leurre</strong>.</p>
+<p style="text-align: left;"><a href="http://images.frandroid.com/wp-content/uploads/2011/04/01596174-photo-logo-bouygues-telecom.png"><img class="aligncenter size-medium wp-image-69239 colorbox-75080" title="01596174-photo-logo-bouygues-telecom" src="http://images.frandroid.com/wp-content/uploads/2011/04/01596174-photo-logo-bouygues-telecom-630x315.png" alt="" width="378" height="189" /></a>Bon l� j&#8217;ai un peu plus d�taill�, mais c&#8217;est ce que Ulrich vous a expos� ce matin. Donc pourquoi faire une suite � ce billet ? Parce qu&#8217;il y a une suite � l&#8217;affaire.</p>
+<p style="text-align: left;">Nous avions fait une erreur dans le premier billet (corrig�e depuis) ou nous reprenions les mots du CP en donnant l&#8217;impression que Internet 3G+ et illimit� �taient li�s &laquo;&nbsp;noir sur blanc&nbsp;&raquo;. Comme ce n&#8217;�tait pas le cas, nous avons corrig�, mais le sens cach� du communiqu� de presse n&#8217;�tait pas parti et continuait � semer la confusion dans l&#8217;esprit des geeks qui comme nous sont vis�s par ce CP et qui ont besoin d&#8217;Internet en illimit�. Donc dans l&#8217;esprit cordial habituel, Bouygues nous a appel� pour corriger notre erreur et nous nous sommes ex�cut�. Mais la discussion s&#8217;est envenim�e quand il a �t� expliqu� que le sens du billet ne changerait pas ! Para�t-il, nous avions mal compris le CP. Mais nous avons r�ussi � expliquer que les &laquo;&nbsp;petites �critures&nbsp;&raquo; n�fastes pour les utilisateurs, nous on aime pas. Le service commercial �tant toujours cordial, nous avons pu raccrocher avec un ton de voix de chaque c�t� tout � fait normal. Donc j&#8217;esp�re que la prochaines fois, les Mo payants seront �crits en gros&#8230;</p>
+<p style="text-align: left;">Mais �a ne s�arr�te pas l�. Depuis, les commentaires sont envahis par 2-3 profils qui, s&#8217;ils ne s&#8217;identifient pas comme tels, ressemblent fortement � des employ�s du service marketing de Bouygues Telecom. Et pour l&#8217;instant je trouve leur argumentaire tr�s r�p�titif et sans �l�ment vraiment pesant.</p>
+<p style="text-align: left;">Si ce billet est lu par des responsables marketing qui seront en contact avec nous � l&#8217;avenir, voici quelques conseils, venant de notre cot� du blog :</p>
+<ol>
+<li>Entretenir un relationnel avec nous est une excellente initiative. C&#8217;est � nous de faire comprendre � nos lecteurs que �a ne nous emp�che pas d&#8217;�tre critiques quand il le faut. Mais �a ne vous autorise en rien � nous incendier sur une erreur dans un billet venant du m�me CP fait en 30 minutes envoy� � toute la presse web.</li>
+<li>R�pondre dans les commentaires, c&#8217;est une excellente initiative. Mais par piti�, ne faites pas semblant d&#8217;�tre des lecteurs et utilisez des pseudos o� on sait qui vous repr�sentez. Ce n&#8217;est pas par rapport � l&#8217;�quipe de r�daction mais par respect pour les personnes avec qui vous �changez dans les commentaires.</li>
+<li>Ne prenez pas le risque de faire un positionnement marketing &laquo;&nbsp;geek&nbsp;&raquo; sans �tre sur que les geeks ne vont pas d�cortiquer l&#8217;offre jusqu&#8217;� l&#8217;os et trouver une maladie.</li>
+</ol>
+<p>Je tiens � finir en expliquant que mon image de l&#8217;op�rateur n&#8217;a pas chang�, je pense toujours que c&#8217;est un bon bougre. Donc je ne serai pas plus dur envers Bouygues Telecom. Mais sur cette affaire, je vous le crie : PASSEZ VOTRE CHEMIN futurs clients.</p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/mxyj84u-ls7f0KtvpL0JRvvpm8E/0/da"><img src="http://feedads.g.doubleclick.net/~a/mxyj84u-ls7f0KtvpL0JRvvpm8E/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/mxyj84u-ls7f0KtvpL0JRvvpm8E/1/da"><img src="http://feedads.g.doubleclick.net/~a/mxyj84u-ls7f0KtvpL0JRvvpm8E/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/k0As2pwOzPg" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/actualites-generales/75080_byou-une-mauvaise-com-envers-frandroid/feed/</wfw:commentRss>
+		<slash:comments>244</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/actualites-generales/75080_byou-une-mauvaise-com-envers-frandroid/</feedburner:origLink></item>
+		<item>
+		<title>Un smartphone HTC avec du WiMAX pour la sortie de Free Mobile ?</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/uVX9QkQ1HV4/</link>
+		<comments>http://www.frandroid.com/actualites-generales/75081_un-smartphone-htc-avec-du-wimax-pour-la-sortie-de-free-mobile/#comments</comments>
+		<pubDate>Mon, 04 Jul 2011 14:43:03 +0000</pubDate>
+		<dc:creator>g123k</dc:creator>
+				<category><![CDATA[Actualit�s G�n�rales]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75081</guid>
+
+		<description><![CDATA[Free Mobile aurait l&#8217;intention d&#8217;utiliser ses fr�quences WiMAX, en plus de la 4G. D�s son arriv�e, il pourrait donc y avoir un smartphone HTC supportant ce type de r�seau. L&#8217;arriv�e de Free Mobile est attendue au tournant. La principale raison est la baisse des forfaits. Xavier Niel s&#8217;est exprim� � de nombreuses reprises sur le sujet et compte r�volutionner ce march�, comme l&#8217;a fait Free sur <a class="more-link" href="http://www.frandroid.com/actualites-generales/75081_un-smartphone-htc-avec-du-wimax-pour-la-sortie-de-free-mobile/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>Free Mobile aurait l&#8217;intention d&#8217;utiliser ses fr�quences WiMAX, en plus de la 4G. D�s son arriv�e, il pourrait donc y avoir un smartphone HTC supportant ce type de r�seau.</p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/logo-free-mobile-4dff568e8cc70.png"><img class="aligncenter size-full wp-image-75082 colorbox-75081" title="logo-free-mobile-4dff568e8cc70" src="http://images.frandroid.com/wp-content/uploads/2011/07/logo-free-mobile-4dff568e8cc70.png" alt="" width="600" height="298" /></a></p>
+<p>L&#8217;arriv�e de Free Mobile est attendue au tournant. La principale raison est la baisse des forfaits. Xavier Niel s&#8217;est exprim� � de nombreuses reprises sur le sujet et compte r�volutionner ce march�, comme l&#8217;a fait Free sur Internet. Mais il pourrait y avoir une deuxi�me nouveaut�. C&#8217;est <a href="http://www.lefigaro.fr/conjoncture/2011/06/30/04016-20110630ARTFIG00671-wimax-le-bon-calcul-de-free-et-bollore.php" target="_blank">Le Figaro</a> qui le d�voile se matin dans ses colonnes :</p>
+<blockquote><p>&laquo;&nbsp;Free a bien l&#8217;intention d&#8217;utiliser ses fr�quences Wimax, en compl�ment de ses futures fr�quences 4G.&nbsp;&raquo;</p></blockquote>
+<p>Le WiMAX peut-�tre utilis� pour envoyer des donn�es en haut d�bit. Il ne peut pas �tre utilis� directement pour faire de la voix (hors VOiP). Cette technologie n&#8217;a pas su s&#8217;imposer face au LTE, qui est une autre norme de la 4G. A l&#8217;heure actuelle, Free et Bollor� d�tiennent chacun des fr�quences, mais ne l&#8217;utilisent pas � la juste valeur. En effet, son d�ploiement est encore anecdotique et le minimum demand� dans les accords a �t� r�alis�. En parall�le de nombreux acteurs du secteur comme Cisco, Nokia Siemens Network, Intel&#8230; devaient livrer des �quipements, mais ont finalement d�laiss� ce march�.</p>
+<p>Les investissements �tant cons�quents, il se murmure que Free pourrait finalement utiliser ses fr�quences WiMAX, � leur juste valeur. On parle alors de discussions avanc�es avec HTC. Il se pourrait donc que simultan�ment � l&#8217;arriv�e de cet op�rateur, il puisse y avoir des t�l�phones acceptant cette technologie. Ce serait une premi�re en France.<span id="more-75081"></span></p>
+<p>L&#8217;int�r�t du WiMAX est d&#8217;avoir une alternative � la 4G. Elle n&#8217;arrivera qu&#8217;en 2012, tout en proposant des d�bits proches (th�oriques de 20 m�gabits/sec). Ce serait donc une mani�re pour Free de devancer ses concurrents. En 2016, Bruxelles a impos� qu&#8217;� partir de mai 2016, les autorisations devront �tre neutres technologiquement. Il sera donc tout � fait possible de proposer du WiMAX, pour l&#8217;Internet mobile � haut d�bit. Sachant que les ench�res risquent d&#8217;�tre �lev�es pour la 4G, Free aurait toujours une solution de secours, qui lui permettrait de proposer un Internet rapide. On pourrait m�me imaginer que Free se retire des ench�res pour l&#8217;attribution de fr�quences 4G, ce qui serait un grand manque � gagner pour l&#8217;Etat, car pr�s de 2,5 milliards d&#8217;euros sont attendus.</p>
+<p>Mais il faut toutefois nuancer ce discours. Les fr�quences existent depuis longtemps et le &laquo;&nbsp;bient�t&nbsp;&raquo; s&#8217;�ternise. Les industriels ont choisi la norme LTE pour la 4G et les investissements vont et iront dans ce sens. Il se pourrait donc que Free trouve une parade pour joindre cette technologie � des services sp�cifiques. Serait-ce une solution contre la saturation des r�seaux ? L&#8217;op�rateur aurait alors une r�elle valeur ajout�e !</p>
+<p>Source : <a href="http://www.universfreebox.com/article14537.html" target="_blank">Univers Freebox</a></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/40JXeuGOz0TmK_ZQ1WuqRzyAM54/0/da"><img src="http://feedads.g.doubleclick.net/~a/40JXeuGOz0TmK_ZQ1WuqRzyAM54/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/40JXeuGOz0TmK_ZQ1WuqRzyAM54/1/da"><img src="http://feedads.g.doubleclick.net/~a/40JXeuGOz0TmK_ZQ1WuqRzyAM54/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/uVX9QkQ1HV4" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/actualites-generales/75081_un-smartphone-htc-avec-du-wimax-pour-la-sortie-de-free-mobile/feed/</wfw:commentRss>
+		<slash:comments>48</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/actualites-generales/75081_un-smartphone-htc-avec-du-wimax-pour-la-sortie-de-free-mobile/</feedburner:origLink></item>
+		<item>
+		<title>Les ventes de HTC progressent de 87,8% sur un an</title>
+
+		<link>http://feedproxy.google.com/~r/Frandroid/~3/dZ4uXPcbzrA/</link>
+		<comments>http://www.frandroid.com/actualites-generales/75076_les-ventes-de-htc-progressent-de-878-sur-un-an/#comments</comments>
+		<pubDate>Mon, 04 Jul 2011 13:28:44 +0000</pubDate>
+		<dc:creator>g123k</dc:creator>
+				<category><![CDATA[Actualit�s G�n�rales]]></category>
+		<guid isPermaLink="false">http://www.frandroid.com/?p=75076</guid>
+
+		<description><![CDATA[Rien ne semble pouvoir arr�ter la croissance de HTC. Ses ventes viennent de progresser de 87,8%, comparativement � juin 2010. Cela lui permet d&#8217;occuper d�sormais la cinqui�me place des constructeurs, juste derri�re Apple. Le march� des smartphones est en forte croissance. Des acteurs sont plut�t passifs et selon les analystes se sont principalement Motorola et RIM qui sont vis�s. Ils ne b�n�ficieront pas enti�rement de ce <a class="more-link" href="http://www.frandroid.com/actualites-generales/75076_les-ventes-de-htc-progressent-de-878-sur-un-an/">Lire la suite...</a>]]></description>
+			<content:encoded><![CDATA[<p>Rien ne semble pouvoir arr�ter la croissance de HTC. Ses ventes viennent de progresser de 87,8%, comparativement � juin 2010. Cela lui permet d&#8217;occuper d�sormais la cinqui�me place des constructeurs, juste derri�re Apple.</p>
+<p style="text-align: center;"><a href="http://images.frandroid.com/wp-content/uploads/2011/07/htc-expects-to-ship-60-million-handsets-in-2011-htc-is-growing-projections-for-2010-were-at-20-milli_1.jpg"><img class="aligncenter size-full wp-image-75077 colorbox-75076" title="htc-expects-to-ship-60-million-handsets-in-2011-htc-is-growing-projections-for-2010-were-at-20-milli_1" src="http://images.frandroid.com/wp-content/uploads/2011/07/htc-expects-to-ship-60-million-handsets-in-2011-htc-is-growing-projections-for-2010-were-at-20-milli_1.jpg" alt="" width="400" height="300" /></a></p>
+<p>Le march� des smartphones est en forte croissance. Des acteurs sont plut�t passifs et selon les analystes se sont principalement Motorola et RIM qui sont vis�s. Ils ne b�n�ficieront pas enti�rement de ce boom. A l&#8217;inverse d&#8217;autres sont en pointe, comme HTC par exemple. La s�lection d&#8217;Android d�s sa naissance semble avoir port� ses fruits. Le constructeur fait aussi le pari de Windows Phone 7, ce qui lui permet de toujours avoir une alternative.</p>
+<p>Mois apr�s mois, HTC donne toujours des excellents chiffres sur ses ventes. La r�gle se confirme en comparaison du mois de juin 2010, avec une augmentation de <strong>87,8%</strong>. Cela a permis en parall�le de booster l&#8217;action, qui vient de progresser de 19%. Il occupe maintenant la <strong>cinqui�me place</strong> parmi les constructeurs, en se pla�ant <strong>juste derri�re Apple</strong>.<span id="more-75076"></span></p>
+<p>Selon Gartner, Android repr�sente 36% du march� des smartphones au mois de mai. Ce choix permet � HTC d&#8217;entrevoir des ventes d&#8217;environ 50 millions d&#8217;exemplaires en 2011. A la vue de ces chiffres, on comprend ais�ment pourquoi certains concurrents sont tent�s d&#8217;intenter des proc�s.</p>
+<p>Source : <a href="http://www.electronista.com/articles/11/07/04/htc.moves.to.fifth.position.behind.apple/" target="_blank">Electronista</a></p>
+
+<p><a href="http://feedads.g.doubleclick.net/~a/dRbL4sIHS9WnGRnUOT4AQrdInnI/0/da"><img src="http://feedads.g.doubleclick.net/~a/dRbL4sIHS9WnGRnUOT4AQrdInnI/0/di" border="0" ismap="true"></img></a><br/>
+<a href="http://feedads.g.doubleclick.net/~a/dRbL4sIHS9WnGRnUOT4AQrdInnI/1/da"><img src="http://feedads.g.doubleclick.net/~a/dRbL4sIHS9WnGRnUOT4AQrdInnI/1/di" border="0" ismap="true"></img></a></p><img src="http://feeds.feedburner.com/~r/Frandroid/~4/dZ4uXPcbzrA" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://www.frandroid.com/actualites-generales/75076_les-ventes-de-htc-progressent-de-878-sur-un-an/feed/</wfw:commentRss>
+		<slash:comments>51</slash:comments>
+		<feedburner:origLink>http://www.frandroid.com/actualites-generales/75076_les-ventes-de-htc-progressent-de-878-sur-un-an/</feedburner:origLink></item>
+	<copyright>Copyright FrAndroid</copyright><media:rating>nonadult</media:rating></channel>
+
+</rss><!-- Dynamic page generated in 0.519 seconds. --><!-- Cached page generated by WP-Super-Cache on 2011-07-08 23:44:40 --><!-- Compression = gzip -->

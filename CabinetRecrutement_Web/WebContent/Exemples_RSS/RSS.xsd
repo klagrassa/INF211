@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <!--
+    RSS 2.0 at Harvard Law: http://cyber.law.harvard.edu/rss/rss.html
+  -->
+  <xs:element name="rss">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="channel"/>
+      </xs:sequence>
+      <xs:attribute name="version" use="required" type="xs:decimal"/>
+    </xs:complexType>
+  </xs:element>
+
+  <!--
+    The name of the channel. It's how people refer to your service. If you have an HTML
+    website that contains the same information as your RSS file, the title of your
+    channel should be the same as the title of your website.
+  -->
+  <xs:element name="channel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="title"/>
+        <xs:element ref="link"/>
+        <xs:element ref="description"/>
+        <xs:element ref="pubDate" minOccurs="0"/>
+        <xs:element ref="image" minOccurs="0"/>
+        <xs:element maxOccurs="unbounded" ref="item" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!--
+    ===================================================================================
+    Required channel elements:
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    title, link and description.
+
+
+    Optional channel elements:
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    pubDate, image.
+    
+    Possible sub-element not described in this XML schema but described in the
+    specification:
+    language, copyright, managingEditor, webMaster, lastBuildDate, category,
+    generator, docs, cloud, ttl, rating, textInput, skipHours and skipDays.
+    ===================================================================================
+  -->
+
+  <!--
+    title
+    =====
+    The name of the channel. It's how people refer to your service. If you have an HTML
+    website that contains the same information as your RSS file, the title of your
+    channel should be the same as the title of your website.
+  -->
+  <xs:element name="title" type="xs:string"/>
+
+  <!--
+    link
+    ====
+    The URL to the HTML website corresponding to the channel.
+  -->
+  <xs:element name="link" type="xs:anyURI"/>
+
+  <!--
+    description
+    ===========
+    Phrase or sentence describing the channel.
+  -->
+  <xs:element name="description" type="xs:string"/>
+
+  <!--
+    pubDate
+    =======
+    The publication date for the content in the channel. For example, the New York Times
+    publishes on a daily basis, the publication date flips once every 24 hours. That's
+    when the pubDate of the channel changes. All date-times in RSS conform to the Date
+    and Time Specification of RFC 822 (http://asg.web.cmu.edu/rfc/rfc822.html), with the
+    exception that the year may be expressed with two characters or four characters
+    (four preferred).
+  -->
+  <xs:element name="pubDate" type="xs:string"/>
+
+  <!--
+    image
+    =====
+    Specifies a GIF, JPEG or PNG image that can be displayed with the channel which
+    contains three required (url, title and link).
+    Three possible sub-elements (width, height and description) are possible but not
+    describe in this schema.
+  -->
+  <xs:element name="image">
+    <xs:complexType>
+      <xs:sequence>
+        <!--
+          URL of a GIF, JPEG or PNG image that represents the channel.
+        -->
+        <xs:element ref="url"/>
+        <!--
+          Describes the image, it's used in the ALT attribute of the HTML <img> tag when
+          the channel is rendered in HTML. 
+        -->
+        <xs:element ref="title"/>
+        <!--
+          URL of the site, when the channel is rendered, the image is a link to the site.
+          (Note, in practice the image <title> and <link> should have the same value as the
+          channel's <title> and <link>. 
+        -->
+        <xs:element ref="link"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="url" type="xs:anyURI"/>
+
+  <!--
+    item
+    ====
+    A channel may contain any number of <item>s. An item may represent a "story" much
+    like a story in a newspaper or magazine; if so its description is a synopsis of the
+    story, and the link points to the full story. An item may also be complete in
+    itself, if so, the description contains the text (entity-encoded HTML is allowed;
+    see examples), and the link and title may be omitted. All elements of an item are
+    optional, however at least one of title or description must be present. 
+  -->
+  <xs:element name="item">
+    <xs:complexType>
+      <xs:sequence>
+        <!-- The title of the item. -->
+        <xs:element ref="title"       maxOccurs="1" minOccurs="1"/>
+        <!-- The URL of the item. -->
+        <xs:element ref="link"        minOccurs="1" maxOccurs="1"/>
+        <!-- The item synopsis. -->
+        <xs:element ref="description" maxOccurs="1" minOccurs="1"/>
+        <!-- Its value is a date, indicating when the item was published. -->
+        <xs:element ref="pubDate"     maxOccurs="1" minOccurs="1"/>
+        <!-- Describes a media object that is attached to the item. -->
+        <xs:element ref="enclosure"   maxOccurs="1" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!--
+    Describes a media object that is attached to the item.
+  -->
+  <xs:element name="enclosure">
+    <xs:complexType>
+      <xs:attribute name="type" use="required"/>
+      <xs:attribute name="url" use="required" type="xs:anyURI"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

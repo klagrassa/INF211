@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>CabinetRecrutement_Web</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <context-param>
+    <param-name>URL_BASE</param-name>
+    <!--
+      Valeur en local pour développement
+    -->
+      <param-value>http://localhost:8080</param-value>
+    <!--
+      Valeur pour déploiement de l'appli sur srv-labs
+    <param-value>http://srv-labs-006.enst-bretagne.fr</param-value>
+    -->
+  </context-param>
+  <!--
+    Note sur la mise en place de la "facet" JAX-RS sur Eclipse :
+      1 - Dans les propriétés du projet, entrée "Project Facets", choisir
+          JAX-RS (REST Web Services) version 1.1.
+      2 - Ajouter le code qui suit dans le fichier web.xml qui se crée
+          (ou qui est mis à jour).
+      3 - Positionner ensuite le numéro de version à 2.0.
+    
+    Pour la fonctionnalite Web Services REST :
+    Utilisation de l'implementation de reference JERSEY fournie par Oracle
+    et disponible par defaut dans Glassfish.
+    
+    Les librairies sont ajoutees automatiquement au projet Web par l'ajout
+    du Project Facet "JAX-RS (REST Web Services) 2.0".
+    
+    La declaration de la servlet qui traite les requetes Web Service REST
+    est alors automatiquement ajoutee au fichier de deploiement de l'appli
+    Web (web.xml).
+    Attention : bug (Elipse ? pour l'intégration de Jersey 2.0), le nom de
+    la classe indiqué pour la servlet (ServletContainer) n'est pas bon
+    (mauvais nom de package). 
+    
+    Les classes qui implémentent les Web Services (celles qui possèdent
+    l'annotation @Path(...) ) sont automatiquement scannees au démarrage
+    de l'application.
+    
+    Attention : bug n° 2 (toujours Elipse ?), il faut indiquer le paramètre
+    "jersey.config.server.provider.package" qui précise l'endroit où les
+    classes REST (@Path) se situent. Par défaut, ce paramètre d'initialisation
+    n'est pas ajouté.
+  -->
+  <servlet>
+    <description>JAX-RS Tools Generated - Do not modify</description>
+    <servlet-name>JAX-RS Servlet</servlet-name>
+    <!--
+      Nom de la classe modifié par rapport à la classe indiqué.
+      <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+    -->
+    <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+    <!--
+      Si on veut faire une traduction automatique formats objet manipules
+      dans l'appli vers le format JSON, ajout manuel de cet init-param.
+      
+      A explorer : pour le moment, utilisation de la librairie Jackson.
+    -->
+    <init-param>
+	  	<param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
+	  	<param-value>true</param-value>
+		</init-param>
+
+    <init-param>
+      <param-name>jersey.config.server.provider.packages</param-name>
+      <param-value>eu.telecom_bretagne.cabinet_recrutement.front.rss</param-value>
+    </init-param>
+		
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>JAX-RS Servlet</servlet-name>
+    <url-pattern>/RestWebServices/*</url-pattern>
+  </servlet-mapping>
+</web-app>
