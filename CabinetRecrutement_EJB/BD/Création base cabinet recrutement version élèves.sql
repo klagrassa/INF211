@@ -101,24 +101,34 @@ create table message_candidature
 	candidature_fk					integer not null references candidature
 );
 
+
 -- +----------------------------------------------------------------------------------------------+
 -- | Insertion de quelques données de pour les tests                                              |
 -- +----------------------------------------------------------------------------------------------+
 
--- Insertion des secteurs d'activité
+-- Insertion des entreprises
 
 insert into entreprise values (nextval('entreprise_id_entreprise_seq'),'IMT Atlantique','IMT Atlantique est une grande école pionnière en formation, en recherche et en entrepreneuriat et en tout plein de choses...','Plouzané');
 insert into entreprise values (nextval('entreprise_id_entreprise_seq'),'ENIB','Une école d''ingénieur juste à côté...','Plouzané');
+insert into entreprise values (nextval('entreprise_id_entreprise_seq'),'Orange','La vie change avec Orange','Paris');
 
--- Insertion des candidatures
+-- Insertion des secteurs d'activité
+
+insert into secteur_activite values (nextval('secteur_activite_id_secteur_activite_seq'), 'Agroalimentaire');
+insert into secteur_activite values (nextval('secteur_activite_id_secteur_activite_seq'), 'Banque / Assurance');
+insert into secteur_activite values (nextval('secteur_activite_id_secteur_activite_seq'), 'Bois / Papier / Carton / Imprimerie');
+insert into secteur_activite values (nextval('secteur_activite_id_secteur_activite_seq'), 'BTP / Matériaux de construction');
+insert into secteur_activite values (nextval('secteur_activite_id_secteur_activite_seq'), 'Chimie / Parachimie');
+insert into secteur_activite values (nextval('secteur_activite_id_secteur_activite_seq'), 'Commerce / Négoce / Distribution');
 
 -- Insertions des niveaux de qualifications
+
 insert into niveau_qualification values (nextval('niveau_qualification_id_qualification_seq'),'CAP/BEP');
 insert into niveau_qualification values (nextval('niveau_qualification_id_qualification_seq'),'Bac +2');
 insert into niveau_qualification values (nextval('niveau_qualification_id_qualification_seq'),'Bac +3');
 insert into niveau_qualification values (nextval('niveau_qualification_id_qualification_seq'),'Bac +5');
 insert into niveau_qualification values (nextval('niveau_qualification_id_qualification_seq'),'Doctorat');
 
--- Insertion des offres d'emploi
+-- Insertion des candidatures
 
 
