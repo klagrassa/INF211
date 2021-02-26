@@ -43,7 +43,7 @@ public class ServiceEntreprise implements IServiceEntreprise
   }
   //-----------------------------------------------------------------------------
   @Override
-  public void nouvelleEntreprise(String nom,
+  public Entreprise nouvelleEntreprise(String nom,
 			String adressePostale,
 			String descriptif)
   {
@@ -52,6 +52,7 @@ public class ServiceEntreprise implements IServiceEntreprise
 	  entreprise.setAdressePostale(adressePostale);
 	  entreprise.setDescriptif(descriptif);
 	  entrepriseDAO.persist(entreprise);
+	  return entreprise;
   }
   //-----------------------------------------------------------------------------
   @Override

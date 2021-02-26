@@ -33,8 +33,9 @@ public interface IServiceEntreprise
    * @param nom nom de l'entreprise à ajouter
    * @param adressePostale adresse de l'entreprise à ajouter
    * @param descriptif description de l'entreprise à ajouter
+ * @return 
    */
-  public void nouvelleEntreprise(String nom,
+  public Entreprise nouvelleEntreprise(String nom,
 		  							String adressePostale,
 		  							String descriptif);
   /**
