@@ -38,13 +38,13 @@
               {
                 %>
                 <tr>
-                 <td>ENT_<%=entreprise.getId()%></td>
+                 <td>ENT_<%=entreprise.getIdEntreprise()%></td>
                  <td><%=entreprise.getNom()%></td>
                  <td><%=entreprise.getAdressePostale()%></td>
                  <td>
                    XXX
                  </td>
-                  <td align="center"><a href="template.jsp?action=infos_entreprise&id=<%=entreprise.getId()%>"><i class="fa fa-eye fa-lg"></i></a></td>
+                  <td align="center"><a href="template.jsp?action=infos_entreprise&id=<%=entreprise.getIdEntreprise()%>"><i class="fa fa-eye fa-lg"></i></a></td>
                 </tr>
                 <%
               }

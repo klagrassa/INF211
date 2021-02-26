@@ -111,6 +111,8 @@ create table message_candidature
 insert into entreprise values (nextval('entreprise_id_entreprise_seq'),'IMT Atlantique','IMT Atlantique est une grande école pionnière en formation, en recherche et en entrepreneuriat et en tout plein de choses...','Plouzané');
 insert into entreprise values (nextval('entreprise_id_entreprise_seq'),'ENIB','Une école d''ingénieur juste à côté...','Plouzané');
 insert into entreprise values (nextval('entreprise_id_entreprise_seq'),'Orange','La vie change avec Orange','Paris');
+insert into entreprise values (nextval('entreprise_id_entreprise_seq'),'Naval Group','Leader du naval de défense','Paris');
+
 
 -- Insertion des secteurs d'activité
 
@@ -129,6 +131,17 @@ insert into niveau_qualification values (nextval('niveau_qualification_id_qualif
 insert into niveau_qualification values (nextval('niveau_qualification_id_qualification_seq'),'Bac +5');
 insert into niveau_qualification values (nextval('niveau_qualification_id_qualification_seq'),'Doctorat');
 
--- Insertion des candidatures
-
+-- Insertion des offres d'emploi
+insert into offre_emploi values (nextval('offre_emploi_id_offre_emploi_seq'),'Ingénieur front-end',
+							'Poste à pourvoir',
+							'Expérience recommandée',
+							'2021-09-04',
+							'4',
+							'3');
+insert into offre_emploi values (nextval('offre_emploi_id_offre_emploi_seq'),'Ingénieur réseau',
+							'Poste à pourvoir',
+							'Expérience recommandée',
+							'2020-09-04',
+							'4',
+							'4');
 
