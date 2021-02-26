@@ -20,6 +20,7 @@
           <li><a href="template.jsp?action=nouvelle_entreprise">Nouvelle entreprise</a></li>
           <li><a href="template.jsp?action=liste_entreprises">Liste des entreprises</a></li>
           <li><a href="template.jsp?action=liste_offres">Liste de toutes les offres d'emploi</a></li>
+          <li><a href="template.jsp?action=nouvelle_offre">Nouvelle offre d'emploi</a></li>
         </ul> <!-- /.nav-second-level -->
       </li>
       <li>
