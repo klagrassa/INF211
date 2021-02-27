@@ -73,13 +73,16 @@
               // Récupération des autres paramètres
               String nom     = request.getParameter("nom");
               String prenom    = request.getParameter("prénom");
-              String date_naissance     = request.getParameter("date de naissance");
-              String descriptif     = request.getParameter("descriptif");
+              Date dateNaissance     = request.getParameter("date de naissance");
               String adressePostale = request.getParameter("adresse postale");
+              String adresseEmail = request.getParameter("adresse email");
+              Date dateDepot = request.getParameter("date de dépôt");
+              Stirng cv = request.getParameter("CV");
+              //String secteurs_activites = request.getParameter("secteurs d'activités");
+			  //Stirng niveau_qualification = request.getParameter("niveau de qualification");
               
-
               IServiceCandidature serviceCandidature  = (IServiceEntreprise) ServicesLocator.getInstance().getRemoteInterface("ServiceCandidature");
-              Candidature candidature = serviceCandidature.nouvelleCandidature(nom,descriptif,adressePostale);
+              Candidature candidature = serviceCandidature.nouvelleCandidature(adresseEmail, adressePostale, cv, dateDepot, dateNaissance, nom, prenom); 
               %>
               <div class="col-lg-offset-2 col-lg-8
                           col-xs-12">
@@ -93,19 +96,35 @@
                         <tbody>
                           <tr class="success">
                             <td><strong>Identifiant (login)</strong></td>
-                            <td>ENT_<%=entreprise.getIdEntreprise()%></td>
+                            <td>CAND_<%=candidature.getIdCandidature()%></td>
                           </tr>
                           <tr class="warning">
                             <td><strong>Nom</strong></td>
-                            <td><%=entreprise.getNom()%></td>
+                            <td><%=candidature.getNom()%></td>
+                          </tr>
+                          <tr class="warning">
+                            <td><strong>Prenom</strong></td>
+                            <td><%=candidature.getPrenom()%></td>
+                          </tr>
+                          <tr class="warning">
+                            <td><strong>date de naissance</strong></td>
+                            <td><%=candidature.getDateNaissance()%></td>
                           </tr>
                           <tr class="warning">
                             <td><strong>Adresse postale (ville)</strong></td>
-                            <td><%=entreprise.getAdressePostale()%></td>
+                            <td><%=candidature.getAdressePostale()%></td>
                           </tr>
                           <tr class="warning">
-                            <td><strong>Descriptif</strong></td>
-                            <td><%=Utils.text2HTML(entreprise.getDescriptif())%></td>
+                            <td><strong>Adresse Email</strong></td>
+                            <td><%=candidature.getAdresseEmail()%></td>
+                          </tr>
+                          <tr class="warning">
+                            <td><strong>date de dépôt</strong></td>
+                            <td><%=candidature.getDateDepot()%></td>
+                          </tr>
+                          <tr class="warning">
+                            <td><strong>CV</strong></td>
+                            <td><%=candidature.getCv()%></td>
                           </tr>
                         </tbody>
                       </table>
