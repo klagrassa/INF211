@@ -24,7 +24,8 @@ public class ServiceCandidature implements IServiceCandidature
     /**
      * Default constructor. 
      */
-    public ServiceCandidature() {
+    public ServiceCandidature() 
+    {
         // TODO Auto-generated constructor stub
     }
     //-----------------------------------------------------------------------------
