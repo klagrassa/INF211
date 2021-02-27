@@ -9,6 +9,7 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 
 import eu.telecom_bretagne.cabinet_recrutement.data.model.Candidature;
+import eu.telecom_bretagne.cabinet_recrutement.data.model.OffreEmploi;
 
 /**
  * Session Bean implementation class CandidatureDAO
@@ -32,7 +33,17 @@ public class CandidatureDAO {
 	public CandidatureDAO() {
 		// TODO Auto-generated constructor stub
 	}
-
+    //----------------------------------------------------------------------------
+    @SuppressWarnings({ "unchecked" })
+    public List<Candidature> findByOffreEmploi(int idOffreEmploi)
+    {
+      Query query = entityManager.createQuery("select candidature from Candidature candidature " + 
+                                              "where candidature.offreEmploi.idOffreEmploi = :idC " +
+                                              "order by candidature.idCandidature desc");
+      query.setParameter("idOE", idOffreEmploi);
+      List<Candidature> l = query.getResultList();
+      return l;
+    }
 	// -----------------------------------------------------------------------------
 	public Candidature findById(Integer id) {
 		return entityManager.find(Candidature.class, id);
