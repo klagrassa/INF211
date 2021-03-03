@@ -42,7 +42,7 @@
                  <td><%=entreprise.getNom()%></td>
                  <td><%=entreprise.getAdressePostale()%></td>
                  <td>
-                   XXX
+                   <%=serviceEntreprise. %>
                  </td>
                   <td align="center"><a href="template.jsp?action=infos_entreprise&id=<%=entreprise.getIdEntreprise()%>"><i class="fa fa-eye fa-lg"></i></a></td>
                 </tr>
