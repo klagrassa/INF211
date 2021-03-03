@@ -103,7 +103,7 @@ else
             </small>      
         </div>
           <%
-        }
+        }, 
         %>
       </div> <!-- /.panel-body -->
     </div> <!-- /.panel -->
