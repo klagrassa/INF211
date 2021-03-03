@@ -3,7 +3,8 @@
 <%@page import="eu.telecom_bretagne.cabinet_recrutement.front.utils.ServicesLocator,
                 eu.telecom_bretagne.cabinet_recrutement.front.utils.Utils,
                 eu.telecom_bretagne.cabinet_recrutement.service.IServiceCandidature,
-                eu.telecom_bretagne.cabinet_recrutement.data.model.Candidature"%>
+                eu.telecom_bretagne.cabinet_recrutement.data.model.Candidature,
+                java.util.Date"%>
 
 <div class="row">
   <div class="col-lg-12">
@@ -73,15 +74,15 @@
               // Récupération des autres paramètres
               String nom     = request.getParameter("nom");
               String prenom    = request.getParameter("prénom");
-              Date dateNaissance     = request.getParameter("date de naissance");
+              //Date dateNaissance     = request.getParameter("date de naissance");
               String adressePostale = request.getParameter("adresse postale");
               String adresseEmail = request.getParameter("adresse email");
-              Date dateDepot = request.getParameter("date de dépôt");
-              Stirng cv = request.getParameter("CV");
+              //Date dateDepot = Date.parse(request.getParameter("date de dépôt"));
+              String cv = request.getParameter("CV");
               //String secteurs_activites = request.getParameter("secteurs d'activités");
 			  //Stirng niveau_qualification = request.getParameter("niveau de qualification");
               
-              IServiceCandidature serviceCandidature  = (IServiceEntreprise) ServicesLocator.getInstance().getRemoteInterface("ServiceCandidature");
+              IServiceCandidature serviceCandidature  = (IServiceCandidature) ServicesLocator.getInstance().getRemoteInterface("ServiceCandidature");
               Candidature candidature = serviceCandidature.nouvelleCandidature(adresseEmail, adressePostale, cv, dateDepot, dateNaissance, nom, prenom); 
               %>
               <div class="col-lg-offset-2 col-lg-8

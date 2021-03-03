@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html" pageEncoding="ISO-8859-1"%>
+<%@page language="java" contentType="text/html" pageEncoding="ISO-8859-1"%>
 
 <%@page import="eu.telecom_bretagne.cabinet_recrutement.front.utils.ServicesLocator,
                 eu.telecom_bretagne.cabinet_recrutement.front.utils.Utils,
