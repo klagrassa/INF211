@@ -27,9 +27,7 @@
       
         <li><a href="#"><i class="fa fa-user fa-fw"></i> Aucun utilisateur connecté</a></li>
         <li class="divider"></li>
-        <li><a href="connexion.jsp"><i class="fa fa-sign-in fa-fw"></i> Login</a></li>
-        
-      
+        <li><a href="template.jsp?action=connexion"><i class="fa fa-sign-in fa-fw"></i> Login</a></li>
     </ul> <!-- /.dropdown-user -->
   </li> <!-- /.dropdown -->
 
