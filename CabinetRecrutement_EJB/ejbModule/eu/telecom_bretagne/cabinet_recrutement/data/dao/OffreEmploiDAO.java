@@ -47,6 +47,17 @@ public class OffreEmploiDAO {
       List<OffreEmploi> l = query.getResultList();
       return l;
     }
+    //----------------------------------------------------------------------------
+    @SuppressWarnings({ "unchecked" })
+    public List<OffreEmploi> findByCandidature(int idCandidature)
+    {
+      Query query = entityManager.createQuery("select offreEmploi from OffreEmploi offreEmploi " + 
+                                              "where offreEmploi.candidature.id = :idC " +
+                                              "order by offreEmploi.idOffreEmploi desc");
+      query.setParameter("idC", idCandidature);
+      List<OffreEmploi> l = query.getResultList();
+      return l;
+    }
     //-----------------------------------------------------------------------------
 
     public List<OffreEmploi> findBySecteurActiviteAndNiveauQualification(int idSecteurActivite,

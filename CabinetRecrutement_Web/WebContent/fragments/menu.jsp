@@ -51,6 +51,7 @@
 		        <a href="#"><i class="fa fa-th"></i> Menu Entreprise : <%=entreprise.getNom()%> <span class="fa arrow"></span></a>
 		        <ul class="nav nav-second-level">
 		          <li><a href="template.jsp?action=nouvelle_offre">Nouvelle offre</a></li>
+		          <li><a href="template.jsp?action=liste_offrePourUneEntreprise">Offres d'emploi de <%=entreprise.getNom()%></a></li>
 		        </ul> <!-- /.nav-second-level -->
 		      </li>
 		      <%
@@ -66,6 +67,7 @@
 		      <li>
 		        <a href="#"><i class="fa fa-th"></i> Menu Candidature : <%=candidature.getNom()%> <%=candidature.getPrenom()%> <span class="fa arrow"></span></a>
 		        <ul class="nav nav-second-level">
+		        	<li><a href="template.jsp?action=liste_offrePourUneCandidature">Offres de <%=candidature.getNom()%> <%=candidature.getPrenom()%></a></li>
 		        </ul> <!-- /.nav-second-level -->
 		      </li>
 		      <%
