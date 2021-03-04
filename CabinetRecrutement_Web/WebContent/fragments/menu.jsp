@@ -4,6 +4,10 @@
                 eu.telecom_bretagne.cabinet_recrutement.service.IServiceEntreprise,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.Entreprise"%>
 
+<%
+  Object utilisateur = session.getAttribute("utilisateur");
+%>
+
 <div class="navbar-default sidebar" role="navigation">
   <div class="sidebar-nav navbar-collapse">
   
@@ -20,7 +24,6 @@
           <li><a href="template.jsp?action=nouvelle_entreprise">Nouvelle entreprise</a></li>
           <li><a href="template.jsp?action=liste_entreprises">Liste des entreprises</a></li>
           <li><a href="template.jsp?action=liste_offres">Liste de toutes les offres d'emploi</a></li>
-          <li><a href="template.jsp?action=nouvelle_offre">Nouvelle offre d'emploi</a></li>
         </ul> <!-- /.nav-second-level -->
       </li>
       <li>
@@ -30,7 +33,41 @@
           <li><a href="template.jsp?action=liste_candidatures">Liste des candidatures</a></li>
         </ul> <!-- /.nav-second-level -->
       </li>
-
+      
+      <%
+      if(utilisateur != null){
+    	  if(utilisateur instanceof Entreprise)
+  	  		{
+	  		  Entreprise entreprise = (Entreprise) utilisateur;
+	    	  %>
+		      <!--
+		        MENU ENTREPRISE
+		      -->
+		      <li><h4>&nbsp;</h4></li>
+		      <li>
+		        <a href="#"><i class="fa fa-th"></i> Menu Entreprise : <%=entreprise.getNom()%> <span class="fa arrow"></span></a>
+		        <ul class="nav nav-second-level">
+		          <li><a href="template.jsp?action=nouvelle_offre">Nouvelle offre</a></li>
+		        </ul> <!-- /.nav-second-level -->
+		      </li>
+		      <%
+  	  		}
+    	  else
+	  	  	{
+	  		  Candidature candidature = (Candidature) utilisateur;
+	  		  %>
+	  		  <!--
+	  		  MENU CANDIDATURE
+	  		  -->
+		      <li><h4>&nbsp;</h4></li>
+		      <li>
+		        <a href="#"><i class="fa fa-th"></i> Menu Candidature : <%=candidature.getNom()%> <%=candidature.getPrenom()%> <span class="fa arrow"></span></a>
+		        <ul class="nav nav-second-level">
+		        </ul> <!-- /.nav-second-level -->
+		      </li>
+		      <%		  
+      }
+      %>
       <!--
         MENU SECONDAIRE
       -->

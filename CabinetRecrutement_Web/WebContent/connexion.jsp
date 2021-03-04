@@ -57,10 +57,23 @@ if (identifiant == null) // Pas de paramètre "identifiant" => affichage du formu
 	Entreprise entreprise = serviceEntreprise.getEntreprise(id);
 	if (entreprise == null) {
 %>
-<p class="erreur">
-	Erreur : il n'y a pas d'entreprise avec cet identifiant :
-	<%=identifiant%></p>
-<a href="index.jsp">Retour...</a>
+<div class="panel-body">
+<div class="row col-xs-offset-1 col-xs-10">
+	<div class="panel panel-red">
+		<div class="panel-heading ">
+			Impossible de se connecter
+		</div>
+		<div class="panel-body text-center">
+			<p class="text-danger"><strong>Erreur : il n'y a pas d'entreprise avec cet identifiant : <%=identifiant%></strong></p>
+			<button type="button"
+				class="btn btn-danger"
+				onclick="window.location.href='connexion.jsp'">
+				Retour...
+			</button>
+		</div>
+	</div>
+</div> <!-- /.row col-xs-offset-1 col-xs-10 -->
+</div> <!-- /.panel-body -->
 <%
 	} else {
 	session.setAttribute("utilisateur", entreprise);
