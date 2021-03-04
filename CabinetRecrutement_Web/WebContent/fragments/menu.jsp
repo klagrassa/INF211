@@ -2,7 +2,10 @@
 
 <%@page import="eu.telecom_bretagne.cabinet_recrutement.front.utils.ServicesLocator,
                 eu.telecom_bretagne.cabinet_recrutement.service.IServiceEntreprise,
-                eu.telecom_bretagne.cabinet_recrutement.data.model.Entreprise"%>
+                eu.telecom_bretagne.cabinet_recrutement.data.model.Entreprise,
+                eu.telecom_bretagne.cabinet_recrutement.service.IServiceCandidature,
+                eu.telecom_bretagne.cabinet_recrutement.data.model.Candidature
+                "%>
 
 <%
   Object utilisateur = session.getAttribute("utilisateur");
@@ -65,7 +68,8 @@
 		        <ul class="nav nav-second-level">
 		        </ul> <!-- /.nav-second-level -->
 		      </li>
-		      <%		  
+		      <%
+	  	  	}
       }
       %>
       <!--
