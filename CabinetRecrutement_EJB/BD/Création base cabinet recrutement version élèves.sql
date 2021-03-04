@@ -144,4 +144,9 @@ insert into offre_emploi values (nextval('offre_emploi_id_offre_emploi_seq'),'In
 							'2020-09-04',
 							'4',
 							'4');
+							
+-- Insertion de candidatures
+insert into candidature values (nextval('candidature_id_candidature_seq'), 'La Grassa', 'Karl', '27/04/1999', 
+								'Puget-Ville', 'karl@email.fr', 'Ceci est un CV', '04/03/2021','2')
+
 

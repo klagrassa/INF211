@@ -67,7 +67,7 @@ if (identifiant == null) // Pas de paramètre "identifiant" => affichage du formu
 			<p class="text-danger"><strong>Erreur : il n'y a pas d'entreprise avec cet identifiant : <%=identifiant%></strong></p>
 			<button type="button"
 				class="btn btn-danger"
-				onclick="window.location.href='connexion.jsp'">
+				onclick="window.location.href='template.jsp?action=connexion'">
 				Retour...
 			</button>
 		</div>

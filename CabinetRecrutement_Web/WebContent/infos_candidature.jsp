@@ -24,8 +24,8 @@ else
     // C'est OK : on a bien un id
     
     IServiceCandidature serviceCandidature = (IServiceCandidature) ServicesLocator.getInstance().getRemoteInterface("ServiceCandidature");
-	List<Candidature> candidatures = serviceCandidature.listeDesCandidatures();
-    
+	candidature = serviceCandidature.obtenirCandidarure(id);
+	
     if(candidature == null)
       {
         erreur="Aucune candidature ne correspond à cet identifiant : " + id;
@@ -79,7 +79,7 @@ else
                             <td><%=candidature.getPrenom()%></td>
                           </tr>
                           <tr class="warning">
-                            <td><strong>date de naissance</strong></td>
+                            <td><strong>Date de naissance</strong></td>
                             <td><%=candidature.getDateNaissance()%></td>
                           </tr>
                           <tr class="warning">
@@ -91,7 +91,7 @@ else
                             <td><%=candidature.getAdresseEmail()%></td>
                           </tr>
                           <tr class="warning">
-                            <td><strong>date de dépôt</strong></td>
+                            <td><strong>Date de dépôt</strong></td>
                             <td><%=candidature.getDateDepot()%></td>
                           </tr>
                           <tr class="warning">
@@ -103,7 +103,7 @@ else
             </small>      
         </div>
           <%
-        }, 
+        } 
         %>
       </div> <!-- /.panel-body -->
     </div> <!-- /.panel -->

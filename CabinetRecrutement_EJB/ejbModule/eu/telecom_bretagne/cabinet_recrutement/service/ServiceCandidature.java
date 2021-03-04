@@ -51,13 +51,12 @@ public class ServiceCandidature implements IServiceCandidature
 	}
     //-----------------------------------------------------------------------------
 	@Override
-	public Candidature miseAjourCandidature(String adresseEmail, String adressePostale, String cv, Date dateDepot, Date dateNaissance, String nom, String prenom) 
+	public Candidature miseAjourCandidature(String adresseEmail, String adressePostale, String cv, Date dateNaissance, String nom, String prenom) 
 	{
 		Candidature candidature = new Candidature();
 		candidature.setAdresseEmail(adresseEmail);
 		candidature.setAdressePostale(adressePostale);
 		candidature.setCv(cv);
-		candidature.setDateDepot(dateDepot);
 		candidature.setDateNaissance(dateNaissance);
 		candidature.setNom(nom);
 		candidature.setPrenom(prenom);

@@ -41,6 +41,11 @@
   %>
   </div> <!-- /.navbar-header -->
 
+
+<ul class="nav navbar-top-links navbar-right">
+
+  <!-- Menu des messages -->
+  
   <!-- Menu connexion -->
   <li class="dropdown">
     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
@@ -81,9 +86,9 @@
       		}
       }
       %>
-      
+
     </ul> <!-- /.dropdown-user -->
   </li> <!-- /.dropdown -->
-
+</ul>
 </ul> <!-- /.navbar-top-links -->
 </div> <!-- /.navbar-header -->

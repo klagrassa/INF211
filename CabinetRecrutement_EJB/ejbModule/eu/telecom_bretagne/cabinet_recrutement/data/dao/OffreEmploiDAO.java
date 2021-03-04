@@ -41,7 +41,7 @@ public class OffreEmploiDAO {
     public List<OffreEmploi> findByEntreprise(int idEntreprise)
     {
       Query query = entityManager.createQuery("select offreEmploi from OffreEmploi offreEmploi " + 
-                                              "where offreEmploi.entreprise.idOffreEmploi = :idE " +
+                                              "where offreEmploi.entreprise.idEntreprise = :idE " +
                                               "order by offreEmploi.idOffreEmploi desc");
       query.setParameter("idE", idEntreprise);
       List<OffreEmploi> l = query.getResultList();

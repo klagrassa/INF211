@@ -30,6 +30,7 @@ List<Candidature> candidatures = serviceCandidature.listeDesCandidatures();
                 <th>Adresse email</th>
                 <th>Date de dépôt</th>
                 <th>CV</th>
+                <th></th>
               </tr> 
 			</thead>
             <!--
@@ -49,9 +50,6 @@ List<Candidature> candidatures = serviceCandidature.listeDesCandidatures();
 					<td><%=candidature.getAdresseEmail()%></td>
 					<td><%=candidature.getDateDepot()%></td>
 					<td><%=candidature.getCv()%></td>
-				<td>
-                   XXX
-                </td>
                  <td align="center"><a href="template.jsp?action=infos_candidature&id=<%=candidature.getIdCandidature()%>"><i class="fa fa-eye fa-lg"></i></a></td>
                 </tr>
                 <%
