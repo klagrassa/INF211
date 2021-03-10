@@ -10,10 +10,7 @@
                 eu.telecom_bretagne.cabinet_recrutement.data.model.Candidature,
                 java.util.List"
                 %>
-                
-                
-              
-                
+            
 	<%  
 
 	Object utilisateur = session.getAttribute("utilisateur");
@@ -53,11 +50,10 @@
                 %>
                 <tr>
                  <td><%=offreEmploi.getIdOffreEmploi()%></td>
-                 <td><%=offreEmploi.getTitre()%></td>
+                 <td align="center"><a href="template.jsp?action=infos_offres&id=<%=offreEmploi.getIdOffreEmploi()%>"><i <%=offreEmploi.getTitre()%>></i></a></td>
                  <td><%=offreEmploi.getEntreprise().getNom()%></td>
                  <td><%=offreEmploi.getNiveauQualification().getNom()%></td>
                  <td><%=offreEmploi.getDateDepot()%></td>
-                  <td align="center"><a href="template.jsp?action=infos_offres&id=<%=offreEmploi.getIdOffreEmploi()%>"><i class="fa fa-eye fa-lg"></i></a></td>
                 </tr>
                 <%
               }

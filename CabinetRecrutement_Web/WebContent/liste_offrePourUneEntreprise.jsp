@@ -8,19 +8,22 @@
                 eu.telecom_bretagne.cabinet_recrutement.data.model.NiveauQualification,
                 eu.telecom_bretagne.cabinet_recrutement.service.IServiceEntreprise,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.Entreprise,
+                eu.telecom_bretagne.cabinet_recrutement.service.IServiceCandidature,
+                eu.telecom_bretagne.cabinet_recrutement.data.model.Candidature,
                 java.util.List"
                 %>
-                
-                
-              
-                
+                               
 	<%  
 
 	Object utilisateur = session.getAttribute("utilisateur");
 	Entreprise entreprise = (Entreprise) utilisateur;
+	
+
+	IServiceCandidature serviceCandidature= (IServiceCandidature) ServicesLocator.getInstance().getRemoteInterface("ServiceCandidature");
 
 	IServiceOffreEmploi serviceOffreEmploi = (IServiceOffreEmploi) ServicesLocator.getInstance().getRemoteInterface("ServiceOffreEmploi");
 	List<OffreEmploi> offreEmplois = serviceOffreEmploi.listeDesOffresPourUneEntreprise(entreprise.getIdEntreprise());
+	
 	
 	%>
 
@@ -41,6 +44,7 @@
                 <th>Entreprise</th>
                 <th>Niveau de qualification</th>
                 <th>Date de dépôt</th>
+                <th>Liste des candidatures</th>
               </tr>
             </thead>
             <!--
@@ -57,7 +61,7 @@
                  <td><%=offreEmploi.getEntreprise().getNom()%></td>
                  <td><%=offreEmploi.getNiveauQualification().getNom()%></td>
                  <td><%=offreEmploi.getDateDepot()%></td>
-                 
+                 <td> <%=offreEmploi%></td>                             
                 </tr>
                 <%
               }

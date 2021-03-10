@@ -5,6 +5,8 @@
                 eu.telecom_bretagne.cabinet_recrutement.service.IServiceEntreprise,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.Entreprise"%>
 
+
+
 <%
   String erreur = null;
   String idStringValue = request.getParameter("id");
