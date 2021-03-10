@@ -8,6 +8,7 @@ import javax.ejb.Remote;
 
 import eu.telecom_bretagne.cabinet_recrutement.data.model.Candidature;
 import eu.telecom_bretagne.cabinet_recrutement.data.model.MessageCandidature;
+import eu.telecom_bretagne.cabinet_recrutement.data.model.NiveauQualification;
 import eu.telecom_bretagne.cabinet_recrutement.data.model.SecteurActivite;
 
 @Remote
@@ -49,10 +50,12 @@ public interface IServiceCandidature {
 	 * @param dateNaissance date de naissance du candidat
 	 * @param nom nom du candidat
 	 * @param prenom prénom du candidat
+	 * @param secteur le secteur d'activité du candidat
 	 * @return la candidature correspondant aux informations données
 	 */
 	Candidature nouvelleCandidature(String adresseEmail, String adressePostale, String cv, Date dateDepot,
-			Date dateNaissance, String nom, String prenom);
+			Date dateNaissance, String nom, String prenom, Set<SecteurActivite> secteur,
+			NiveauQualification niveau);
 	/**
 	 * Met à jour la candidature avec les informations données
 	 * 

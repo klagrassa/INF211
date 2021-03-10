@@ -38,6 +38,9 @@
                   <button type="reset"  class="btn btn-warning btn-circle btn-lg"><i class="fa fa-times"></i></button>
                   <button type="submit" class="btn btn-success btn-circle btn-lg" name="submit-insertion"><i class="fa fa-check"></i></button>               
                 </div>
+                <div class="form-group">
+                  <input class="form-control" placeholder="Profil recherché" name="profil" />
+                </div>
               </form>
             </div>
             

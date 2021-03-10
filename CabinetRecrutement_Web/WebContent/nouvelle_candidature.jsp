@@ -5,192 +5,203 @@
 	import="eu.telecom_bretagne.cabinet_recrutement.front.utils.ServicesLocator,
                 eu.telecom_bretagne.cabinet_recrutement.front.utils.Utils,
                 eu.telecom_bretagne.cabinet_recrutement.service.IServiceCandidature,
+                eu.telecom_bretagne.cabinet_recrutement.service.IServiceIndexation,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.Candidature,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.SecteurActivite,
-                eu.telecom_bretagne.cabinet_recrutement.data.dao.SecteurActiviteDAO,
+                eu.telecom_bretagne.cabinet_recrutement.data.model.NiveauQualification,
+                
                 java.util.List,
-                java.util.Date"%>
+                java.util.Set,
+                java.util.HashSet,
+                java.util.Date,
+                java.util.Calendar"%>
+
+<% IServiceIndexation serviceIndexation = (IServiceIndexation) ServicesLocator.getInstance().getRemoteInterface("ServiceIndexation");
+	List<NiveauQualification> listeDesNiveauxQualification = serviceIndexation.listeDesNiveauxQualification();
+	List<SecteurActivite> listeDesSecteursActivites = serviceIndexation.listeDesSecteursActivite();
+%>
 
 <div class="row">
-	<div class="col-lg-12">
-		<div class="panel panel-default">
-			<div class="panel-heading">
-				<h3>
-					<i class="fa fa-th"></i> Référencer une nouvelle candidature
-				</h3>
-			</div>
-			<!-- /.panel-heading -->
-			<div class="panel-body">
-				<%
-					SecteurActiviteDAO secteurActiviteDAO = new SecteurActiviteDAO();
-				List<SecteurActivite> secteurs = secteurActiviteDAO.findAll();
-				String id = request.getParameter("CAND_id");
-				if (id == null) // Pas de paramètre "CAND_id" => affichage du formulaire
-				{
-				%>
-				<div
-					class="col-lg-offset-2 col-lg-8
+  <div class="col-lg-12">
+    <div class="panel panel-default">
+      <div class="panel-heading"><h3><i class="fa fa-user"></i> Référencer une nouvelle candidature</h3></div> <!-- /.panel-heading -->
+      <div class="panel-body">
+        
+        <% String nom = request.getParameter("nom");
+        	if (nom == null) 
+        	{
+        	%>
+            <div class="col-lg-offset-2 col-lg-8
                         col-xs-12">
-					<form role="form" action="template.jsp" method="get">
-						<input type="hidden" name="action" value="nouvelle_candidature" />
-						<div class="form-group">
-							<input class="form-control" placeholder="Nom" name="nom" />
-						</div>
-						<div class="form-group">
-							<input class="form-control" placeholder="Prénom" name="prénom" />
-						</div>
-						<div class="form-group">
-							<input class="form-control" placeholder="Date de naissance"
-								name="date_naissance" />
-						</div>
-						<div class="form-group">
-							<input class="form-control" placeholder="Adresse postale (ville)"
-								name="adresse_postale" />
-						</div>
-						<div class="form-group">
-							<input class="form-control" placeholder="Date de dépôt"
-								name="date_depot" />
-						</div>
-						<div class="form-group">
-							<input class="form-control" placeholder="CV" name="CV" />
-						</div>
-						<div class="col-lg-9">
-							<div class="form-group">
-								<label>Secteur(s) d'activité</label> <small>
-									<table border="0" width="100%">
-										<!-- Un petit système à la volée pour mettre les checkboxes en deux colonnes...  -->
+              <form role="form" action="template.jsp" method="get">
+                <input type="hidden" name="action" value="nouvelle_candidature" />
+                <div class="form-group">
+                  <input class="form-control" placeholder="Nom" name="nom" />
+                </div>
+                <div class="form-group">
+                  <input class="form-control" placeholder="Prénom" name="prenom" />
+                </div>
+                <div class="form-group">
+                  <input class="form-control" placeholder="Date de naissance (format jj/mm/aaaa)" name="date_naissance" />
+                </div>
+                <div class="form-group">
+                  <input class="form-control" placeholder="Adresse postale (ville)" name="adresse_postale" />
+                </div>
+                <div class="form-group">
+                  <input class="form-control" placeholder="Adresse email" name="adresse_email" />
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" placeholder="Curriculum vitæ" rows="5" name="cv"></textarea>
+                </div>
+                <div class="col-lg-3">
+                  <div class="form-group">
+                    <label>Niveau de qualification</label>
+                    <small>
+                      <% for (NiveauQualification niveau : listeDesNiveauxQualification)
+                      {
+                      %>
+                        <div class="radio">
+                          <label>
+                            <input type="radio" name="niveau" value="<%=niveau.getIdQualification()%>"/><%= niveau.getNom().toString() %>
+                          </label>
+                        </div>
+                        <%
+                        }
+                        %>
+                        
+                    </small>
+                  </div>
+                </div>
+                <div class="col-lg-9">
+                <div class="form-group">
+                  <label>Secteur(s) d'activité</label>
+                  <small>
+                    <table border="0" width="100%">
+                            <%for (SecteurActivite secteur : listeDesSecteursActivites)
+                            	{
+                            	%>
+                            	<tr>
+                            <td>
+                              <input type="checkbox" name="secteur" value="<%=secteur.getIdSecteurActivite() %>" /> <%=secteur.getNom() %>
+                            </td>
+                            <td>&nbsp;</td>
+                              </tr>
+                            <%
+                            }
+                            %>
+                              
+                              
+                    </table>                
+                  </small>
+                </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-success btn-circle btn-lg" name="submit-insertion"><i class="fa fa-check"></i></button>
+                  <button type="reset"  class="btn btn-warning btn-circle btn-lg"><i class="fa fa-times"></i></button>
+                </div>
+              </form>
+            </div>
+            
+            <%} else // les paramètres existent
+            	{
+	            	if (nom.equals("")) // le nom n'est pas renseigné - faaire une boucle gestion erreur
+	            	{
+	            		
+	            	}
+	            	else {
+	            		// Les paramètres sont renseignés, on crée la candidature
+	            		String prenom = request.getParameter("prenom");
+	            		String adresseMail = request.getParameter("adresse_email");
+	            		String adressePostale = request.getParameter("adresse_postale");
+	            		String cv = request.getParameter("cv");
+	            		Date dateNaissance = Utils.string2Date(request.getParameter("date_naissance"));
+	            		Date dateDepot = Calendar.getInstance().getTime();
+	            		NiveauQualification niveauQualif = serviceIndexation.getNiveauQualificationById(
+	            				Integer.parseInt(request.getParameter("niveau").toString()));
+	            	
+	            		Set<SecteurActivite> secteurs = new HashSet<SecteurActivite>();
+	            		for (String sec : request.getParameterValues("secteur"))
+	            		{
+	            			secteurs.add(serviceIndexation.getSecteurActiviteById(Integer.parseInt(sec)));
+	            		}
+	            		
+	            		IServiceCandidature serviceCandidature = (IServiceCandidature) ServicesLocator.getInstance().getRemoteInterface("ServiceCandidature");
+	            		serviceCandidature.nouvelleCandidature(adresseMail, adressePostale, cv, dateDepot, dateNaissance, nom, prenom, secteurs, niveauQualif);
+						
+	            		// Candidature référencée : affichage des informations 
+	            		%>
+	            		 <div class="col-lg-offset-2 col-lg-8
+	                             col-xs-12">
+	                   <div class="panel panel-success">
+	                     <div class="panel-heading">
+	                       Nouvelle candidature référencée
+	                     </div>
+	                     <div class="panel-body">
 
-										<%
-											Integer i = 0;
-											for (SecteurActivite secteur : secteurs) {
-												
-										%>
-										<tr>
-											<td><input type="checkbox" name="secteur" value="<%i.toString(); %>" />
-												<%secteur.getNom();%>
-											</td>
-
-											<td>&nbsp;</td>
-										</tr>
-
-										<%
-											i++;
-											}
-										%>
-
-									</table>
-									<div class="form-group">
-										<input class="form-control"
-											placeholder="Niveau de qualification"
-											name="niveau_qualification" />
-									</div>
-									<div class="text-center">
-										<button type="submit"
-											class="btn btn-success btn-circle btn-lg"
-											name="submit-insertion">
-											<i class="fa fa-check"></i>
-										</button>
-										<button type="reset" class="btn btn-warning btn-circle btn-lg">
-											<i class="fa fa-times"></i>
-										</button>
-									</div>
-					</form>
-				</div>
-				<%
-					} else // Paramètre "id" existant => stockage des données et affichage du résultat
-				{
-					if (id.equals("")) {
-				%>
-				<div class="row col-xs-offset-1 col-xs-10">
-					<div class="panel panel-red">
-						<div class="panel-heading ">Impossible de traiter la demande
-						</div>
-						<div class="panel-body text-center">
-							<p class="text-danger">
-								<strong>Il n'est pas possible de référencer une
-									candidature qui ne possède pas d'Id.</strong>
-							</p>
-						</div>
-					</div>
-				</div>
-				<!-- /.row col-xs-offset-1 col-xs-10 -->
-				<%
-					} else {
-					// Récupération des autres paramètres
-					String nom = request.getParameter("nom");
-					String prenom = request.getParameter("prénom");
-					//Date dateNaissance     = request.getParameter("date de naissance");
-					//Date dateDepot = Date.parse(request.getParameter("date de dépôt"));
-					Date dateDepot = new Date();
-					Date dateNaissance = new Date();
-					String adressePostale = request.getParameter("adresse postale");
-					String adresseEmail = request.getParameter("adresse email");
-
-					String cv = request.getParameter("CV");
-					//String secteurs_activites = request.getParameter("secteurs d'activités");
-					//Stirng niveau_qualification = request.getParameter("niveau de qualification");
-
-					IServiceCandidature serviceCandidature = (IServiceCandidature) ServicesLocator.getInstance()
-					.getRemoteInterface("ServiceCandidature");
-					Candidature candidature = serviceCandidature.nouvelleCandidature(adresseEmail, adressePostale, cv, dateDepot,
-					dateNaissance, nom, prenom);
-				%>
-				<div
-					class="col-lg-offset-2 col-lg-8
-                          col-xs-12">
-					<div class="panel panel-success">
-						<div class="panel-heading">Nouvelle candidature référencée</div>
-						<div class="panel-body">
-							<small>
-								<table class="table">
-									<tbody>
-										<tr class="success">
-											<td><strong>Identifiant (login)</strong></td>
-											<td>CAND_<%=candidature.getIdCandidature()%></td>
-										</tr>
-										<tr class="warning">
-											<td><strong>Nom</strong></td>
-											<td><%=candidature.getNom()%></td>
-										</tr>
-										<tr class="warning">
-											<td><strong>Prenom</strong></td>
-											<td><%=candidature.getPrenom()%></td>
-										</tr>
-										<tr class="warning">
-											<td><strong>date de naissance</strong></td>
-											<td><%=candidature.getDateNaissance()%></td>
-										</tr>
-										<tr class="warning">
-											<td><strong>Adresse postale (ville)</strong></td>
-											<td><%=candidature.getAdressePostale()%></td>
-										</tr>
-										<tr class="warning">
-											<td><strong>Adresse Email</strong></td>
-											<td><%=candidature.getAdresseEmail()%></td>
-										</tr>
-										<tr class="warning">
-											<td><strong>date de dépôt</strong></td>
-											<td><%=candidature.getDateDepot()%></td>
-										</tr>
-										<tr class="warning">
-											<td><strong>CV</strong></td>
-											<td><%=candidature.getCv()%></td>
-										</tr>
-									</tbody>
-								</table>
-							</small>
-						</div>
-					</div>
-				</div>
-				<%
-					}
-				}
-				%>
-			</div>
-			<!-- /.panel-body -->
-		</div>
-		<!-- /.panel -->
-	</div>
-	<!-- /.col-lg-12 -->
-</div>
-<!-- /.row -->
+	                      <small>
+	                        <table class="table">
+	                          <tbody>
+	                            <tr class="success">
+	                              <td><strong>Identifiant (login)</strong></td>
+	                              <td>43</td>
+	                            </tr>
+	                            <tr class="warning">
+	                              <td><strong>Nom</strong></td>
+	                              <td>AZERTY</td>
+	                            </tr>
+	                            <tr class="warning">
+	                              <td><strong>Prénom</strong></td>
+	                              <td>test</td>
+	                            </tr>
+	                            <tr class="warning">
+	                              <td><strong>Date de naissance</strong></td>
+	                              <td>27/04/1950</td>
+	                            </tr>
+	                            <tr class="warning">
+	                              <td><strong>Adresse postale (ville)</strong></td>
+	                              <td>23330</td>
+	                            </tr>
+	                            <tr class="warning">
+	                              <td><strong>Adresse email</strong></td>
+	                              <td><a href="mailto:a@fr.fr">a@fr.fr</a></td>
+	                            </tr>
+	                            <tr class="warning">
+	                              <td><strong>Curriculum vitæ</strong></td>
+	                              <td>aaaaa</td>
+	                            </tr>
+	                            <tr class="warning">
+	                              <td><strong>Niveau de qualification</strong></td>
+	                              <td>Doctorat</td>
+	                            </tr>
+	                            <tr class="warning">
+	                              <td><strong>Secteur(s) d'activité</strong></td>
+	                              <td>
+	                                <ul>
+	                                  
+	                                    <li>Agroalimentaire</li>
+	                                    
+	                                    <li>Agriculture</li>
+	                                    
+	                                    <li>Assurance</li>
+	                                    
+	                                </ul>
+	                              </td>
+	                            </tr>
+	                            <tr class="warning">
+	                              <td><strong>Date de dépôt</strong></td>
+	                              <td>10/03/2021</td>
+	                            </tr>
+	                          </tbody>
+	                        </table>
+	                      </small>
+	                     </div>
+	                   </div>
+	                 </div>
+	            	
+	            	<% }
+            }%>
+            
+      </div> <!-- /.panel-body -->
+    </div> <!-- /.panel -->
+  </div> <!-- /.col-lg-12 -->
+</div> <!-- /.row -->

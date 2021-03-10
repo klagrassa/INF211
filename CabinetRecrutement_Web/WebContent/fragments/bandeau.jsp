@@ -71,7 +71,7 @@
   		 
   		    <li><a href="template.jsp?action=deconnexion"><i class="fa fa-th fa-fw"></i> <%=entreprise.getNom()%>&nbsp;<em>(entreprise)</em></li>
         	<li class="divider"></li>
-        	<li><a href="template.jsp?action=deconnexion"><i class="fa fa-sign-out fa-fw"></i> LogOut</a></li>
+        	<li><a href="deconnexion.jsp"><i class="fa fa-sign-out fa-fw"></i> LogOut</a></li>
         	<%
     	  	}
   	

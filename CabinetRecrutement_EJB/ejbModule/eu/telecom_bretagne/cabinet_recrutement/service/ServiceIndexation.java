@@ -41,5 +41,15 @@ public class ServiceIndexation implements IServiceIndexation {
     {
       return niveauQualiﬁcationDAO.findAll();
     }
+    //-----------------------------------------------------------------------------
+	@Override
+	public NiveauQualification getNiveauQualificationById(int idNiveau) {
+		return niveauQualiﬁcationDAO.findById(idNiveau);
+	}
+	//-----------------------------------------------------------------------------
+	@Override
+	public SecteurActivite getSecteurActiviteById(int idSecteur) {
+		return secteurActiviteDAO.findById(idSecteur);
+	}
 
 }

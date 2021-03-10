@@ -10,6 +10,8 @@ import javax.ejb.Stateless;
 
 import eu.telecom_bretagne.cabinet_recrutement.data.dao.CandidatureDAO;
 import eu.telecom_bretagne.cabinet_recrutement.data.model.Candidature;
+import eu.telecom_bretagne.cabinet_recrutement.data.model.NiveauQualification;
+import eu.telecom_bretagne.cabinet_recrutement.data.model.SecteurActivite;
 
 /**
  * Session Bean implementation class ServiceCandidature
@@ -30,7 +32,9 @@ public class ServiceCandidature implements IServiceCandidature
     }
     //-----------------------------------------------------------------------------
 	@Override
-	public Candidature nouvelleCandidature(String adresseEmail, String adressePostale, String cv, Date dateDepot, Date dateNaissance, String nom, String prenom) 
+	public Candidature nouvelleCandidature(String adresseEmail, String adressePostale, String cv, 
+			Date dateDepot, Date dateNaissance, String nom, String prenom, Set<SecteurActivite> secteur,
+			NiveauQualification niveau) 
 	{
 		Candidature candidature = new Candidature();
 		candidature.setAdresseEmail(adresseEmail);
@@ -40,6 +44,8 @@ public class ServiceCandidature implements IServiceCandidature
 		candidature.setDateNaissance(dateNaissance);
 		candidature.setNom(nom);
 		candidature.setPrenom(prenom);
+		candidature.setSecteurActivites(secteur);
+		candidature.setNiveauQualification(niveau);
  
   		candidatureDAO.persist(candidature);
 		return candidature;
@@ -51,7 +57,8 @@ public class ServiceCandidature implements IServiceCandidature
 	}
     //-----------------------------------------------------------------------------
 	@Override
-	public Candidature miseAjourCandidature(String adresseEmail, String adressePostale, String cv, Date dateNaissance, String nom, String prenom) 
+	public Candidature miseAjourCandidature(String adresseEmail, String adressePostale, String cv, 
+			Date dateNaissance, String nom, String prenom) 
 	{
 		Candidature candidature = new Candidature();
 		candidature.setAdresseEmail(adresseEmail);
