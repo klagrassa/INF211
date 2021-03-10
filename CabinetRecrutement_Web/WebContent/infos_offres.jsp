@@ -1,3 +1,4 @@
+<%@page import="eu.telecom_bretagne.cabinet_recrutement.data.model.SecteurActivite"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
@@ -8,7 +9,8 @@
                 eu.telecom_bretagne.cabinet_recrutement.data.model.Entreprise,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.NiveauQualification,
                 eu.telecom_bretagne.cabinet_recrutement.front.utils.Utils,
-                java.util.List"%>
+                java.util.List,
+                java.util.Set"%>
 
 <%
   String erreur = null;
@@ -73,7 +75,7 @@
               <tbody>
                 <tr class="success">
                   <td width="200"><strong>Identifiant</strong></td>
-                  <td>ENT_<%=offre.getIdOffreEmploi()%></td>
+                  <td><%=offre.getIdOffreEmploi()%></td>
                 </tr>
                 <tr class="warning">
                   <td><strong>Titre</strong></td>
@@ -101,7 +103,7 @@
                 </tr>
                 <tr class="warning">
                   <td><strong>Secteur d'activités</strong></td>
-                  <td><%=offre.getSecteurActivites(). %></td>
+                  <td><%= offre.getSecteurActivites()%></td>
                 </tr>
                 <tr class="warning">
                   <td><strong>Date de dépôt</strong></td>

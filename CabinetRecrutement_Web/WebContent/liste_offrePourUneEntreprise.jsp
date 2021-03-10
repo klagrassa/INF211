@@ -3,6 +3,7 @@
     
 <%@page import="eu.telecom_bretagne.cabinet_recrutement.front.utils.ServicesLocator,
                 eu.telecom_bretagne.cabinet_recrutement.service.IServiceOffreEmploi,
+                eu.telecom_bretagne.cabinet_recrutement.service.IServiceIndexation,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.OffreEmploi,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.Entreprise,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.NiveauQualification,
@@ -20,10 +21,11 @@
 	
 
 	IServiceCandidature serviceCandidature= (IServiceCandidature) ServicesLocator.getInstance().getRemoteInterface("ServiceCandidature");
-
+	IServiceIndexation serviceIndexation = (IServiceIndexation) ServicesLocator.getInstance().getRemoteInterface("ServiceIndexation");
 	IServiceOffreEmploi serviceOffreEmploi = (IServiceOffreEmploi) ServicesLocator.getInstance().getRemoteInterface("ServiceOffreEmploi");
-	List<OffreEmploi> offreEmplois = serviceOffreEmploi.listeDesOffresPourUneEntreprise(entreprise.getIdEntreprise());
 	
+	List<OffreEmploi> offreEmplois = serviceOffreEmploi.listeDesOffresPourUneEntreprise(entreprise.getIdEntreprise());
+	List<Candidature> candidaturePotentielles = serviceIndexation.getCandidatureCorrespondanteAOffre(offreEmplois);
 	
 	%>
 
@@ -44,7 +46,9 @@
                 <th>Entreprise</th>
                 <th>Niveau de qualification</th>
                 <th>Date de dépôt</th>
-                <th>Liste des candidatures</th>
+                <th>Candidature potentielles</th>
+                <th>Modifications</th>
+                <th>Informations</th>
               </tr>
             </thead>
             <!--
@@ -61,7 +65,18 @@
                  <td><%=offreEmploi.getEntreprise().getNom()%></td>
                  <td><%=offreEmploi.getNiveauQualification().getNom()%></td>
                  <td><%=offreEmploi.getDateDepot()%></td>
-                 <td> <%=offreEmploi%></td>                             
+                 <td> <%
+                 	if (candidaturePotentielles == null)
+                 		%>Aucune candidature potentielle <%;
+                 	else 
+                 	{
+                     	for (Candidature cand : candidaturePotentielles)
+                     	{
+                     		cand.getNom();
+                     	}
+                 	}
+
+                 %></td>                             
                 </tr>
                 <%
               }

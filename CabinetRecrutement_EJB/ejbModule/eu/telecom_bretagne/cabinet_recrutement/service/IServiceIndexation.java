@@ -4,7 +4,9 @@ import java.util.List;
 
 import javax.ejb.Remote;
 
+import eu.telecom_bretagne.cabinet_recrutement.data.model.Candidature;
 import eu.telecom_bretagne.cabinet_recrutement.data.model.NiveauQualification;
+import eu.telecom_bretagne.cabinet_recrutement.data.model.OffreEmploi;
 import eu.telecom_bretagne.cabinet_recrutement.data.model.SecteurActivite;
 
 @Remote
@@ -32,5 +34,11 @@ public interface IServiceIndexation {
 	 * @return le secteur d'activité correspondant
 	 */
 	SecteurActivite getSecteurActiviteById(int idSecteur);
+	/**
+	 * Renvoie les candidatures correspondantes aux offres d'emploi disponibles
+	 * @param offreEmplois liste des offres disponibles
+	 * @return candidatures potentielles
+	 */
+	List<Candidature> getCandidatureCorrespondanteAOffre(List<OffreEmploi> offreEmplois);
 
 }

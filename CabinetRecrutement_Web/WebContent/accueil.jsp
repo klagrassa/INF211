@@ -1,14 +1,20 @@
 <%@ page language="java" contentType="text/html" pageEncoding="ISO-8859-1"%>
 
 <%@page import="eu.telecom_bretagne.cabinet_recrutement.front.utils.ServicesLocator,
-                eu.telecom_bretagne.cabinet_recrutement.service.IServiceEntreprise"%>
+                eu.telecom_bretagne.cabinet_recrutement.service.IServiceEntreprise,
+                eu.telecom_bretagne.cabinet_recrutement.service.IServiceOffreEmploi,
+                eu.telecom_bretagne.cabinet_recrutement.service.IServiceCandidature"%>
 
 <%
   IServiceEntreprise  serviceEntreprise  = (IServiceEntreprise)  ServicesLocator.getInstance().getRemoteInterface("ServiceEntreprise");
+  IServiceOffreEmploi  serviceOffreEmploi  = (IServiceOffreEmploi)  ServicesLocator.getInstance().getRemoteInterface("ServiceOffreEmploi");
+  IServiceCandidature  serviceCandidature  = (IServiceCandidature)  ServicesLocator.getInstance().getRemoteInterface("ServiceCandidature");
+
+
 
   int nbEntreprises  = serviceEntreprise.listeDesEntreprises().size();
-  int nbOffres       = 0;
-  int nbCandidatures = 0;
+  int nbOffres       = serviceOffreEmploi.listeDesOffreEmploi().size();
+  int nbCandidatures = serviceCandidature.listeDesCandidatures().size();
 %>
 
 <div class="row">

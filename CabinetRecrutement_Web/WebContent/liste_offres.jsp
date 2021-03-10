@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
     
 <%@page import="eu.telecom_bretagne.cabinet_recrutement.front.utils.ServicesLocator,
+				eu.telecom_bretagne.cabinet_recrutement.front.utils.Utils,
                 eu.telecom_bretagne.cabinet_recrutement.service.IServiceOffreEmploi,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.OffreEmploi,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.Entreprise,
@@ -30,6 +31,7 @@
                 <th>Entreprise</th>
                 <th>Niveau de qualification</th>
                 <th>Date de dépôt</th>
+                <th>Informations</th>
               </tr>
             </thead>
             <!--
@@ -45,7 +47,7 @@
                  <td><%=offreEmploi.getTitre()%></td>
                  <td><%=offreEmploi.getEntreprise().getNom()%></td>
                  <td><%=offreEmploi.getNiveauQualification().getNom()%></td>
-                 <td><%=offreEmploi.getDateDepot()%></td>
+                 <td><%=Utils.date2String(offreEmploi.getDateDepot())%></td>
                   <td align="center"><a href="template.jsp?action=infos_offres&id=<%=offreEmploi.getIdOffreEmploi()%>"><i class="fa fa-eye fa-lg"></i></a></td>
                 </tr>
                 <%
