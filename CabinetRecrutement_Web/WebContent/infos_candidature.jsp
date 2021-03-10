@@ -1,3 +1,4 @@
+<%@page import="eu.telecom_bretagne.cabinet_recrutement.data.model.SecteurActivite"%>
 <%@ page language="java" contentType="text/html" pageEncoding="ISO-8859-1"%>
 
 <%@page import="eu.telecom_bretagne.cabinet_recrutement.front.utils.ServicesLocator,
@@ -98,6 +99,14 @@ else
                           <tr class="warning">
                             <td><strong>CV</strong></td>
                             <td><%=candidature.getCv()%></td>
+                          </tr>
+						  <tr class="warning">
+                            <td><strong>Niveau de qualification</strong></td>
+                            <td><%=candidature.getNiveauQualification().getNom()%></td>
+                          </tr>
+                          <tr class="warning">
+                            <td><strong>Secteurs d'activités</strong></td>
+                            <td></td>
                           </tr>
               </tbody>
             </table>

@@ -6,11 +6,13 @@
                 eu.telecom_bretagne.cabinet_recrutement.service.IServiceOffreEmploi,
                 eu.telecom_bretagne.cabinet_recrutement.service.IServiceEntreprise,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.OffreEmploi,
+                eu.telecom_bretagne.cabinet_recrutement.data.model.SecteurActivite,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.Entreprise,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.NiveauQualification,
                 eu.telecom_bretagne.cabinet_recrutement.front.utils.Utils,
                 java.util.List,
-                java.util.Set"%>
+                java.util.Set,
+                java.util.HashSet"%>
 
 <%
   String erreur = null;
@@ -48,7 +50,7 @@
 <div class="row">
   <div class="col-lg-12">
     <div class="panel panel-default">
-      <div class="panel-heading"><h3><i class="fa fa-th"></i> Informations sur l'OffreEmploi</h3></div> <!-- /.panel-heading -->
+      <div class="panel-heading"><h3><i class="fa fa-th"></i> Informations sur l'offre d'emploi</h3></div> <!-- /.panel-heading -->
       <div class="panel-body">
         <%
         if(erreur != null) // Une erreur a été détectée et est affichée.
@@ -103,7 +105,7 @@
                 </tr>
                 <tr class="warning">
                   <td><strong>Secteur d'activités</strong></td>
-                  <td><%= offre.getSecteurActivites()%></td>
+                  <td></td>
                 </tr>
                 <tr class="warning">
                   <td><strong>Date de dépôt</strong></td>

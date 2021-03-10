@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
     
 <%@page import="eu.telecom_bretagne.cabinet_recrutement.front.utils.ServicesLocator,
+ 				eu.telecom_bretagne.cabinet_recrutement.front.utils.Utils,
                 eu.telecom_bretagne.cabinet_recrutement.service.IServiceOffreEmploi,
                 eu.telecom_bretagne.cabinet_recrutement.service.IServiceIndexation,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.OffreEmploi,
@@ -67,17 +68,17 @@
                  <td><%=offreEmploi.getNiveauQualification().getNom()%></td>
                  <td><%=Utils.date2String(offreEmploi.getDateDepot())%></td>
                  <td> <%
-                 	if (candidaturePotentielles == null)
-                 		%>Aucune candidature potentielle <%;
-                 	else 
-                 	{
+                 	if (candidaturePotentielles == null);
+                 	else {
                      	for (Candidature cand : candidaturePotentielles)
                      	{
                      		cand.getNom();
                      	}
                  	}
 
-                 %></td>                             
+                 %></td>  
+                 <td></td>
+                 <td align="center"><a href="template.jsp?action=infos_offres&id=<%=offreEmploi.getIdOffreEmploi()%>"><i class="fa fa-eye fa-lg"></i></a></td>                       
                 </tr>
                 <%
               }

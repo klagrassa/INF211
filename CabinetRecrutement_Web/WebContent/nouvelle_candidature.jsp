@@ -126,7 +126,9 @@
 	            		}
 	            		
 	            		IServiceCandidature serviceCandidature = (IServiceCandidature) ServicesLocator.getInstance().getRemoteInterface("ServiceCandidature");
-	            		serviceCandidature.nouvelleCandidature(adresseMail, adressePostale, cv, dateDepot, dateNaissance, nom, prenom, secteurs, niveauQualif);
+	            		Candidature nouvelleCand =serviceCandidature.nouvelleCandidature(adresseMail,
+	            				adressePostale, cv, dateDepot, dateNaissance, nom, prenom, 
+	            				secteurs, niveauQualif);
 						
 	            		// Candidature référencée : affichage des informations 
 	            		%>
@@ -143,53 +145,54 @@
 	                          <tbody>
 	                            <tr class="success">
 	                              <td><strong>Identifiant (login)</strong></td>
-	                              <td>43</td>
+	                              <td><%=nouvelleCand.getIdCandidature() %></td>
 	                            </tr>
 	                            <tr class="warning">
 	                              <td><strong>Nom</strong></td>
-	                              <td>AZERTY</td>
+	                              <td><%=nouvelleCand.getNom() %></td>
 	                            </tr>
 	                            <tr class="warning">
 	                              <td><strong>Prénom</strong></td>
-	                              <td>test</td>
+	                              <td><%=nouvelleCand.getPrenom() %></td>
 	                            </tr>
 	                            <tr class="warning">
 	                              <td><strong>Date de naissance</strong></td>
-	                              <td>27/04/1950</td>
+	                              <td><%=Utils.date2String(nouvelleCand.getDateNaissance())%></td>
 	                            </tr>
 	                            <tr class="warning">
 	                              <td><strong>Adresse postale (ville)</strong></td>
-	                              <td>23330</td>
+	                              <td><%=nouvelleCand.getAdressePostale()%></td>
 	                            </tr>
 	                            <tr class="warning">
 	                              <td><strong>Adresse email</strong></td>
-	                              <td><a href="mailto:a@fr.fr">a@fr.fr</a></td>
+	                              <td><%=nouvelleCand.getAdresseEmail() %></td>
 	                            </tr>
 	                            <tr class="warning">
 	                              <td><strong>Curriculum vitæ</strong></td>
-	                              <td>aaaaa</td>
+	                              <td><%=nouvelleCand.getCv() %></td>
 	                            </tr>
 	                            <tr class="warning">
 	                              <td><strong>Niveau de qualification</strong></td>
-	                              <td>Doctorat</td>
+	                              <td><%=nouvelleCand.getNiveauQualification().getNom() %></td>
 	                            </tr>
 	                            <tr class="warning">
 	                              <td><strong>Secteur(s) d'activité</strong></td>
 	                              <td>
 	                                <ul>
-	                                  
-	                                    <li>Agroalimentaire</li>
-	                                    
-	                                    <li>Agriculture</li>
-	                                    
-	                                    <li>Assurance</li>
-	                                    
+	                                  <%
+	                                  for (SecteurActivite sec : nouvelleCand.getSecteurActivites())
+	                                  {
+	                                  %>
+	                                    <li><%= sec.getNom().toString()%></li>
+	                                  <%
+	                                  } 
+	                                  %>
 	                                </ul>
 	                              </td>
 	                            </tr>
 	                            <tr class="warning">
 	                              <td><strong>Date de dépôt</strong></td>
-	                              <td>10/03/2021</td>
+	                              <td><%=Utils.date2String(nouvelleCand.getDateDepot()) %></td>
 	                            </tr>
 	                          </tbody>
 	                        </table>
