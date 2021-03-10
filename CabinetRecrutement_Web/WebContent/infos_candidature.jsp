@@ -3,6 +3,7 @@
 <%@page import="eu.telecom_bretagne.cabinet_recrutement.front.utils.ServicesLocator,
                 eu.telecom_bretagne.cabinet_recrutement.service.IServiceCandidature,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.Candidature,
+                eu.telecom_bretagne.cabinet_recrutement.front.utils.Utils,
                 java.util.List"%>
 
 <%
@@ -92,7 +93,7 @@ else
                           </tr>
                           <tr class="warning">
                             <td><strong>Date de dépôt</strong></td>
-                            <td><%=candidature.getDateDepot()%></td>
+                            <td><%=Utils.date2String(candidature.getDateDepot())%></td>     
                           </tr>
                           <tr class="warning">
                             <td><strong>CV</strong></td>

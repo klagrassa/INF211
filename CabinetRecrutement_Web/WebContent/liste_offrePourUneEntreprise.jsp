@@ -11,6 +11,7 @@
                 eu.telecom_bretagne.cabinet_recrutement.data.model.Entreprise,
                 eu.telecom_bretagne.cabinet_recrutement.service.IServiceCandidature,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.Candidature,
+                eu.telecom_bretagne.cabinet_recrutement.front.utils.Utils,
                 java.util.List"
                 %>
                                
@@ -64,7 +65,7 @@
                  <td align="center"><a href="template.jsp?action=infos_offres&id=<%=offreEmploi.getIdOffreEmploi()%>"><i <%=offreEmploi.getTitre()%>></i></a></td>
                  <td><%=offreEmploi.getEntreprise().getNom()%></td>
                  <td><%=offreEmploi.getNiveauQualification().getNom()%></td>
-                 <td><%=offreEmploi.getDateDepot()%></td>
+                 <td><%=Utils.date2String(offreEmploi.getDateDepot())%></td>
                  <td> <%
                  	if (candidaturePotentielles == null)
                  		%>Aucune candidature potentielle <%;

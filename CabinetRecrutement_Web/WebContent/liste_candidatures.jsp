@@ -3,6 +3,7 @@
 <%@page import="eu.telecom_bretagne.cabinet_recrutement.front.utils.ServicesLocator,
                 eu.telecom_bretagne.cabinet_recrutement.service.IServiceCandidature,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.Candidature,
+                eu.telecom_bretagne.cabinet_recrutement.front.utils.Utils,
                 java.util.List"%>
 
 <%
@@ -47,8 +48,8 @@ List<Candidature> candidatures = serviceCandidature.listeDesCandidatures();
 					<td><%=candidature.getPrenom()%></td>
 					<td><%=candidature.getDateNaissance()%></td>
 					<td><%=candidature.getAdressePostale()%></td>
-					<td><%=candidature.getAdresseEmail()%></td>
-					<td><%=candidature.getDateDepot()%></td>
+					<td><%=candidature.getAdresseEmail()%></td>	
+					<td><%=Utils.date2String(candidature.getDateDepot())%></td>				
 					<td><%=candidature.getNiveauQualification().getNom()%></td>
                  <td align="center"><a href="template.jsp?action=infos_candidature&id=<%=candidature.getIdCandidature()%>"><i class="fa fa-eye fa-lg"></i></a></td>
                 </tr>

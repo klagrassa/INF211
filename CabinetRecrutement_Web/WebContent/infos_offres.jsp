@@ -107,7 +107,7 @@
                 </tr>
                 <tr class="warning">
                   <td><strong>Date de dépôt</strong></td>
-                  <td><%=offre.getDateDepot()%></td>
+                  <td><%=Utils.date2String(offre.getDateDepot())%></td>
                 </tr>
               </tbody>
             </table>
