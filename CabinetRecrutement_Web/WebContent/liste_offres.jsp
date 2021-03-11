@@ -48,7 +48,8 @@
                  <td><%=offreEmploi.getEntreprise().getNom()%></td>
                  <td><%=offreEmploi.getNiveauQualification().getNom()%></td>
                  <td><%=Utils.date2String(offreEmploi.getDateDepot())%></td>
-                  <td align="center"><a href="template.jsp?action=infos_offres&id=<%=offreEmploi.getIdOffreEmploi()%>"><i class="fa fa-eye fa-lg"></i></a></td>
+                  <td align="center"><a href="template.jsp?action=infos_offres&id=
+                  <%=offreEmploi.getIdOffreEmploi()%>"><i class="fa fa-eye fa-lg"></i></a></td>
                 </tr>
                 <%
               }

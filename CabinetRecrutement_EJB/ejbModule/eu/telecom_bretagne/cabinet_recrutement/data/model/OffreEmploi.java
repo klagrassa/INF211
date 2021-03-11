@@ -53,7 +53,7 @@ public class OffreEmploi implements Serializable {
 	private NiveauQualification niveauQualification;
 
 	//bi-directional many-to-many association to SecteurActivite
-	@ManyToMany
+	@ManyToMany(fetch=FetchType.EAGER)
 	@JoinTable(
 		name="offre_emploi_secteur_activite"
 		, joinColumns={

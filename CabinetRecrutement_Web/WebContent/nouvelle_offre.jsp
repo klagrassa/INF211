@@ -3,18 +3,24 @@
 
 <%@page
 	import="eu.telecom_bretagne.cabinet_recrutement.front.utils.ServicesLocator,
+				eu.telecom_bretagne.cabinet_recrutement.front.utils.Utils,
                 eu.telecom_bretagne.cabinet_recrutement.service.IServiceOffreEmploi,
                 eu.telecom_bretagne.cabinet_recrutement.service.IServiceIndexation,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.OffreEmploi,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.Entreprise,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.NiveauQualification,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.SecteurActivite,
-                java.util.List"%>
+                java.util.List,
+                java.util.Date,
+                java.util.Calendar,
+                java.util.Set,
+                java.util.HashSet"%>
 
 <%  
 	IServiceIndexation serviceIndexation = (IServiceIndexation) ServicesLocator.getInstance().getRemoteInterface("ServiceIndexation");
 	List<NiveauQualification> listeDesNiveauxQualification = serviceIndexation.listeDesNiveauxQualification();
 	List<SecteurActivite> listeDesSecteursActivites = serviceIndexation.listeDesSecteursActivite();
+	Object utilisateur = session.getAttribute("utilisateur");
 %>
 
 
@@ -100,18 +106,76 @@
             	else {
             		// Les paramètres sont renseignés, on crée l'offre
 					String descriptif = request.getParameter("descriptif");
-					String profil = request.getParameter("profil");
+					String profilRecherche = request.getParameter("profil");
             		NiveauQualification niveauQualif = serviceIndexation.getNiveauQualificationById(
             				Integer.parseInt(request.getParameter("niveau").toString()));
-            	
+            		Date dateDepot = Calendar.getInstance().getTime();
             		Set<SecteurActivite> secteurs = new HashSet<SecteurActivite>();
             		for (String sec : request.getParameterValues("secteur"))
             		{
             			secteurs.add(serviceIndexation.getSecteurActiviteById(Integer.parseInt(sec)));
             		}
-            		
+            		Entreprise entreprise = (Entreprise) utilisateur;
             		IServiceOffreEmploi serviceOffreEmploi = (IServiceOffreEmploi) ServicesLocator.getInstance().getRemoteInterface("ServiceOffreEmploi");
-            		serviceOffreEmploi.nouvelleOffreEmploi(titre, descriptif, profilRecherche);
+            		OffreEmploi nouvelleOffre = serviceOffreEmploi.nouvelleOffreEmploi(titre, descriptif, 
+            				profilRecherche, niveauQualif, secteurs, entreprise, dateDepot);
+            		%>	
+            		
+				<div class="col-lg-offset-2 col-lg-8
+                          col-xs-12">
+                <div class="panel panel-success">
+                  <div class="panel-heading">
+                    Nouvelle offre d'emploi référencée
+                  </div>
+                  <div class="panel-body">
+
+                   <small>
+                     <table class="table">
+                       <tbody>
+                         <tr class="success">
+                           <td><strong>Identifiant de l'offre</strong></td>
+                           <td><%=nouvelleOffre.getIdOffreEmploi() %></td>
+                         </tr>
+                         <tr class="warning">
+                           <td><strong>Titre</strong></td>
+                           <td><%=nouvelleOffre.getTitre() %></td>
+                         </tr>
+                         <tr class="warning">
+                           <td><strong>Descriptif de la mission</strong></td>
+                           <td><%=nouvelleOffre.getDescriptifMission() %></td>
+                         </tr>
+                         <tr class="warning">
+                           <td><strong>Profil recherché</strong></td>
+                           <td><%=nouvelleOffre.getProfilRecherche() %></td>
+                         </tr>
+                         <tr class="warning">
+                           <td><strong>Niveau de qualification</strong></td>
+                           <td><%=nouvelleOffre.getNiveauQualification().getNom() %></td>
+                         </tr>
+                         <tr class="warning">
+                           <td><strong>Secteur(s) d'activité</strong></td>
+                           <td>
+                             <ul>
+                               <%for (SecteurActivite sec : nouvelleOffre.getSecteurActivites())
+                            	   {
+                            	   %>
+                                 <li><%=sec.getNom() %></li>
+                                 <%}
+                               %>
+                             </ul>
+                           </td>
+                         </tr>
+                         <tr class="warning">
+                           <td><strong>Date de dépôt</strong></td>
+                           <td><%=Utils.date2String(nouvelleOffre.getDateDepot()) %></td>
+                         </tr>
+                       </tbody>
+                     </table>
+                   </small>
+                  </div>
+                </div>
+              </div>
+				<% }
         	}
            %>
            

@@ -47,7 +47,7 @@ public class Candidature implements Serializable {
 	private NiveauQualification niveauQualification;
 
 	//bi-directional many-to-many association to SecteurActivite
-	@ManyToMany
+	@ManyToMany(fetch=FetchType.EAGER)
 	@JoinTable(
 		name="candidature_secteur_activite"
 		, joinColumns={

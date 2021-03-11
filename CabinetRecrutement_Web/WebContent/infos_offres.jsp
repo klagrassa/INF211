@@ -105,7 +105,13 @@
                 </tr>
                 <tr class="warning">
                   <td><strong>Secteur d'activités</strong></td>
-                  <td></td>
+                  <td>
+                  <% for (SecteurActivite sec : offre.getSecteurActivites())
+                  {
+                  		%><li><%=sec.getNom() %></li>
+                  		<%
+                  }%>
+                  </td>
                 </tr>
                 <tr class="warning">
                   <td><strong>Date de dépôt</strong></td>

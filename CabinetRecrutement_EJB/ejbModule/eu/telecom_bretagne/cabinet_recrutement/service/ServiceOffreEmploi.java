@@ -2,13 +2,18 @@ package eu.telecom_bretagne.cabinet_recrutement.service;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
 
 import javax.ejb.EJB;
 import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
 
 import eu.telecom_bretagne.cabinet_recrutement.data.dao.OffreEmploiDAO;
+import eu.telecom_bretagne.cabinet_recrutement.data.model.Entreprise;
+import eu.telecom_bretagne.cabinet_recrutement.data.model.NiveauQualification;
 import eu.telecom_bretagne.cabinet_recrutement.data.model.OffreEmploi;
+import eu.telecom_bretagne.cabinet_recrutement.data.model.SecteurActivite;
+import eu.telecom_bretagne.cabinet_recrutement.data.model.NiveauQualification;
 
 /**
  * Session Bean implementation class ServiceOffreEmploi
@@ -27,13 +32,21 @@ public class ServiceOffreEmploi implements IServiceOffreEmploi {
     }
     //-----------------------------------------------------------------------------
 	@Override
-	public void nouvelleOffreEmploi(String titre, String descriptifMission, String profilRecherche) {
+	public OffreEmploi nouvelleOffreEmploi(String titre, String descriptif, String profilRecherche,
+			NiveauQualification niveau,
+			Set<SecteurActivite> sa,
+			Entreprise entreprise,
+			Date dateDepot)
+	{
 		OffreEmploi offre = new OffreEmploi();
 		offre.setTitre(titre);
-		offre.setDescriptifMission(descriptifMission);
+		offre.setDescriptifMission(descriptif);
 		offre.setProfilRecherche(profilRecherche);
-		offre.setDateDepot(new Date());
-		offreEmploiDAO.persist(offre);
+		offre.setNiveauQualification(niveau);
+		offre.setSecteurActivites(sa);
+		offre.setDateDepot(dateDepot);
+		offre.setEntreprise(entreprise);
+		return offreEmploiDAO.persist(offre);
 	}
 	//-----------------------------------------------------------------------------
 	@Override

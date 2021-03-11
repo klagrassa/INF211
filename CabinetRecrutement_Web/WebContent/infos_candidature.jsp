@@ -82,7 +82,7 @@ else
                           </tr>
                           <tr class="warning">
                             <td><strong>Date de naissance</strong></td>
-                            <td><%=candidature.getDateNaissance()%></td>
+                            <td><%=Utils.date2String(candidature.getDateNaissance())%></td>
                           </tr>
                           <tr class="warning">
                             <td><strong>Adresse postale (ville)</strong></td>
@@ -106,7 +106,17 @@ else
                           </tr>
                           <tr class="warning">
                             <td><strong>Secteurs d'activités</strong></td>
-                            <td></td>
+                            <td>
+                            <%
+                            	for (SecteurActivite sec : candidature.getSecteurActivites())
+                            	{
+                            		%>
+                            		<li><%=sec.getNom().toString() %></li>
+                            		<%
+                            	
+                            	}
+                            %>
+                            </td>
                           </tr>
               </tbody>
             </table>

@@ -63,8 +63,8 @@
                 %>
                 <tr>
                  <td><%=offreEmploi.getIdOffreEmploi()%></td>
-                 <td align="center"><a href="template.jsp?action=infos_offres&id=<%=offreEmploi.getIdOffreEmploi()%>"><i <%=offreEmploi.getTitre()%>></i></a></td>
-                 <td><%=offreEmploi.getEntreprise().getNom()%></td>
+                  <td><%=offreEmploi.getTitre()%></td>
+                 <td align="center"><a href="template.jsp?action=infos_entreprise&id=<%=offreEmploi.getEntreprise().getIdEntreprise()%>"><%=offreEmploi.getEntreprise().getNom()%></a></td>
                  <td><%=offreEmploi.getNiveauQualification().getNom()%></td>
                  <td><%=Utils.date2String(offreEmploi.getDateDepot())%></td>
                  <td> <%

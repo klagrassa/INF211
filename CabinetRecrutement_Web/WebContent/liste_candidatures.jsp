@@ -14,7 +14,7 @@ List<Candidature> candidatures = serviceCandidature.listeDesCandidatures();
 <div class="row">
   <div class="col-lg-12">
     <div class="panel panel-default">
-      <div class="panel-heading"><h3><i class="fa fa-th"></i> Liste des entreprises référencées </h3></div> <!-- /.panel-heading -->
+      <div class="panel-heading"><h3><i class="fa fa-th"></i> Liste des candidatures référencées </h3></div> <!-- /.panel-heading -->
       <div class="panel-body">
         <div class="dataTable_wrapper">
           <table class="table table-striped table-bordered table-hover" id="dataTables-example">
@@ -46,7 +46,7 @@ List<Candidature> candidatures = serviceCandidature.listeDesCandidatures();
                     <td>CAND_<%=candidature.getIdCandidature()%></td>
 					<td><%=candidature.getNom()%></td>
 					<td><%=candidature.getPrenom()%></td>
-					<td><%=candidature.getDateNaissance()%></td>
+					<td><%=Utils.date2String(candidature.getDateNaissance())%></td>
 					<td><%=candidature.getAdressePostale()%></td>
 					<td><%=candidature.getAdresseEmail()%></td>	
 					<td><%=Utils.date2String(candidature.getDateDepot())%></td>				

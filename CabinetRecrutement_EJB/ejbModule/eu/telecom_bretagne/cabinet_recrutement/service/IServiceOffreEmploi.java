@@ -1,10 +1,15 @@
 package eu.telecom_bretagne.cabinet_recrutement.service;
 
+import java.util.Date;
 import java.util.List;
+import java.util.Set;
 
 import javax.ejb.Remote;
 
+import eu.telecom_bretagne.cabinet_recrutement.data.model.NiveauQualification;
 import eu.telecom_bretagne.cabinet_recrutement.data.model.OffreEmploi;
+import eu.telecom_bretagne.cabinet_recrutement.data.model.Entreprise;
+import eu.telecom_bretagne.cabinet_recrutement.data.model.SecteurActivite;
 import eu.telecom_bretagne.cabinet_recrutement.data.dao.OffreEmploiDAO;
 
 /**
@@ -20,10 +25,18 @@ public interface IServiceOffreEmploi {
 	 * @param titre titre de l'<{@link OffreEmploi}>
 	 * @param descriptif descriptif de l'<{@link OffreEmploi}>
 	 * @param profilRecherche profil recherché pour l'<{@link OffreEmploi}>
+	 * @param niveau niveau de qualification requis pour le poste
+	 * @param sa secteurs d'activités de l'offre
+	 * @param dateDepot date du dépot de l'offre
+	 * @return <{@link OffreEmploi}> crée
 	 */
-	public void nouvelleOffreEmploi(String titre, 
+	public OffreEmploi nouvelleOffreEmploi(String titre, 
 									String descriptif,
-									String profilRecherche);
+									String profilRecherche,
+									NiveauQualification niveau,
+									Set<SecteurActivite> sa,
+									Entreprise entreprise,
+									Date dateDepot);
 	/**
 	 * Obtient l'<{@link OffreEmploi}> correspondant au titre
 	 * 
