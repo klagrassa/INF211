@@ -13,7 +13,10 @@
                 eu.telecom_bretagne.cabinet_recrutement.service.IServiceCandidature,
                 eu.telecom_bretagne.cabinet_recrutement.data.model.Candidature,
                 eu.telecom_bretagne.cabinet_recrutement.front.utils.Utils,
-                java.util.List"
+                java.util.List,
+                java.util.ArrayList,
+                java.util.Set,
+                java.util.HashSet"
                 %>
                                
 	<%  
@@ -27,7 +30,6 @@
 	IServiceOffreEmploi serviceOffreEmploi = (IServiceOffreEmploi) ServicesLocator.getInstance().getRemoteInterface("ServiceOffreEmploi");
 	
 	List<OffreEmploi> offreEmplois = serviceOffreEmploi.listeDesOffresPourUneEntreprise(entreprise.getIdEntreprise());
-	List<Candidature> candidaturePotentielles = serviceIndexation.getCandidatureCorrespondanteAOffre(offreEmplois);
 	
 	%>
 
@@ -64,17 +66,27 @@
                 <tr>
                  <td><%=offreEmploi.getIdOffreEmploi()%></td>
                   <td><%=offreEmploi.getTitre()%></td>
-                 <td align="center"><a href="template.jsp?action=infos_entreprise&id=<%=offreEmploi.getEntreprise().getIdEntreprise()%>"><%=offreEmploi.getEntreprise().getNom()%></a></td>
+                 <td><a href="template.jsp?action=infos_entreprise&id=<%=offreEmploi.getEntreprise().getIdEntreprise()%>"><%=offreEmploi.getEntreprise().getNom()%></a></td>
                  <td><%=offreEmploi.getNiveauQualification().getNom()%></td>
                  <td><%=Utils.date2String(offreEmploi.getDateDepot())%></td>
                  <td> <%
-                 	if (candidaturePotentielles == null);
-                 	else {
-                     	for (Candidature cand : candidaturePotentielles)
-                     	{
-                     		cand.getNom();
-                     	}
+					// Algorithme d'affichage des candidatures potentielles
+					// On récupère les candidatures qui matchent
+					List<Candidature> candidatures = new ArrayList<Candidature>();
+                 	candidatures = serviceCandidature.listeDesCandidaturesPourUneOffre(offreEmploi.getIdOffreEmploi());
+                 	
+                 	// On élimine les doublons en crééant un Set et en y déchargeant toutes les candidatures 
+                 	Set<Candidature> candidaturesPotentielles = new HashSet<Candidature>();
+                 	for (Candidature candidat : candidatures)
+                 		candidaturesPotentielles.add(candidat);
+                 	
+                 	for (Candidature cand : candidaturesPotentielles)
+                 	{
+                 	%>
+                 	<ul><a href="template.jsp?action=infos_candidature&id=<%=cand.getIdCandidature()%>"><%=cand.getNom() +" "+ cand.getPrenom()%></a></ul>
+                 	<%
                  	}
+                 	
 
                  %></td>  
                  <td></td>

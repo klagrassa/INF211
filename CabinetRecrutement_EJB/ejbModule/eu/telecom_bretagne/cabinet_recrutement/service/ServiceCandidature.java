@@ -1,5 +1,6 @@
 package eu.telecom_bretagne.cabinet_recrutement.service;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
@@ -9,9 +10,11 @@ import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
 
 import eu.telecom_bretagne.cabinet_recrutement.data.dao.CandidatureDAO;
+import eu.telecom_bretagne.cabinet_recrutement.data.dao.OffreEmploiDAO;
 import eu.telecom_bretagne.cabinet_recrutement.data.model.Candidature;
 import eu.telecom_bretagne.cabinet_recrutement.data.model.NiveauQualification;
 import eu.telecom_bretagne.cabinet_recrutement.data.model.SecteurActivite;
+import eu.telecom_bretagne.cabinet_recrutement.data.model.OffreEmploi;
 
 /**
  * Session Bean implementation class ServiceCandidature
@@ -22,6 +25,7 @@ public class ServiceCandidature implements IServiceCandidature
 {
 	//-----------------------------------------------------------------------------
 	@EJB private CandidatureDAO         candidatureDAO;
+	@EJB private OffreEmploiDAO         offreEmploiDAO;
 	//-----------------------------------------------------------------------------	 
     /**
      * Default constructor. 
@@ -87,7 +91,25 @@ public class ServiceCandidature implements IServiceCandidature
 	@Override
 	public List<Candidature> listeDesCandidaturesPourUneOffre(int idOffreEmploi)
 	{
-	  return candidatureDAO.findByOffreEmploi(idOffreEmploi);
+	  OffreEmploi offre = offreEmploiDAO.findById(idOffreEmploi);
+	  List<Candidature> listeCandidaturesPotentielles = new ArrayList<Candidature>();
+	  List<Candidature> listeCandidatures = new ArrayList<Candidature>();
+	  
+	  
+	  // Problème du à l'API : La requete pour récupérer les candidatures qui correspondent renvoie une liste de 
+	  // candidatures. Or nous renvoyons déjà une liste de candidature, il faut donc stocker dans une liste
+	  // intermédiaire les candidatures qui correspondent pour un secteur / niveau donné
+	  for (SecteurActivite sec : offre.getSecteurActivites())
+	  {
+		  listeCandidatures = candidatureDAO.findBySecteurActiviteAndNiveauQualification(sec.getIdSecteurActivite(), 
+				  offre.getNiveauQualification().getIdQualification());
+		  if (!listeCandidatures.isEmpty()) // Boucle de stockage des candidatures
+		  {
+			  for (int i = 0; i < listeCandidatures.size(); i++)
+				  listeCandidaturesPotentielles.add(listeCandidatures.get(i));
+		  }
+	  }
+	  return listeCandidaturesPotentielles;
 	}
 	
 	

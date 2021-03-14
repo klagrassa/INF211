@@ -122,6 +122,18 @@ insert into secteur_activite values (nextval('secteur_activite_id_secteur_activi
 insert into secteur_activite values (nextval('secteur_activite_id_secteur_activite_seq'), 'BTP / Matériaux de construction');
 insert into secteur_activite values (nextval('secteur_activite_id_secteur_activite_seq'), 'Chimie / Parachimie');
 insert into secteur_activite values (nextval('secteur_activite_id_secteur_activite_seq'), 'Commerce / Négoce / Distribution');
+insert into secteur_activite values (nextval('secteur_activite_id_secteur_activite_seq'), 'Edition / Communication / Multimedia');
+insert into secteur_activite values (nextval('secteur_activite_id_secteur_activite_seq'), 'Electronique / Electricite');
+insert into secteur_activite values (nextval('secteur_activite_id_secteur_activite_seq'), 'Etude et conseil');
+insert into secteur_activite values (nextval('secteur_activite_id_secteur_activite_seq'), 'Industrie pharmaceutique');
+insert into secteur_activite values (nextval('secteur_activite_id_secteur_activite_seq'), 'Informatique / Télécoms');
+insert into secteur_activite values (nextval('secteur_activite_id_secteur_activite_seq'), 'Machines et équipements / Automobile');
+insert into secteur_activite values (nextval('secteur_activite_id_secteur_activite_seq'), 'Métallurgie / Travail du métal');
+insert into secteur_activite values (nextval('secteur_activite_id_secteur_activite_seq'), 'Plastique / Caoutchouc');
+insert into secteur_activite values (nextval('secteur_activite_id_secteur_activite_seq'), 'Services aux entreprises');
+insert into secteur_activite values (nextval('secteur_activite_id_secteur_activite_seq'), 'Textile / Habillement / Chaussures');
+insert into secteur_activite values (nextval('secteur_activite_id_secteur_activite_seq'), 'Transports / Logistique');
+
 
 -- Insertions des niveaux de qualifications
 

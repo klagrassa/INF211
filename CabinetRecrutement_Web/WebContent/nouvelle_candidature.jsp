@@ -114,7 +114,7 @@
 	            		String adresseMail = request.getParameter("adresse_email");
 	            		String adressePostale = request.getParameter("adresse_postale");
 	            		String cv = request.getParameter("cv");
-	            		Date dateNaissance = Utils.string2Date(request.getParameter("date_naissance")).;
+	            		Date dateNaissance = Utils.string2Date(request.getParameter("date_naissance"));
 	            		Date dateDepot = Calendar.getInstance().getTime();
 	            		NiveauQualification niveauQualif = serviceIndexation.getNiveauQualificationById(
 	            				Integer.parseInt(request.getParameter("niveau").toString()));

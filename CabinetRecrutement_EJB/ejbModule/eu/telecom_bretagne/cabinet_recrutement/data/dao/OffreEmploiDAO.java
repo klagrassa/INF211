@@ -63,8 +63,8 @@ public class OffreEmploiDAO {
     public List<OffreEmploi> findBySecteurActiviteAndNiveauQualification(int idSecteurActivite,
                                                                          int idNiveauQualification)
     {
-      Query query = entityManager.createQuery("select offre_emploi from OffreEmploi offre_emploi join offre_emploi.secteursActivite sects " +
-                                              "where sects.idSecteurActivite = :idSA and offre_emploi.niveauQualification.idOffreEmploi = :idNQ " +
+      Query query = entityManager.createQuery("select offre_emploi from OffreEmploi offre_emploi join offre_emploi.secteurActivites sects " +
+                                              "where sects.idSecteurActivite = :idSA and offre_emploi.niveauQualification.idQualification = :idNQ " +
                                               "order by offre_emploi.idOffreEmploi desc");
       query.setParameter("idSA", idSecteurActivite);
       query.setParameter("idNQ", idNiveauQualification);

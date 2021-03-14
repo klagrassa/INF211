@@ -34,11 +34,4 @@ public interface IServiceIndexation {
 	 * @return le secteur d'activité correspondant
 	 */
 	SecteurActivite getSecteurActiviteById(int idSecteur);
-	/**
-	 * Renvoie les candidatures correspondantes aux offres d'emploi disponibles
-	 * @param offreEmplois liste des offres disponibles
-	 * @return candidatures potentielles
-	 */
-	List<Candidature> getCandidatureCorrespondanteAOffre(List<OffreEmploi> offreEmplois);
-
 }

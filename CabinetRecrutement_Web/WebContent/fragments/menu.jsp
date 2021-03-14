@@ -67,7 +67,7 @@
 		      <li>
 		        <a href="#"><i class="fa fa-th"></i> Menu Candidature : <%=candidature.getNom()%> <%=candidature.getPrenom()%> <span class="fa arrow"></span></a>
 		        <ul class="nav nav-second-level">
-		        	<li><a href="template.jsp?action=liste_offrePourUneCandidature">Offres de <%=candidature.getNom()%> <%=candidature.getPrenom()%></a></li>
+		        	<li><a href="template.jsp?action=liste_offrePourUneCandidature">Liste des offres potentielles</a></li>
 		        </ul> <!-- /.nav-second-level -->
 		      </li>
 		      <%

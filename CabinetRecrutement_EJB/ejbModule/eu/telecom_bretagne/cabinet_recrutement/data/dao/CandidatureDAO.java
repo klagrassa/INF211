@@ -33,17 +33,17 @@ public class CandidatureDAO {
 	public CandidatureDAO() {
 		// TODO Auto-generated constructor stub
 	}
-    //----------------------------------------------------------------------------
-    @SuppressWarnings({ "unchecked" })
-    public List<Candidature> findByOffreEmploi(int idOffreEmploi)
-    {
-      Query query = entityManager.createQuery("select candidature from Candidature candidature " + 
-                                              "where candidature.offreEmploi.idOffreEmploi = :idC " +
-                                              "order by candidature.idCandidature desc");
-      query.setParameter("idOE", idOffreEmploi);
-      List<Candidature> l = query.getResultList();
-      return l;
-    }
+
+	// ----------------------------------------------------------------------------
+	@SuppressWarnings({ "unchecked" })
+	public List<Candidature> findByOffreEmploi(int idOffreEmploi) {
+		Query query = entityManager.createQuery("select candidature from Candidature candidature "
+				+ "where candidature.offreEmploi.idOffreEmploi = :idC " + "order by candidature.idCandidature desc");
+		query.setParameter("idOE", idOffreEmploi);
+		List<Candidature> l = query.getResultList();
+		return l;
+	}
+
 	// -----------------------------------------------------------------------------
 	public Candidature findById(Integer id) {
 		return entityManager.find(Candidature.class, id);
@@ -84,5 +84,16 @@ public class CandidatureDAO {
 		}
 		entityManager.remove(candidature); // L'entité était déjà attachée ou a été
 		// rattachée, on peut donc la supprimer...
+	}
+
+	// -----------------------------------------------------------------------------
+	public List<Candidature> findBySecteurActiviteAndNiveauQualification(int idSecteurActivite,
+			int idNiveauQualification) {
+		Query query = entityManager.createQuery("select c from Candidature c join c.secteurActivites secteur "
+				+ "where secteur.idSecteurActivite = :idSA and c.niveauQualification.idQualification = :idNQ " + "order by c.idCandidature desc");
+		query.setParameter("idSA", idSecteurActivite);
+		query.setParameter("idNQ", idNiveauQualification);
+		List<Candidature> l = query.getResultList();
+		return l;
 	}
 }

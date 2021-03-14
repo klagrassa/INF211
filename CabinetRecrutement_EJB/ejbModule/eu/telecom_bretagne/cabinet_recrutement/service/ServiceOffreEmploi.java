@@ -1,5 +1,6 @@
 package eu.telecom_bretagne.cabinet_recrutement.service;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
@@ -8,7 +9,9 @@ import javax.ejb.EJB;
 import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
 
+import eu.telecom_bretagne.cabinet_recrutement.data.dao.CandidatureDAO;
 import eu.telecom_bretagne.cabinet_recrutement.data.dao.OffreEmploiDAO;
+import eu.telecom_bretagne.cabinet_recrutement.data.model.Candidature;
 import eu.telecom_bretagne.cabinet_recrutement.data.model.Entreprise;
 import eu.telecom_bretagne.cabinet_recrutement.data.model.NiveauQualification;
 import eu.telecom_bretagne.cabinet_recrutement.data.model.OffreEmploi;
@@ -23,6 +26,7 @@ import eu.telecom_bretagne.cabinet_recrutement.data.model.NiveauQualification;
 public class ServiceOffreEmploi implements IServiceOffreEmploi {
 	//-----------------------------------------------------------------------------
 	@EJB private OffreEmploiDAO offreEmploiDAO;
+	@EJB private CandidatureDAO candidatureDAO;
 	//-----------------------------------------------------------------------------
     /**
      * Default constructor. 
@@ -77,7 +81,23 @@ public class ServiceOffreEmploi implements IServiceOffreEmploi {
 	//-----------------------------------------------------------------------------
 	@Override
 	public List<OffreEmploi> listeDesOffresPourUneCandidature(int idCandidature) {
-		return offreEmploiDAO.findByCandidature(idCandidature);
+		Candidature cand = candidatureDAO.findById(idCandidature);
+		List<OffreEmploi> listeOffresPotientielles = new ArrayList<OffreEmploi>();
+		List<OffreEmploi> listeOffres = new ArrayList<OffreEmploi>(); // variable temporaire pour remplir la liste potentielles
+		
+		// Consulter listeDesCandidaturesPourUneOffre dans ServiceCandidature pour explication de cette boucle
+		for (SecteurActivite sec : cand.getSecteurActivites())
+		{
+			listeOffres = offreEmploiDAO.findBySecteurActiviteAndNiveauQualification(sec.getIdSecteurActivite(), 
+					cand.getNiveauQualification().getIdQualification());
+			if (!listeOffres.isEmpty())
+			{
+				for (int i = 0; i < listeOffres.size(); i++)
+					listeOffresPotientielles.add(listeOffres.get(i)); 
+			}
+		}
+		
+		return listeOffresPotientielles;
 	}
 	//-----------------------------------------------------------------------------
 }
